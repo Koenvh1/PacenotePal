@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['acrally.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,14 +22,14 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='acrally',
+    name='PacenotePal',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=True,
+    console=False,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,

@@ -440,6 +440,7 @@ class StaticsMap:
     aid_auto_clutch: bool
     track_length: float
     track_name: str
+    car_skin: int
     pit_window_start: int
     pit_window_end: int
     is_online: bool
@@ -934,7 +935,6 @@ def read_static_map(static_map: accSM) -> StaticsMap:
         "isTimedRace": static_map.unpack_value("i"),
         # Not shown in ACC
         "hasExtraLap": static_map.unpack_value("i"),
-        # Not shown in ACC
         "carSkin": static_map.unpack_string(33, 2),
         # Not shown in ACC
         "reversedGridPositions": static_map.unpack_value("i"),
@@ -966,6 +966,7 @@ def read_static_map(static_map: accSM) -> StaticsMap:
         bool(temp["aidAutoClutch"]),
         temp["trackSplineLength"],
         temp["trackConfiguration"],
+        temp["carSkin"],
         temp["PitWindowStart"],
         temp["PitWindowEnd"],
         bool(temp["isOnline"]),
@@ -988,11 +989,11 @@ class accSharedMemory():
     def __init__(self) -> None:
 
         self.physicSM = accSM(-1, 800, tagname="Local\\acpmf_physics",
-                              access=mmap.ACCESS_WRITE)
+                              access=mmap.ACCESS_READ)
         self.graphicSM = accSM(-1, 1588, tagname="Local\\acpmf_graphics",
-                               access=mmap.ACCESS_WRITE)
+                               access=mmap.ACCESS_READ)
         self.staticSM = accSM(-1, 784, tagname="Local\\acpmf_static",
-                              access=mmap.ACCESS_WRITE)
+                              access=mmap.ACCESS_READ)
 
         self.physics_old = None
         self.last_physicsID = 0
