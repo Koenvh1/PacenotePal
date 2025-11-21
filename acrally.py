@@ -1,12 +1,11 @@
-import json
 import os.path
-import random
 import re
 import time
 from threading import Thread
 
 import keyboard
 import winsound
+import yaml
 
 from pyaccsharedmemory import accSharedMemory
 
@@ -14,7 +13,7 @@ from pyaccsharedmemory import accSharedMemory
 class ACRally:
     def __init__(self, voice, stage):
         self.voice = voice
-        self.call_earliness = 120
+        self.call_earliness = 1
         self.notes_list = []
         self.exit_all = False
         self.started = False
@@ -23,10 +22,8 @@ class ACRally:
         # Distance does not always start at 0
         self.distance = None
 
-        notes = json.load(open(f"pacenotes/{stage}.json"))[0]["Rows"]
-        for k, v in notes.items():
-            self.notes_list.append(v)
-        self.distance = self.notes_list[0]["SplineDistanceM"]
+        self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml"))
+        self.distance = self.notes_list[0]["distance"]
         print(self.distance)
 
         retrieve = Thread(target=self.retrieve_thread, daemon=True)
@@ -81,16 +78,16 @@ class ACRally:
             time.sleep(0.1)
 
         while len(self.notes_list) > 0 and not self.exit_all:
-            if self.notes_list[0]["SplineDistanceM"] < self.distance + (120 + (self.speed_kmh // 2)) * self.call_earliness:
+            if self.notes_list[0]["distance"] < self.distance + 120 + (self.speed_kmh // 2):
                 note = self.notes_list.pop(0)
-                tokens = note["TokenList"]["Tokens"]
+                tokens = note["notes"]
                 # print(tokens)
-                link_to_next = note["LinkToNext"]
+                link_to_next = note["link_to_next"]
                 while link_to_next:
                     next_note = self.notes_list.pop(0)
-                    next_tokens = next_note["TokenList"]["Tokens"]
+                    next_tokens = next_note["notes"]
                     tokens.extend(next_tokens)
-                    link_to_next = next_note["LinkToNext"]
+                    link_to_next = next_note["link_to_next"]
 
                 for token in tokens:
                     print(token)

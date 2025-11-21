@@ -32,7 +32,7 @@ class Main:
         root.geometry("340x300")
 
         stages = os.listdir("pacenotes")
-        stages = [file.replace(".json", "") for file in stages]
+        stages = [file.replace(".yml", "") for file in stages]
 
         ttk.Label(root, text="Select a stage:").pack(pady=(20, 5))
         self.stages = ttk.Combobox(root, values=stages, width=50)

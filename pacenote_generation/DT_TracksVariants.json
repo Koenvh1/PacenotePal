@@ -1,0 +1,1934 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TracksVariants",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DBTrackVariant'",
+        "ObjectPath": "/Script/acr"
+      }
+    },
+    "Rows": {
+      "AlsaceS2MunsterFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_FULL_REVERSE_SHORT",
+          "SourceString": "Descente",
+          "LocalizedString": "Descente"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_FULL_REVERSE",
+          "SourceString": "Vallée de Munster Descente",
+          "LocalizedString": "Vallée de Munster Descente"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Munster"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 10.3,
+        "Elevation": {
+          "X": 475.0,
+          "Y": 1160.0
+        },
+        "ElevationAtStart": 1039.3514,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17272749,
+          "Longitude": 2556709
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Munster_ValleDescente"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "MunsterTrackFullReverseMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "MunsterFullReverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterFullReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterFullReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS2MunsterFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS2MunsterFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_FULL_FORWARD_SHORT",
+          "SourceString": "Montée",
+          "LocalizedString": "Montée"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_FULL_FORWARD",
+          "SourceString": "Vallée de Munster Montée",
+          "LocalizedString": "Vallée de Munster Montée"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Munster"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 10.3,
+        "Elevation": {
+          "X": 475.0,
+          "Y": 1160.0
+        },
+        "ElevationAtStart": 466.21997,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17290984,
+          "Longitude": 2563873
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Munster_Valle"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "MunsterTrackFullForwardMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "MunsterFullForward_Elevation"
+        },
+        "DifficultyLevel": 6,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterFullForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterFullForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS2MunsterFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS2MunsterShort1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT1_REVERSE_SHORT",
+          "SourceString": "Forêt",
+          "LocalizedString": "Forêt"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT1_REVERSE",
+          "SourceString": "Forêt de Munster",
+          "LocalizedString": "Forêt de Munster"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Munster"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 6.8,
+        "Elevation": {
+          "X": 475.0,
+          "Y": 1090.0
+        },
+        "ElevationAtStart": 1026.5839,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17276721,
+          "Longitude": 2566451
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Munster_Foret"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "MunsterTrackShort1ReverseMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "MunsterShort1Reverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort1ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort1ReverseGamplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS2MunsterShort1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS2MunsterShort1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT1_FORWARD_SHORT",
+          "SourceString": "Luttenbach",
+          "LocalizedString": "Luttenbach"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT1_FORWARD",
+          "SourceString": "Luttenbach près Munster",
+          "LocalizedString": "Luttenbach près Munster"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Munster"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 7.0,
+        "Elevation": {
+          "X": 475.0,
+          "Y": 1090.0
+        },
+        "ElevationAtStart": 466.21997,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17290984,
+          "Longitude": 2563873
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Munster_Luttenbach"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "MunsterTrackShort1ForwardMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "MunsterShort1Forward_Elevation"
+        },
+        "DifficultyLevel": 6,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort1ForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort1ForwardGamplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS2MunsterShort1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS2MunsterShort2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT2_REVERSE_SHORT",
+          "SourceString": "Petit Ballon",
+          "LocalizedString": "Petit Ballon"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT2_REVERSE",
+          "SourceString": "Col du petit Ballon",
+          "LocalizedString": "Col du petit Ballon"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Munster"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 5.6,
+        "Elevation": {
+          "X": 883.0,
+          "Y": 1160.0
+        },
+        "ElevationAtStart": 1039.3514,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17272749,
+          "Longitude": 2556709
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Munster_ColDuPetitBallon"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "MunsterTrackShort2ReverseMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "MunsterShort2Reverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort2ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort2ReverseGamplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS2MunsterShort2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS2MunsterShort2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT2_FORWARD_SHORT",
+          "SourceString": "Sommet",
+          "LocalizedString": "Sommet"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_MUNSTER_SHORT2_FORWARD",
+          "SourceString": "Sommet de Munster ",
+          "LocalizedString": "Sommet de Munster "
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Munster"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 5.3,
+        "Elevation": {
+          "X": 883.0,
+          "Y": 1160.0
+        },
+        "ElevationAtStart": 881.8407,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17282451,
+          "Longitude": 2568068
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Munster_Sommet"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "MunsterTrackShort2ForwardMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "MunsterShort2Forward_Elevation"
+        },
+        "DifficultyLevel": 6,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort2ForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "MunsterShort2ForwardGamplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS2MunsterShort2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS4SaverneFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_FULL_FORWARD_SHORT",
+          "SourceString": "Forêt",
+          "LocalizedString": "Forêt"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_FULL_FORWARD",
+          "SourceString": "Forêt de Saverne",
+          "LocalizedString": "Forêt de Saverne"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Saverne"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 9.1,
+        "Elevation": {
+          "X": 355.0,
+          "Y": 456.0
+        },
+        "ElevationAtStart": 366.8268,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17521480,
+          "Longitude": 2629611
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Saverne_Foret"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SaverneFullForward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SaverneFullForward_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneFullForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneFullForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 4.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS4SaverneFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS4SaverneFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_FULL_REVERSE_SHORT",
+          "SourceString": "Steigenbach",
+          "LocalizedString": "Steigenbach"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_FULL_REVERSE",
+          "SourceString": "Steigenbach",
+          "LocalizedString": "Steigenbach"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Saverne"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 8.9,
+        "Elevation": {
+          "X": 355.0,
+          "Y": 456.0
+        },
+        "ElevationAtStart": 443.68903,
+        "AverageRoadWidness": 4.3,
+        "StartLocation": {
+          "Latitude": 17506300,
+          "Longitude": 2630224
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Saverne_Steigenbach"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SaverneFullReverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SaverneFullReverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneFullReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneFullReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 4.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS4SaverneFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS4SaverneShort1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_SHORT1_FORWARD_SHORT",
+          "SourceString": "Obersteigen",
+          "LocalizedString": "Obersteigen"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_SHORT1_FORWARD",
+          "SourceString": "Obersteigen",
+          "LocalizedString": "Obersteigen"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Saverne"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 4.6,
+        "Elevation": {
+          "X": 377.0,
+          "Y": 456.0
+        },
+        "ElevationAtStart": 413.06598,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 17512711,
+          "Longitude": 2632243
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Saverne_Obersteigen"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SaverneShort1Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SaverneShort1Forward_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneShort1ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneShort1ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS4SaverneShort1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "AlsaceS4SaverneShort1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_SHORT1_REVERSE_SHORT",
+          "SourceString": "La Mossig",
+          "LocalizedString": "La Mossig"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SAVERNE_SHORT1_REVERSE",
+          "SourceString": "La traversée de La Mossig",
+          "LocalizedString": "La traversée de La Mossig"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "Saverne"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacOnly"
+        },
+        "Length": 4.6,
+        "Elevation": {
+          "X": 377.0,
+          "Y": 456.0
+        },
+        "ElevationAtStart": 443.68903,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 17506300,
+          "Longitude": 2630224
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Saverne_LaTraverseDeLaMossig"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SaverneShort1Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SaverneShort1Reverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneShort1ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SaverneShort1ReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          },
+          {
+            "Length": 2.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "AlsaceS4SaverneShort1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Alsace"
+        }
+      },
+      "WelesS4HafrenSouthFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENSOUTH_FULL_FORWARD_SHORT",
+          "SourceString": "Afon Bidno",
+          "LocalizedString": "Afon Bidno"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENSOUTH_FULL_FORWARD",
+          "SourceString": "Afon Bidno - Severn",
+          "LocalizedString": "Afon Bidno - Severn"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS4HafrenSouth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 4.8,
+        "Elevation": {
+          "X": 345.0,
+          "Y": 410.0
+        },
+        "ElevationAtStart": 461.02917,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18883245,
+          "Longitude": -1328726
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Wales_Severn"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenSouthFullForward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenSouthFullForward_Elevation"
+        },
+        "DifficultyLevel": 7,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenSouthFullForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenSouthFullForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS4HafrenSouthFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS4HafrenSouthFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENSOUTH_FULL_REVERSE_SHORT",
+          "SourceString": "Severn",
+          "LocalizedString": "Severn"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENSOUTH_FULL_REVERSE",
+          "SourceString": "Severn - Afon Bidno",
+          "LocalizedString": "Severn - Afon Bidno"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS4HafrenSouth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 4.8,
+        "Elevation": {
+          "X": 345.0,
+          "Y": 410.0
+        },
+        "ElevationAtStart": 392.00027,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18888240,
+          "Longitude": -1337443
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Wales_Afon"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenSouthFullReverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenSouthFullReverse_Elevation"
+        },
+        "DifficultyLevel": 7,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenSouthFullReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenSouthFullReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS4HafrenSouthFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS3HafrenNorthFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_FULL_FORWARD_SHORT",
+          "SourceString": "Cwmbiga",
+          "LocalizedString": "Cwmbiga"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_FULL_FORWARD",
+          "SourceString": "Cwmbiga - Afon Biga",
+          "LocalizedString": "Cwmbiga - Afon Biga"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS3HafrenNorth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 11.3,
+        "Elevation": {
+          "X": 365.0,
+          "Y": 514.0
+        },
+        "ElevationAtStart": 511.86945,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18895500,
+          "Longitude": -1336899
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthFullForward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthFullForward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthFullForward_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthFullForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthFullForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 3.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 2.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS3HafrenNorthFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS3HafrenNorthFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_FULL_REVERSE_SHORT",
+          "SourceString": "Afon Biga",
+          "LocalizedString": "Afon Biga"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_FULL_REVERSE",
+          "SourceString": "Afon Biga - Cwmbiga",
+          "LocalizedString": "Afon Biga - Cwmbiga"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS3HafrenNorth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 11.0,
+        "Elevation": {
+          "X": 365.0,
+          "Y": 514.0
+        },
+        "ElevationAtStart": 421.48315,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18896866,
+          "Longitude": -1326292
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthFullReverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthFullReverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthFullReverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthFullReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthFullReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 3.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 2.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS3HafrenNorthFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS3HafrenNorthCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT1_FORWARD_SHORT",
+          "SourceString": "Hafren Forest",
+          "LocalizedString": "Hafren Forest"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT1_FORWARD",
+          "SourceString": "Cwmbiga - Fedw Fain",
+          "LocalizedString": "Cwmbiga - Fedw Fain"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS3HafrenNorth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 6.1,
+        "Elevation": {
+          "X": 365.0,
+          "Y": 514.0
+        },
+        "ElevationAtStart": 511.86945,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18895500,
+          "Longitude": -1336899
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut1Forward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut1Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut1Forward_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut1ForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut1ForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 2.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS3HafrenNorthCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS3HafrenNorthCut1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT1_REVERSE_SHORT",
+          "SourceString": "Fedw Fain",
+          "LocalizedString": "Fedw Fain"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT1_REVERSE",
+          "SourceString": "Fedw Fain - Cwmbiga",
+          "LocalizedString": "Fedw Fain - Cwmbiga"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS3HafrenNorth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 6.1,
+        "Elevation": {
+          "X": 365.0,
+          "Y": 514.0
+        },
+        "ElevationAtStart": 437.38885,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18893692,
+          "Longitude": -1332007
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut1Reverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut1Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut1Reverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut1ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut1ReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS3HafrenNorthCut1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS3HafrenNorthCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT2_FORWARD_SHORT",
+          "SourceString": "Banc Gwyn",
+          "LocalizedString": "Banc Gwyn"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT2_FORWARD",
+          "SourceString": "Banc Gwyn - Afon Biga",
+          "LocalizedString": "Banc Gwyn - Afon Biga"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS3HafrenNorth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 5.4,
+        "Elevation": {
+          "X": 398.0,
+          "Y": 491.0
+        },
+        "ElevationAtStart": 443.494,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18893410,
+          "Longitude": -1331844
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut2Forward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut2Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut2Forward_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut2ForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut2ForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS3HafrenNorthCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      },
+      "WelesS3HafrenNorthCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT2_REVERSE_SHORT",
+          "SourceString": "Ospreys",
+          "LocalizedString": "Ospreys"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_HAFRENNORTH_CUT2_REVERSE",
+          "SourceString": "Afon Biga - Banc Gwyn",
+          "LocalizedString": "Afon Biga - Banc Gwyn"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "WalesS3HafrenNorth"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 5.4,
+        "Elevation": {
+          "X": 398.0,
+          "Y": 491.0
+        },
+        "ElevationAtStart": 421.48315,
+        "AverageRoadWidness": 4.5,
+        "StartLocation": {
+          "Latitude": 18896866,
+          "Longitude": -1326292
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut2Reverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut2Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "HafrenNorthCut2Reverse_Elevation"
+        },
+        "DifficultyLevel": 5,
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut2ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "HafrenNorthCut2ReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          },
+          {
+            "Length": 2.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "WalesS3HafrenNorthCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Wales"
+        }
+      }
+    }
+  }
+]
