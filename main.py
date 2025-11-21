@@ -8,6 +8,7 @@ from acrally import ACRally
 class Main:
     stages = None
     voices = None
+    call_earliness = None
     acrally = None
     btn_start = None
     btn_stop = None
@@ -15,7 +16,7 @@ class Main:
 
     def on_button_start(self):
         print(self.stages.get())
-        self.acrally = ACRally(str(self.voices.get()), str(self.stages.get()))
+        self.acrally = ACRally(str(self.voices.get()), str(self.stages.get()), float(self.call_earliness.get()))
         self.btn_start["state"] = "disabled"
         self.btn_stop["state"] = "normal"
 
@@ -29,7 +30,7 @@ class Main:
     def __init__(self):
         root = tk.Tk()
         root.title("AC Rally Pacenote Pal")
-        root.geometry("340x300")
+        root.geometry("340x360")
 
         stages = os.listdir("pacenotes")
         stages = [file.replace(".yml", "") for file in stages]
@@ -54,6 +55,18 @@ class Main:
         self.voices = ttk.Combobox(root, values=voices, width=50)
         self.voices.current(0)
         self.voices.pack(pady=5)
+
+        ttk.Label(root, text="Call earliness multiplier (higher is earlier):").pack(pady=(20, 5))
+        self.call_earliness = tk.Spinbox(
+            root,
+            from_=0.00,
+            to=10.00,
+            increment=0.01,
+            textvariable=tk.DoubleVar(value=1),
+            format="%.2f",
+            width=10
+        )
+        self.call_earliness.pack(padx=20, pady=20)
 
         root.mainloop()
 

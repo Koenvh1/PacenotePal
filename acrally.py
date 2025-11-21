@@ -11,9 +11,9 @@ from pyaccsharedmemory import accSharedMemory
 
 
 class ACRally:
-    def __init__(self, voice, stage):
+    def __init__(self, voice, stage, call_earliness):
         self.voice = voice
-        self.call_earliness = 1
+        self.call_earliness = call_earliness
         self.notes_list = []
         self.exit_all = False
         self.started = False
@@ -68,17 +68,11 @@ class ACRally:
         print("Retrieve thread closed")
 
     def speak_thread(self):
-        # engine = pyttsx3.init()
-        # initial_distance = distance
-        # while distance - initial_distance < 170:
-        #     # Do not immediately blurt out everything before the start of the stage
-        #     time.sleep(0.1)
-
         while not self.exit_all and not self.started:
             time.sleep(0.1)
 
         while len(self.notes_list) > 0 and not self.exit_all:
-            if self.notes_list[0]["distance"] < self.distance + 120 + (self.speed_kmh // 2):
+            if self.notes_list[0]["distance"] < self.distance + (120 + (self.speed_kmh // 2)) * self.call_earliness:
                 note = self.notes_list.pop(0)
                 tokens = note["notes"]
                 # print(tokens)
