@@ -1,3 +1,2 @@
 keyboard
 google-cloud-texttospeech
-tkinter

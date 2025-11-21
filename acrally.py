@@ -12,7 +12,8 @@ from pyaccsharedmemory import accSharedMemory
 
 
 class ACRally:
-    def __init__(self, stage):
+    def __init__(self, voice, stage):
+        self.voice = voice
         self.call_earliness = 120
         self.notes_list = []
         self.exit_all = False
@@ -80,7 +81,7 @@ class ACRally:
             time.sleep(0.1)
 
         while len(self.notes_list) > 0 and not self.exit_all:
-            if self.notes_list[0]["SplineDistanceM"] < self.distance + self.call_earliness + (self.speed_kmh // 2):
+            if self.notes_list[0]["SplineDistanceM"] < self.distance + (120 + (self.speed_kmh // 2)) * self.call_earliness:
                 note = self.notes_list.pop(0)
                 tokens = note["TokenList"]["Tokens"]
                 # print(tokens)
@@ -98,7 +99,7 @@ class ACRally:
                         print(f"Sleeping for {pause_time}")
                         time.sleep(pause_time)
                     else:
-                        filename = f"voices\\{token}.wav"
+                        filename = f"voices\\{self.voice}\\{token}.wav"
                         if os.path.exists(filename):
                             winsound.PlaySound(filename, winsound.SND_FILENAME)
                         # files = [entry for entry in os.listdir("voices") if entry.startswith(token)]
