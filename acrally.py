@@ -1,4 +1,5 @@
 import os.path
+import random
 import re
 import time
 from threading import Thread
@@ -94,15 +95,13 @@ class ACRally:
                         print(f"Sleeping for {pause_time}")
                         time.sleep(pause_time)
                     else:
-                        filename = f"voices\\{self.voice}\\{token}.wav"
-                        if os.path.exists(filename):
+                        # This regex allows for After.wav and After_1.wav, etc.
+                        files = [entry for entry in os.listdir(f"voices\\{self.voice}")
+                                 if re.match(re.escape(token) + r'(?:_\d+)?\.wav', entry)]
+                        if len(files) > 0:
+                            filename = f"voices\\{self.voice}\\{random.choice(files)}"
                             winsound.PlaySound(filename, winsound.SND_FILENAME)
-                        # files = [entry for entry in os.listdir("voices") if entry.startswith(token)]
-                        # if len(files) > 0:
-                        #     filename = f"voices\\{random.choice(files)}"
-                        #     winsound.PlaySound(filename, winsound.SND_FILENAME)
-                    # engine.say(token)
-                # engine.runAndWait()
+
             else:
                 time.sleep(0.1)
         print("Speak thread closed")

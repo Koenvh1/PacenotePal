@@ -1,3 +1,6 @@
+# The voice to use, corresponds to the folder name of the voice
 voice: Dutch
+# The multiplier for the call distance. 2.0 makes the calls twice as early, 0.5 makes them very late
 call_distance: 1.0
+# The button to press to start the stage. Make sure this button does not conflict with another button in-game
 start_button: space
