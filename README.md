@@ -26,6 +26,14 @@ Changing settings
 All settings can be found in the `config.yml` file. You can change them by right-clicking on the file and
 selecting "Edit in Notepad". Changes only come into effect after restarting the application.
 
+Using your handbrake as start button
+------------------------------------
+
+By default, the space bar is used at the start of the stage. This can also be replaced with your handbrake.
+To set this up, execute HandbrakeHelper.exe and follow the steps to generate a config for your config.yml.
+Once this is set up, engaging the handbrake for at least 70% for two seconds will also trigger the start 
+of the stage.
+
 Creating your own pacenotes from scratch
 ----------------------------------------
 
