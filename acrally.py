@@ -150,7 +150,8 @@ class ACRally:
                     i += len(longest_match)
                     longest_match = []
                     break
-        new_tokens.append("-".join(longest_match))
+        if len(longest_match) > 0:
+            new_tokens.append("-".join(longest_match))
         return new_tokens
 
     def get_distance(self):
