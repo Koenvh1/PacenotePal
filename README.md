@@ -26,8 +26,16 @@ Changing settings
 All settings can be found in the `config.yml` file. You can change them by right-clicking on the file and
 selecting "Edit in Notepad". Changes only come into effect after restarting the application.
 
-Using your handbrake as start button
-------------------------------------
+The options are:
+
+- `voice`: Defines the voice to use for the codriver. Must correspond to the folder name of the voice  in the 
+folder `voices`. Case sensitive. E.g. `Dutch`.
+- `call_distance`: The multiplier for the call distance. 2.0 makes the calls twice as early, 0.5 makes them 
+very late. E.g. `1.0`.
+- `start_button`: The button to press to start the stage. Make sure this button does not conflict with another 
+button in-game. E.g. `space` for the space bar, or `B` for the letter B.
+
+### Using your handbrake as start button
 
 By default, the space bar is used at the start of the stage. This can also be replaced with your handbrake.
 To set this up, execute HandbrakeHelper.exe and follow the steps to generate a config for your config.yml.
@@ -57,6 +65,9 @@ out immediately after it as well.
 folder, and you can also add your own audio files if you want notes that are not in the game (e.g. sumppu). If the
 file does not exist it will be skipped. The audio files have to be .wav. Additionally, you can add fixed pauses by
 adding `PauseX.Ys`, e.g. `Pause1.5s` to pause for 1.5 seconds. The file names are case-sensitive.
+
+The pacenote editor can help verify that the pacenotes you entered are the ones you intended, and you did not make
+typos or other errors.
 
 Creating your own voices
 ------------------------
