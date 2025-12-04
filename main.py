@@ -99,7 +99,7 @@ class Main:
 
         ttk.Label(settings_frame, text="Multiplier for the call distance:\n"
                                        "2.0 makes the calls twice as early,\n"
-                                       "0.5 makes them very late."
+                                       "0.5 makes the calls twice as late."
                   ).grid(column=0, columnspan=2, row=2, sticky="W")
 
         ttk.Label(settings_frame, text="Start button").grid(column=0, row=3, padx=5, pady=5)
@@ -107,7 +107,43 @@ class Main:
         start_entry = ttk.Entry(settings_frame, textvariable=start_var)
         start_entry.grid(column=1, row=3, padx=5, pady=5)
         def start_entry_key(e):
-            start_var.set(e.keysym)
+            TK_TO_KEYBOARD = {
+                "Return": "enter",
+                "BackSpace": "backspace",
+                "Tab": "tab",
+                "Escape": "esc",
+                "Shift_L": "shift",
+                "Shift_R": "shift",
+                "Control_L": "ctrl",
+                "Control_R": "ctrl",
+                "Alt_L": "alt",
+                "Alt_R": "alt",
+                "space": "space",
+                "Left": "left",
+                "Right": "right",
+                "Up": "up",
+                "Down": "down",
+                "Delete": "delete",
+                "Insert": "insert",
+                "Home": "home",
+                "End": "end",
+                "Prior": "page up",
+                "Next": "page down",
+            }
+
+            def tk_to_keyboard(event):
+                if event.keysym in TK_TO_KEYBOARD:
+                    return TK_TO_KEYBOARD[event.keysym]
+
+                if event.char and event.char.isprintable():
+                    return event.char.lower()
+
+                if event.keysym.startswith("F") and event.keysym[1:].isdigit():
+                    return event.keysym.lower()
+
+                return event.keysym.lower()
+
+            start_var.set(tk_to_keyboard(e))
         start_entry.bind("<KeyRelease>", start_entry_key)
 
         ttk.Label(settings_frame, text="Button to press at the start of the stage.\n"
