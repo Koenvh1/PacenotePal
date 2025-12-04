@@ -79,8 +79,49 @@ class Main:
         editor.main()
 
     def on_button_settings(self):
-        import subprocess
-        subprocess.Popen(['notepad.exe', 'config.yml'])
+        settings_window = tk.Toplevel(self.root)
+        settings_window.title("Settings")
+        settings_window.iconbitmap(util.resource_path("icon.ico"))
+        settings_window.geometry("280x250")
+
+        settings_frame = ttk.Frame(settings_window)
+        settings_frame.pack(fill="x", padx=10, pady=10)
+
+        ttk.Label(settings_frame, text="Voice").grid(column=0, row=0, padx=5, pady=5)
+        voice_var = tk.StringVar(value=self.config["voice"])
+        voice_combo = ttk.Combobox(settings_frame, values=[x.strip() for x in os.listdir("voices")], textvariable=voice_var)
+        voice_combo.grid(column=1, row=0, padx=5, pady=5)
+
+        ttk.Label(settings_frame, text="Call distance").grid(column=0, row=1, padx=5, pady=5)
+        call_distance_var = tk.DoubleVar(value=self.config["call_distance"])
+        call_distance_spinbox = ttk.Spinbox(settings_frame, textvariable=call_distance_var, from_=0.1, to=5.0, increment=0.1)
+        call_distance_spinbox.grid(column=1, row=1, padx=5, pady=5)
+
+        ttk.Label(settings_frame, text="Multiplier for the call distance.\n"
+                                       "2.0 makes the calls twice as early,\n"
+                                       "0.5 makes them very late."
+                  ).grid(column=0, columnspan=2, row=2, sticky="W")
+
+        ttk.Label(settings_frame, text="Start button").grid(column=0, row=3, padx=5, pady=5)
+        start_var = tk.StringVar(value=self.config["start_button"])
+        start_entry = ttk.Entry(settings_frame, textvariable=start_var)
+        start_entry.grid(column=1, row=3, padx=5, pady=5)
+        def start_entry_key(e):
+            start_var.set(e.keysym)
+        start_entry.bind("<KeyRelease>", start_entry_key)
+
+        ttk.Label(settings_frame, text="Button to press at the start of the stage.\n"
+                                       "See the README to use your handbrake instead."
+                  ).grid(column=0, columnspan=2, row=4, sticky="W")
+
+        def save():
+            self.config["voice"] = voice_var.get()
+            self.config["start_button"] = start_var.get()
+            self.config["call_distance"] = call_distance_var.get()
+            yaml.dump(self.config, open("config.yml", "w"))
+
+        save_btn = ttk.Button(settings_frame, text="Save", command=save)
+        save_btn.grid(column=0, columnspan=2, row=5, padx=5, pady=5)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml"))
