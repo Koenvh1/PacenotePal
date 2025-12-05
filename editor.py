@@ -39,6 +39,7 @@ class Editor:
         self.voices_combo = None
         self.load_button = None
         self.save_button = None
+        self.new_button = None
 
         self.acrally = None
         self.pacenote_elements = []
@@ -48,12 +49,7 @@ class Editor:
         self.pacenotes = None
         self.pacenote_options = []
 
-    def load_pacenotes(self):
-        if self.pacenotes:
-            res = mb.askyesno("Load Pacenotes", "Are you sure you want to load these pacenotes? "
-                                                "All unsaved changed will be lost!")
-            if not res:
-                return
+    def load(self):
         self.acrally = ACRally(
             self.pacenotes_combo.get(),
             self.voices_combo.get(),
@@ -62,11 +58,28 @@ class Editor:
             None
         )
         self.token_sounds = self.acrally.build_token_sounds()
-        self.pacenotes = yaml.safe_load(open(f"pacenotes/{self.pacenotes_combo.get()}.yml"))
         self.pacenote_options = [x for x in self.token_sounds.keys() if "-" not in x]
         self.pacenote_options.extend(["Pause0.1s", "Pause0.25s", "Pause0.5s", "Pause1.0s", "Pause1.5s"])
         self.save_button["state"] = "normal"
         self.draw_pacenotes_frame()
+
+    def new_pacenotes(self):
+        if self.pacenotes:
+            res = mb.askyesno("New Pacenotes", "Are you sure you want to start from a blank slate? "
+                                                "All unsaved changed will be lost!")
+            if not res:
+                return
+        self.pacenotes = []
+        self.load()
+
+    def load_pacenotes(self):
+        if self.pacenotes:
+            res = mb.askyesno("Load Pacenotes", "Are you sure you want to load these pacenotes? "
+                                                "All unsaved changed will be lost!")
+            if not res:
+                return
+        self.pacenotes = yaml.safe_load(open(f"pacenotes/{self.pacenotes_combo.get()}.yml"))
+        self.load()
 
     def save_pacenotes(self):
         res = mb.askyesno("Save Pacenotes",
@@ -261,7 +274,7 @@ class Editor:
         root = tk.Toplevel()
         root.title("AC Rally Pacenote Pal editor")
         root.iconbitmap(util.resource_path("icon.ico"))
-        root.geometry("600x600")
+        root.geometry("650x600")
 
         top_frame = ttk.Frame(root, padding=10)
         top_frame.pack(fill="x")
@@ -284,6 +297,9 @@ class Editor:
         self.save_button = ttk.Button(top_frame, text="Save", command=self.save_pacenotes)
         self.save_button.grid(row=0, column=3, padx=5, pady=5)
         self.save_button["state"] = "disabled"
+
+        self.new_button = ttk.Button(top_frame, text="New", command=self.new_pacenotes)
+        self.new_button.grid(row=0, column=4, padx=5, pady=5)
 
         # Scrollable frame
         self.scroll_frame = ScrollableFrame(root)
