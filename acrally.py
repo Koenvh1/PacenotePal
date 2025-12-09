@@ -98,7 +98,7 @@ class ACRally:
             time.sleep(0.1)
 
         while len(self.notes_list) > 0 and not self.exit_all:
-            if self.notes_list[0]["distance"] < self.distance + (120 + (self.speed_kmh // 2)) * self.call_earliness:
+            if self.notes_list[0]["distance"] < self.distance + ((80 + self.speed_kmh) * self.call_earliness):
                 note = self.notes_list.pop(0)
                 tokens = self.combine_tokens(note["notes"], token_sounds)
                 link_to_next = note["link_to_next"]
