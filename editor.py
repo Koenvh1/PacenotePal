@@ -111,16 +111,16 @@ class Editor:
         self.pacenote_elements = []
         self.pacenote_vars = []
 
-        def draw_pacenotes(i, pacenote):
+        def draw_pacenotes(frame, i, pacenote):
             def pacenote_remove(i=i):
                 self.pacenotes.pop(i)
                 self.draw_pacenotes_frame()
-            remove_btn = ttk.Button(self.scroll_frame.scrollable_frame, text="🗙", width=3, command=pacenote_remove)
+            remove_btn = ttk.Button(frame, text="🗙", width=3, command=pacenote_remove)
             remove_btn.grid(row=i, column=0, padx=5, pady=5)
             self.pacenote_elements.append(remove_btn)
 
             distance_var = tk.StringVar(value=str(int(pacenote["distance"])))
-            distance_entry = ttk.Entry(self.scroll_frame.scrollable_frame, textvariable=distance_var, width=6)
+            distance_entry = ttk.Entry(frame, textvariable=distance_var, width=6)
             distance_entry.grid(row=i, column=1, padx=5, pady=5)
             self.pacenote_elements.append(distance_entry)
 
@@ -142,7 +142,7 @@ class Editor:
                 self.pacenotes[i]["link_to_next"] = link_var.get()
             link_var.trace("w", link_change)
             link_chk = ttk.Checkbutton(
-                self.scroll_frame.scrollable_frame,
+                frame,
                 variable=link_var,
                 text="Link to next"
             )
@@ -160,7 +160,7 @@ class Editor:
 
                 if pacenotes_frame:
                     pacenotes_frame.destroy()
-                pacenotes_frame = ttk.Frame(self.scroll_frame.scrollable_frame)
+                pacenotes_frame = ttk.Frame(frame)
                 pacenotes_frame.grid(row=i, column=3, padx=5, pady=5, sticky="w")
 
                 def create_entry(note_idx, t):
@@ -249,7 +249,7 @@ class Editor:
                 if combined_pacenotes_frame:
                     combined_pacenotes_frame.destroy()
                 playable_tokens = self.acrally.combine_tokens(self.pacenotes[i]["notes"], self.token_sounds)
-                combined_pacenotes_frame = ttk.Frame(self.scroll_frame.scrollable_frame)
+                combined_pacenotes_frame = ttk.Frame(frame)
                 combined_pacenotes_frame.grid(row=i, column=4, padx=5, pady=5, sticky="w")
                 for t in playable_tokens:
                     lbl = ttk.Label(combined_pacenotes_frame, text=t)
@@ -268,18 +268,21 @@ class Editor:
 
             draw_pacenotes()
 
-        for i, pacenote in enumerate(self.pacenotes):
-            draw_pacenotes(i, pacenote)
-
-        def swap_rows(r1, r2):
-            row1 = self.scroll_frame.scrollable_frame.grid_slaves(row=r1)
-            row2 = self.scroll_frame.scrollable_frame.grid_slaves(row=r2)
-
-            for w in row1:
-                w.grid(row=r2)
-
-            for w in row2:
-                w.grid(row=r1)
+        last_frame = self.scroll_frame.scrollable_frame
+        if len(self.pacenotes) > 350:
+            tab_frame = ttk.Notebook(self.scroll_frame.scrollable_frame)
+            tab_frame.pack(anchor="nw", side="left", fill="both", expand=True)
+            page_no = 0
+            for i, pacenote in enumerate(self.pacenotes):
+                if i % 350 == 0:
+                    last_frame = ttk.Frame(tab_frame)
+                    page_no += 1
+                    tab_frame.add(last_frame, text=f"Page {page_no}")
+                draw_pacenotes(last_frame, i, pacenote)
+            self.pacenote_elements.append(tab_frame)
+        else:
+            for i, pacenote in enumerate(self.pacenotes):
+                draw_pacenotes(last_frame, i, pacenote)
 
         def pacenote_add():
             scroll = self.scroll_frame.get_scroll()
@@ -289,9 +292,13 @@ class Editor:
                 "notes": [""]
             })
             add_btn.grid(row=len(self.pacenotes))
-            draw_pacenotes(len(self.pacenotes) - 1, self.pacenotes[len(self.pacenotes) - 1])
+            draw_pacenotes(last_frame, len(self.pacenotes) - 1, self.pacenotes[len(self.pacenotes) - 1])
             self.scroll_frame.set_scroll(scroll)
-        add_btn = ttk.Button(self.scroll_frame.scrollable_frame, text="+ Add pacenote", command=pacenote_add)
+
+            if len(self.pacenotes) % 400 == 0:
+                self.draw_pacenotes_frame()
+
+        add_btn = ttk.Button(last_frame, text="+ Add pacenote", command=pacenote_add)
         add_btn.grid(row=len(self.pacenotes), column=1, columnspan=2, padx=5, pady=5)
         self.pacenote_elements.append(add_btn)
 
