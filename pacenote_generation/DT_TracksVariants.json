@@ -50,7 +50,7 @@
           "X": 475.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 1039.3514,
+        "ElevationAtStart": 1039.5513,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17272749,
@@ -69,6 +69,10 @@
           "Row": "MunsterFullReverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -90,6 +94,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -97,6 +105,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -104,6 +116,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -111,6 +127,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -118,6 +138,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -128,7 +152,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS2MunsterFullForward": {
         "Name": {
@@ -169,7 +194,7 @@
           "X": 475.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 466.21997,
+        "ElevationAtStart": 466.1002,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17290984,
@@ -188,6 +213,10 @@
           "Row": "MunsterFullForward_Elevation"
         },
         "DifficultyLevel": 6,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -209,6 +238,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -216,6 +249,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -223,6 +260,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -230,6 +271,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -237,6 +282,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -247,7 +296,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS2MunsterShort1Reverse": {
         "Name": {
@@ -307,6 +357,10 @@
           "Row": "MunsterShort1Reverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -328,6 +382,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -335,6 +393,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -342,6 +404,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -352,7 +418,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS2MunsterShort1Forward": {
         "Name": {
@@ -393,7 +460,7 @@
           "X": 475.0,
           "Y": 1090.0
         },
-        "ElevationAtStart": 466.21997,
+        "ElevationAtStart": 466.1002,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17290984,
@@ -412,6 +479,10 @@
           "Row": "MunsterShort1Forward_Elevation"
         },
         "DifficultyLevel": 6,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -433,6 +504,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -440,6 +515,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -447,6 +526,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -457,7 +540,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS2MunsterShort2Reverse": {
         "Name": {
@@ -498,7 +582,7 @@
           "X": 883.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 1039.3514,
+        "ElevationAtStart": 1039.5513,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17272749,
@@ -517,6 +601,10 @@
           "Row": "MunsterShort2Reverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -538,6 +626,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -545,6 +637,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -552,6 +648,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -562,7 +662,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS2MunsterShort2Forward": {
         "Name": {
@@ -622,6 +723,10 @@
           "Row": "MunsterShort2Forward_Elevation"
         },
         "DifficultyLevel": 6,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -643,6 +748,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -650,6 +759,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -657,6 +770,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -667,7 +784,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS4SaverneFullForward": {
         "Name": {
@@ -727,6 +845,10 @@
           "Row": "SaverneFullForward_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -748,6 +870,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -755,6 +881,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -762,6 +892,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -772,7 +906,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS4SaverneFullReverse": {
         "Name": {
@@ -813,7 +948,7 @@
           "X": 355.0,
           "Y": 456.0
         },
-        "ElevationAtStart": 443.68903,
+        "ElevationAtStart": 443.6279,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17506300,
@@ -832,6 +967,10 @@
           "Row": "SaverneFullReverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -853,6 +992,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -860,6 +1003,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -867,6 +1014,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -877,7 +1028,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS4SaverneShort1Forward": {
         "Name": {
@@ -937,6 +1089,10 @@
           "Row": "SaverneShort1Forward_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -958,6 +1114,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -965,6 +1125,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -975,7 +1139,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "AlsaceS4SaverneShort1Reverse": {
         "Name": {
@@ -1016,7 +1181,7 @@
           "X": 377.0,
           "Y": 456.0
         },
-        "ElevationAtStart": 443.68903,
+        "ElevationAtStart": 443.6279,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 17506300,
@@ -1035,6 +1200,10 @@
           "Row": "SaverneShort1Reverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1056,6 +1225,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1063,6 +1236,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1073,7 +1250,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Alsace"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS4HafrenSouthFullForward": {
         "Name": {
@@ -1114,7 +1292,7 @@
           "X": 345.0,
           "Y": 410.0
         },
-        "ElevationAtStart": 461.02917,
+        "ElevationAtStart": 478.19257,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18883245,
@@ -1133,6 +1311,10 @@
           "Row": "HafrenSouthFullForward_Elevation"
         },
         "DifficultyLevel": 7,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1154,6 +1336,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1161,6 +1347,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1168,6 +1358,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1178,7 +1372,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS4HafrenSouthFullReverse": {
         "Name": {
@@ -1219,7 +1414,7 @@
           "X": 345.0,
           "Y": 410.0
         },
-        "ElevationAtStart": 392.00027,
+        "ElevationAtStart": 392.00262,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18888240,
@@ -1238,6 +1433,10 @@
           "Row": "HafrenSouthFullReverse_Elevation"
         },
         "DifficultyLevel": 7,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1259,6 +1458,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1266,6 +1469,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1273,6 +1480,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1283,7 +1494,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS3HafrenNorthFullForward": {
         "Name": {
@@ -1343,6 +1555,10 @@
           "Row": "HafrenNorthFullForward_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1364,6 +1580,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1371,6 +1591,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1378,6 +1602,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1385,6 +1613,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1395,7 +1627,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS3HafrenNorthFullReverse": {
         "Name": {
@@ -1455,6 +1688,10 @@
           "Row": "HafrenNorthFullReverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1476,6 +1713,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1483,6 +1724,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1490,6 +1735,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1497,6 +1746,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1507,7 +1760,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS3HafrenNorthCut1Forward": {
         "Name": {
@@ -1567,6 +1821,10 @@
           "Row": "HafrenNorthCut1Forward_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1588,6 +1846,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1595,6 +1857,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1602,6 +1868,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1612,7 +1882,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS3HafrenNorthCut1Reverse": {
         "Name": {
@@ -1672,6 +1943,10 @@
           "Row": "HafrenNorthCut1Reverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1693,6 +1968,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1700,6 +1979,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1707,6 +1990,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1717,7 +2004,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS3HafrenNorthCut2Forward": {
         "Name": {
@@ -1777,6 +2065,10 @@
           "Row": "HafrenNorthCut2Forward_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1798,6 +2090,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1805,6 +2101,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1812,6 +2112,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1822,7 +2126,8 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
       },
       "WelesS3HafrenNorthCut2Reverse": {
         "Name": {
@@ -1882,6 +2187,10 @@
           "Row": "HafrenNorthCut2Reverse_Elevation"
         },
         "DifficultyLevel": 5,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
         "DataLayers": {
           "Common": {
             "Value": [
@@ -1903,6 +2212,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1910,6 +2223,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           },
           {
@@ -1917,6 +2234,10 @@
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
             }
           }
         ],
@@ -1927,7 +2248,252 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "Wales"
-        }
+        },
+        "bIsCircuit": false
+      },
+      "LivignoTestTrack01FullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LIVIGNOTESTTRACK_FULL_FORWARD_SHORT",
+          "SourceString": "Main Circuit",
+          "LocalizedString": "Main Circuit"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LIVIGNOTESTTRACK_FULL_FORWARD",
+          "SourceString": "Main Circuit",
+          "LocalizedString": "Main Circuit"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "LivignoTestTrack01"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 0.9,
+        "Elevation": {
+          "X": 1892.0,
+          "Y": 1892.0
+        },
+        "ElevationAtStart": 1896.3,
+        "AverageRoadWidness": 18.0,
+        "StartLocation": {
+          "Latitude": 16736533,
+          "Longitude": 3640653
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LivignoTestTrack01FullForward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "LivignoTestTrack01FullForward_MapSmall"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "LivignoTestTrack01FullForward_ElevationMap"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LivignoFullForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LivignoFullForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 0.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 0.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 0.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "LivignoTestTrack01FullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Livigno"
+        },
+        "bIsCircuit": true
+      },
+      "LivignoTestTrack01FullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LIVIGNOTESTTRACK_FULL_REVERSE_SHORT",
+          "SourceString": "Main Reverse",
+          "LocalizedString": "Main Reverse"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LIVIGNOTESTTRACK_FULL_REVERSE",
+          "SourceString": "Main Circuit Reverse",
+          "LocalizedString": "Main Circuit Reverse"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "LivignoTestTrack01"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 0.9,
+        "Elevation": {
+          "X": 1892.0,
+          "Y": 1892.0
+        },
+        "ElevationAtStart": 1894.0576,
+        "AverageRoadWidness": 18.0,
+        "StartLocation": {
+          "Latitude": 16736533,
+          "Longitude": 3640653
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LivignoTestTrack01FullReverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "LivignoTestTrack01FullReverse_MapSmall"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "LivignoTestTrack01FullReverseElevationMap"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LivignoFullReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LivignoFullReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 0.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 0.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 0.3,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "LivignoTestTrack01FullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Livigno"
+        },
+        "bIsCircuit": true
       }
     }
   }
