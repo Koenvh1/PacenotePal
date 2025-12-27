@@ -14,9 +14,20 @@ from pyaccsharedmemory import accSharedMemory
 
 
 class ACRally:
-    def __init__(self, stage, voice, call_earliness, start_button, handbrake):
+    def __init__(
+            self,
+            stage,
+            voice,
+            call_earliness,
+            max_calls_ahead,
+            call_speed_multiplier,
+            start_button,
+            handbrake
+    ):
         self.voice = voice
         self.call_earliness = call_earliness
+        self.max_calls_ahead = max_calls_ahead
+        self.call_speed_multiplier = call_speed_multiplier
         self.start_button = start_button
         self.handbrake = handbrake
         self.notes_list = []
@@ -97,9 +108,17 @@ class ACRally:
         while not self.exit_all and not self.started:
             time.sleep(0.1)
 
+        # Do not play too many notes ahead of time
+        previous_distances = []
+
         while len(self.notes_list) > 0 and not self.exit_all:
-            if self.notes_list[0]["distance"] < self.distance + ((80 + self.speed_kmh) * self.call_earliness):
+            while len(previous_distances) > 0 and previous_distances[0] < self.distance:
+                previous_distances.pop(0)
+
+            if (len(previous_distances) < self.max_calls_ahead and self.notes_list[0]["distance"]
+                    < self.distance + ((80 + self.speed_kmh * self.call_speed_multiplier) * self.call_earliness)):
                 note = self.notes_list.pop(0)
+                previous_distances.append(note["distance"])
                 tokens = self.combine_tokens(note["notes"], token_sounds)
                 link_to_next = note["link_to_next"]
                 while link_to_next:

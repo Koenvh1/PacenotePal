@@ -4,5 +4,9 @@
 voice: Dutch
 # The multiplier for the call distance. 2.0 makes the calls twice as early, 0.5 makes them very late
 call_distance: 1.0
+# The maximum number of notes you want to hear coming up that you have not passed yet
+calls_ahead: 3
+# The multiplier for how much earlier the call is made with higher speeds. The formula is call distance + (speed in km/h × multiplier).
+call_speed_multiplier: 1.0
 # The button to press to start the stage. Make sure this button does not conflict with another button in-game
 start_button: space

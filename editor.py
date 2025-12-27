@@ -66,6 +66,8 @@ class Editor:
             self.pacenotes_combo.get(),
             self.voices_combo.get(),
             1,
+            5,
+            1,
             None,
             None
         )

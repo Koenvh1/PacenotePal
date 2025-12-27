@@ -28,6 +28,8 @@ class Main:
             str(self.stages.get()),
             self.config.get("voice", "English"),
             float(self.config.get("call_distance", 1.0)),
+            int(self.config.get("calls_ahead", 3)),
+            float(self.config.get("call_speed_multiplier", 1.0)),
             self.config.get("start_button", "space"),
             self.config.get("handbrake", None)
         )
@@ -82,7 +84,7 @@ class Main:
         settings_window = tk.Toplevel(self.root)
         settings_window.title("Settings")
         settings_window.iconbitmap(util.resource_path("icon.ico"))
-        settings_window.geometry("280x250")
+        settings_window.geometry("280x390")
 
         settings_frame = ttk.Frame(settings_window)
         settings_frame.pack(fill="x", padx=10, pady=10)
@@ -102,10 +104,30 @@ class Main:
                                        "0.5 makes the calls twice as late."
                   ).grid(column=0, columnspan=2, row=2, sticky="W")
 
-        ttk.Label(settings_frame, text="Start button").grid(column=0, row=3, padx=5, pady=5)
+        ttk.Label(settings_frame, text="Calls ahead").grid(column=0, row=3, padx=5, pady=5)
+        calls_ahead_var = tk.DoubleVar(value=self.config["calls_ahead"])
+        calls_ahead_spinbox = ttk.Spinbox(settings_frame, textvariable=calls_ahead_var, from_=1, to=10, increment=1)
+        calls_ahead_spinbox.grid(column=1, row=3, padx=5, pady=5)
+
+        ttk.Label(settings_frame, text="The maximum number of notes you want to\n"
+                                       "hear coming up that you have not passed yet."
+                  ).grid(column=0, columnspan=2, row=4, sticky="W")
+
+        ttk.Label(settings_frame, text="Speed multiplier").grid(column=0, row=5, padx=5, pady=5)
+        call_speed_multiplier_var = tk.DoubleVar(value=self.config["call_speed_multiplier"])
+        call_speed_multiplier_spinbox = ttk.Spinbox(settings_frame, textvariable=call_speed_multiplier_var, from_=0.0, to=5.0, increment=0.1)
+        call_speed_multiplier_spinbox.grid(column=1, row=5, padx=5, pady=5)
+
+        ttk.Label(settings_frame, text="The multiplier for how much earlier the call\n"
+                                       "is made with higher speeds.\n"
+                                       "2.0 makes the speed twice as influential,\n"
+                                       "0.0 disables the speed influence entirely."
+                  ).grid(column=0, columnspan=2, row=6, sticky="W")
+
+        ttk.Label(settings_frame, text="Start button").grid(column=0, row=7, padx=5, pady=5)
         start_var = tk.StringVar(value=self.config["start_button"])
         start_entry = ttk.Entry(settings_frame, textvariable=start_var)
-        start_entry.grid(column=1, row=3, padx=5, pady=5)
+        start_entry.grid(column=1, row=7, padx=5, pady=5)
         def start_entry_key(e):
             TK_TO_KEYBOARD = {
                 "Return": "enter",
@@ -148,17 +170,19 @@ class Main:
 
         ttk.Label(settings_frame, text="Button to press at the start of the stage.\n"
                                        "See the README to use your handbrake instead."
-                  ).grid(column=0, columnspan=2, row=4, sticky="W")
+                  ).grid(column=0, columnspan=2, row=8, sticky="W")
 
         def save():
             self.config["voice"] = voice_var.get()
             self.config["start_button"] = start_var.get()
             self.config["call_distance"] = call_distance_var.get()
+            self.config["calls_ahead"] = calls_ahead_var.get()
+            self.config["call_speed_multiplier"] = call_speed_multiplier_var.get()
             yaml.dump(self.config, open("config.yml", "w"))
             settings_window.withdraw()
 
         save_btn = ttk.Button(settings_frame, text="Save", command=save)
-        save_btn.grid(column=0, columnspan=2, row=5, padx=5, pady=5)
+        save_btn.grid(column=0, columnspan=2, row=9, padx=5, pady=5)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml"))
