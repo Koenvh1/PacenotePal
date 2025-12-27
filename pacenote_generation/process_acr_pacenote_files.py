@@ -29,6 +29,48 @@ conversion_table = {
     "DT_PacenoteSaverneFullReverse.json": "TRACK_SAVERNE_FULL_REVERSE",
 }
 
+conversion_pretty = {
+    "DT_PacenoteHafrenNorthForwardCut1.json": "Cwmbiga - Fedw Fain",
+    "DT_PacenoteHafrenNorthForwardCut2.json": "Banc Gwyn - Afon Biga",
+    "DT_PacenoteHafrenNorthFullForward.json": "Cwmbiga - Afon Biga",
+    "DT_PacenoteHafrenNorthFullReverse.json": "Afon Biga - Cwmbiga",
+    "DT_PacenoteHafrenNorthReverseCut1.json": "Fedw Fain - Cwmbiga",
+    "DT_PacenoteHafrenNorthReverseCut2.json": "Afon Biga - Banc Gwyn",
+    "DT_PacenoteHafrenSouthForward.json": "Afon Bidno - Severn",
+    "DT_PacenoteHafrenSouthReverse.json": "Severn - Afon Bidno",
+    "DT_PacenoteMunsterFullForward.json": "Vallée de Munster Montée",
+    "DT_PacenoteMunsterFullReverse.json": "Vallée de Munster Descente",
+    "DT_PacenoteMunsterShort1Forward.json": "Luttenbach près Munster",
+    "DT_PacenoteMunsterShort1Reverse.json": "Forêt de Munster",
+    "DT_PacenoteMunsterShort2Forward.json": "Sommet de Munster",
+    "DT_PacenoteMunsterShort2Reverse.json": "Col du petit Ballon",
+    "DT_PacenoteSaverneCut1Forward.json": "Obersteigen",
+    "DT_PacenoteSaverneCut1Reverse.json": "La traversée de La Mossig",
+    "DT_PacenoteSaverneFullForward.json": "Forêt de Saverne",
+    "DT_PacenoteSaverneFullReverse.json": "Steigenbach",
+}
+
+table_offset = {
+    "DT_PacenoteHafrenNorthForwardCut1.json": 70,
+    "DT_PacenoteHafrenNorthForwardCut2.json": 20,
+    "DT_PacenoteHafrenNorthFullForward.json": 70,
+    "DT_PacenoteHafrenNorthFullReverse.json": 30,
+    "DT_PacenoteHafrenNorthReverseCut1.json": 50,
+    "DT_PacenoteHafrenNorthReverseCut2.json": 30,
+    "DT_PacenoteHafrenSouthForward.json": 70,
+    "DT_PacenoteHafrenSouthReverse.json": 40,
+    "DT_PacenoteMunsterFullForward.json": 20,
+    "DT_PacenoteMunsterFullReverse.json": 30,
+    "DT_PacenoteMunsterShort1Forward.json": 20,
+    "DT_PacenoteMunsterShort1Reverse.json": 50,
+    "DT_PacenoteMunsterShort2Forward.json": 30,
+    "DT_PacenoteMunsterShort2Reverse.json": 20,
+    "DT_PacenoteSaverneCut1Forward.json": 40,
+    "DT_PacenoteSaverneCut1Reverse.json": 60,
+    "DT_PacenoteSaverneFullForward.json": 20,
+    "DT_PacenoteSaverneFullReverse.json": 60,
+}
+
 def get_pretty_name(key):
     global variants
     for k, v in variants.items():
@@ -44,8 +86,9 @@ for key, value in conversion_table.items():
 
 
     pacenotes = []
+    offset = table_offset[key] - rows["R0000"]["SplineDistanceM"]
     for _, row in rows.items():
-        distance = row["SplineDistanceM"]
+        distance = int(row["SplineDistanceM"] + offset)
         link_to_next = row["LinkToNext"]
         notes = row["TokenList"]["Tokens"]
         pacenotes.append({
