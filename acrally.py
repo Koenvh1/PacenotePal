@@ -35,11 +35,15 @@ class ACRally:
         self.started = False
         self.last_retrieve = time.time()
         self.speed_kmh = 0
-        self.distance = 0
+        # Distance does not always start at 0
+        self.distance = None
 
         self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml"))
-        if self.notes_list is None:
+        if self.notes_list is not None:
+            self.distance = self.notes_list[0]["distance"]
+        else:
             self.notes_list = []
+            self.distance = 0
 
     def start(self):
         retrieve = Thread(target=self.retrieve_thread, daemon=True)
