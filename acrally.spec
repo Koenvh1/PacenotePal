@@ -19,7 +19,10 @@ pyz = PYZ(a.pure)
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries + [('icon.ico', 'icon.ico', 'DATA')],
+    a.binaries + [
+        ('icon.ico', 'icon.ico', 'DATA'),
+        ('beep.wav', 'beep.wav', 'DATA')
+    ],
     a.datas,
     [],
     name='PacenotePal',

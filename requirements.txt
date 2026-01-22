@@ -3,3 +3,5 @@ google-cloud-texttospeech
 pyyaml
 pygame
 setuptools<78.0.1
+pyaudio
+pycaw

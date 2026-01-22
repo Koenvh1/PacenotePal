@@ -6,9 +6,9 @@ import time
 from threading import Thread
 
 import keyboard
-import winsound
 import yaml
 
+import util
 from handbrake import Handbrake
 from pyaccsharedmemory import accSharedMemory
 
@@ -73,7 +73,7 @@ class ACRally:
         while (not keyboard.is_pressed(self.start_button) and not handbrake_pressed) and not self.exit_all:
             time.sleep(0.05)
 
-        winsound.Beep(800, 250)
+        util.play_beep()
 
         while not self.exit_all:
             sm = asm.read_shared_memory()
@@ -169,7 +169,7 @@ class ACRally:
             # print(token)
             if token in token_sounds:
                 sound = random.choice(token_sounds[token])
-                winsound.PlaySound(sound, winsound.SND_MEMORY | winsound.SND_NODEFAULT | winsound.SND_NOSTOP)
+                util.play_audio(sound)
             elif pause_time := self.match_pause(token):
                 time.sleep(pause_time)
 

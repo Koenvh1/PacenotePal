@@ -4,6 +4,7 @@ import time
 import tkinter as tk
 from tkinter import ttk
 
+from pycaw import pycaw
 import yaml
 
 import util
@@ -84,7 +85,7 @@ class Main:
         settings_window = tk.Toplevel(self.root)
         settings_window.title("Settings")
         settings_window.iconbitmap(util.resource_path("icon.ico"))
-        settings_window.geometry("280x390")
+        settings_window.geometry("280x420")
 
         settings_frame = ttk.Frame(settings_window)
         settings_frame.pack(fill="x", padx=10, pady=10)
@@ -172,6 +173,36 @@ class Main:
                                        "See the README to use your handbrake instead."
                   ).grid(column=0, columnspan=2, row=8, sticky="W")
 
+        def get_volume():
+            current_pid = os.getpid()
+            sessions = pycaw.AudioUtilities.GetAllSessions()
+
+            for session in sessions:
+                if session.Process and session.Process.pid == current_pid:
+                    audio_volume = session._ctl.QueryInterface(pycaw.ISimpleAudioVolume)
+                    return audio_volume.GetMasterVolume()
+            return 1.0
+
+        def set_volume(volume):
+            volume = volume_var.get() / 100
+            volume = max(0.0, min(1.0, volume))  # clamp
+
+            current_pid = os.getpid()
+            sessions = pycaw.AudioUtilities.GetAllSessions()
+
+            for session in sessions:
+                if session.Process and session.Process.pid == current_pid:
+                    audio_volume = session._ctl.QueryInterface(pycaw.ISimpleAudioVolume)
+                    audio_volume.SetMasterVolume(volume, None)
+                    return True
+            return False
+
+        ttk.Label(settings_frame, text="Volume").grid(column=0, row=9, padx=5, pady=5)
+        volume_var = tk.DoubleVar(value=get_volume() * 100)
+        volume_scale = ttk.Scale(settings_frame, variable=volume_var, from_=0, to=100, command=set_volume)
+        volume_scale.bind("<ButtonRelease>", lambda e: util.play_beep())
+        volume_scale.grid(column=1, row=9, padx=5, pady=5)
+
         def save():
             self.config["voice"] = voice_var.get()
             self.config["start_button"] = start_var.get()
@@ -182,7 +213,7 @@ class Main:
             settings_window.withdraw()
 
         save_btn = ttk.Button(settings_frame, text="Save", command=save)
-        save_btn.grid(column=0, columnspan=2, row=9, padx=5, pady=5)
+        save_btn.grid(column=0, columnspan=2, row=10, padx=5, pady=5)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml"))
@@ -222,6 +253,9 @@ class Main:
 
         btn_settings = ttk.Button(btn_frame2, text="Settings", command=self.on_button_settings)
         btn_settings.pack(side=tk.LEFT, padx=10)
+
+        # Play nothing to start audio session
+        threading.Thread(target=util.initialise_audio, daemon=True).start()
 
         root.mainloop()
 
