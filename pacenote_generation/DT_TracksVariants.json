@@ -2494,6 +2494,1802 @@
           "Row": "Livigno"
         },
         "bIsCircuit": true
+      },
+      "MonteCarloS1BolleneFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_FULL_FORWARD_SHORT",
+          "SourceString": "La Bollène",
+          "LocalizedString": "La Bollène"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_FULL_FORWARD",
+          "SourceString": "La Bollène-Vésubie - Peïra Cava",
+          "LocalizedString": "La Bollène-Vésubie - Peïra Cava"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 18.2,
+        "Elevation": {
+          "X": 689.0,
+          "Y": 1638.0
+        },
+        "ElevationAtStart": 698.1525,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15836826,
+          "Longitude": 2639635
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_Bollene"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneFullForward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneFullForward_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneFullForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneFullForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_FULL_REVERSE_SHORT",
+          "SourceString": "Peïra Cava",
+          "LocalizedString": "Peïra Cava"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_FULL_REVERSE",
+          "SourceString": "Peïra Cava - La Bollène-Vésubie",
+          "LocalizedString": "Peïra Cava - La Bollène-Vésubie"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 18.2,
+        "Elevation": {
+          "X": 689.0,
+          "Y": 1638.0
+        },
+        "ElevationAtStart": 1466.7982,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15818205,
+          "Longitude": 2651594
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_PeiraCava"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneFullReverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneFullReverse_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneFullReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneFullReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT1_FORWARD_SHORT",
+          "SourceString": "Turini Montée",
+          "LocalizedString": "Turini Montée"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT1_FORWARD",
+          "SourceString": "La Bollène-Vésubie - Turini",
+          "LocalizedString": "La Bollène-Vésubie - Turini"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 11.8,
+        "Elevation": {
+          "X": 689.0,
+          "Y": 1610.0
+        },
+        "ElevationAtStart": 698.1525,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15836826,
+          "Longitude": 2639635
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_TuriniMonte"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut1Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut1Forward_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut1ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut1ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneCut1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT1_REVERSE_SHORT",
+          "SourceString": "Turini Descente",
+          "LocalizedString": "Turini Descente"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT1_REVERSE",
+          "SourceString": "Turini - La Bollène-Vésubie",
+          "LocalizedString": "Turini - La Bollène-Vésubie"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 11.8,
+        "Elevation": {
+          "X": 689.0,
+          "Y": 1610.0
+        },
+        "ElevationAtStart": 1606.3037,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15831812,
+          "Longitude": 2661012
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_TuriniDescente"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut1Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut1Reverse_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut1ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut1ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneCut1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT2_FORWARD_SHORT",
+          "SourceString": "Turini - Peïra Cava",
+          "LocalizedString": "Turini - Peïra Cava"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT2_FORWARD",
+          "SourceString": "Turini - Peïra Cava",
+          "LocalizedString": "Turini - Peïra Cava"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 6.3,
+        "Elevation": {
+          "X": 1468.0,
+          "Y": 1638.0
+        },
+        "ElevationAtStart": 1606.2753,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15819089,
+          "Longitude": 2651989
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_PeiraTurini"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut2Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut2Forward_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut2ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut2ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT2_REVERSE_SHORT",
+          "SourceString": "Peïra Cava - Turini",
+          "LocalizedString": "Peïra Cava - Turini"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT2_REVERSE",
+          "SourceString": "Peïra Cava - Turini",
+          "LocalizedString": "Peïra Cava - Turini"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 6.3,
+        "Elevation": {
+          "X": 1468.0,
+          "Y": 1638.0
+        },
+        "ElevationAtStart": 1466.7982,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15818205,
+          "Longitude": 2651594
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_TuriniPeira"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut2Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut2Reverse_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut2ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut2ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneCut3Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT3_FORWARD_SHORT",
+          "SourceString": "Pra d'Alart",
+          "LocalizedString": "Pra d'Alart"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT3_FORWARD",
+          "SourceString": "Pra d'Alart",
+          "LocalizedString": "Pra d'Alart"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 5.2,
+        "Elevation": {
+          "X": 1336.0,
+          "Y": 1638.0
+        },
+        "ElevationAtStart": 1338.4786,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15831654,
+          "Longitude": 2653055
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_PraDalart"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut3Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut3Forward_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut3ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut3ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS1BolleneCut3Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS1BolleneCut3Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT3_REVERSE_SHORT",
+          "SourceString": "Sommet de Turini",
+          "LocalizedString": "Sommet de Turini"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_COLDETURINI_SHORT3_REVERSE",
+          "SourceString": "Sommet de Turini",
+          "LocalizedString": "Sommet de Turini"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS1Bollene"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 5.3,
+        "Elevation": {
+          "X": 1336.0,
+          "Y": 1638.0
+        },
+        "ElevationAtStart": 1595.9976,
+        "AverageRoadWidness": 7.1,
+        "StartLocation": {
+          "Latitude": 15829483,
+          "Longitude": 2655964
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "MonteCarlo_SommetDeTurini"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut3Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "BolleneCut3Reverse_Elevation"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut3ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "BolleneCut3ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarlosS1BolleneCut3Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS2SisteronFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_FULL_FORWARD_SHORT",
+          "SourceString": "Sisteron - St. Geniez",
+          "LocalizedString": "Sisteron - St. Geniez"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_FULL_FORWARD",
+          "SourceString": "Sisteron - St. Geniez",
+          "LocalizedString": "Sisteron - St. Geniez"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS2Sisteron"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 13.1,
+        "Elevation": {
+          "X": 520.0,
+          "Y": 1111.0
+        },
+        "ElevationAtStart": 514.9448,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 15914799,
+          "Longitude": 2141190
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SisteronFullForward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SisteronFullForward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SisteronFullForward_Elevation"
+        },
+        "DifficultyLevel": 8,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronFullForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronFullForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS2SisteronFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS2SisteronFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_FULL_REVERSE_SHORT",
+          "SourceString": "St. Geniez - Sisteron",
+          "LocalizedString": "St. Geniez - Sisteron"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_FULL_REVERSE",
+          "SourceString": "St. Geniez - Sisteron",
+          "LocalizedString": "St. Geniez - Sisteron"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS2Sisteron"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 13.1,
+        "Elevation": {
+          "X": 520.0,
+          "Y": 1111.0
+        },
+        "ElevationAtStart": 1088.5375,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 15927363,
+          "Longitude": 2176107
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SisteronFullReverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SisteronFullReverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SisteronFullReverse_Elevation"
+        },
+        "DifficultyLevel": 8,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronFullReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronFullReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS2SisteronFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS2SisteronCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT1_FORWARD_SHORT",
+          "SourceString": "Sisteron - Mézien",
+          "LocalizedString": "Sisteron - Mézien"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT1_FORWARD",
+          "SourceString": "Sisteron - Mézien",
+          "LocalizedString": "Sisteron - Mézien"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS2Sisteron"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 7.2,
+        "Elevation": {
+          "X": 520.0,
+          "Y": 860.0
+        },
+        "ElevationAtStart": 514.9448,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 15914799,
+          "Longitude": 2141190
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut1Forward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut1Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut1Forward_Elevation"
+        },
+        "DifficultyLevel": 8,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut1ForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut1ForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS2SisteronCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS2SisteronCut1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT1_REVERSE_SHORT",
+          "SourceString": "Mézien - Sisteron",
+          "LocalizedString": "Mézien - Sisteron"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT1_REVERSE",
+          "SourceString": "Mézien - Sisteron",
+          "LocalizedString": "Mézien - Sisteron"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS2Sisteron"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 7.2,
+        "Elevation": {
+          "X": 520.0,
+          "Y": 860.0
+        },
+        "ElevationAtStart": 877.65564,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 15919731,
+          "Longitude": 2156822
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut1Reverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut1Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut1Reverse_Elevation"
+        },
+        "DifficultyLevel": 8,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut1ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut1ReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS2SisteronCut1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS2SisteronCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT2_FORWARD_SHORT",
+          "SourceString": "Mézien - St. Geniez",
+          "LocalizedString": "Mézien - St. Geniez"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT2_FORWARD",
+          "SourceString": "Mézien - St. Geniez",
+          "LocalizedString": "Mézien - St. Geniez"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS2Sisteron"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 5.2,
+        "Elevation": {
+          "X": 920.0,
+          "Y": 1111.0
+        },
+        "ElevationAtStart": 906.4607,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 15921147,
+          "Longitude": 2158215
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut2Forward_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut2Forward_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut2Forward_Elevation"
+        },
+        "DifficultyLevel": 8,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut2ForwardRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut2ForwardGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS2SisteronCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "MonteCarloS2SisteronCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT2_REVERSE_SHORT",
+          "SourceString": "St. Geniez - Mézien",
+          "LocalizedString": "St. Geniez - Mézien"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_SISTERON_CUT2_REVERSE",
+          "SourceString": "St. Geniez - Mézien",
+          "LocalizedString": "St. Geniez - Mézien"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "MonteCarloS2Sisteron"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Tarmac"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "TarmacSnow"
+        },
+        "Length": 5.2,
+        "Elevation": {
+          "X": 920.0,
+          "Y": 1111.0
+        },
+        "ElevationAtStart": 1088.5375,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 15927363,
+          "Longitude": 2176107
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut2Reverse_VariantImage"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut2Reverse_VariantMap"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "SisteronCut2Reverse_Elevation"
+        },
+        "DifficultyLevel": 1,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut2ReverseRallyProps"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "SisteronCut2ReverseGameplayActors"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "MonteCarloS2SisteronCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
       }
     }
   }

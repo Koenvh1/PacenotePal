@@ -9,6 +9,15 @@ for key, value in variants.items():
     continue
 
 conversion_table = {
+    "DT_PacenoteBolleneCut1Forward.json": "TRACK_COLDETURINI_SHORT1_FORWARD",
+    "DT_PacenoteBolleneCut1Reverse.json": "TRACK_COLDETURINI_SHORT1_REVERSE",
+    "DT_PacenoteBolleneCut2Forward.json": "TRACK_COLDETURINI_SHORT2_FORWARD",
+    "DT_PacenoteBolleneCut2Reverse.json": "TRACK_COLDETURINI_SHORT2_REVERSE",
+    "DT_PacenoteBolleneCut3Forward.json": "TRACK_COLDETURINI_SHORT3_FORWARD",
+    "DT_PacenoteBolleneCut3Reverse.json": "TRACK_COLDETURINI_SHORT3_REVERSE",
+    "DT_PacenoteBolleneFullForward.json": "TRACK_COLDETURINI_FULL_FORWARD",
+    "DT_PacenoteBolleneFullReverse.json": "TRACK_COLDETURINI_FULL_REVERSE",
+
     "DT_PacenoteHafrenNorthForwardCut1.json": "TRACK_HAFRENNORTH_CUT1_FORWARD",
     "DT_PacenoteHafrenNorthForwardCut2.json": "TRACK_HAFRENNORTH_CUT2_FORWARD",
     "DT_PacenoteHafrenNorthFullForward.json": "TRACK_HAFRENNORTH_FULL_FORWARD",
@@ -27,9 +36,25 @@ conversion_table = {
     "DT_PacenoteSaverneCut1Reverse.json": "TRACK_SAVERNE_SHORT1_REVERSE",
     "DT_PacenoteSaverneFullForward.json": "TRACK_SAVERNE_FULL_FORWARD",
     "DT_PacenoteSaverneFullReverse.json": "TRACK_SAVERNE_FULL_REVERSE",
+
+    "DT_PacenoteSisteronCut1Forward.json": "TRACK_SISTERON_CUT1_FORWARD",
+    "DT_PacenoteSisteronCut1Reverse.json": "TRACK_SISTERON_CUT1_REVERSE",
+    "DT_PacenoteSisteronCut2Forward.json": "TRACK_SISTERON_CUT2_FORWARD",
+    "DT_PacenoteSisteronCut2Reverse.json": "TRACK_SISTERON_CUT2_REVERSE",
+    "DT_PacenoteSisteronFullForward.json": "TRACK_SISTERON_FULL_FORWARD",
+    "DT_PacenoteSisteronFullReverse.json": "TRACK_SISTERON_FULL_REVERSE",
 }
 
 conversion_pretty = {
+    "DT_PacenoteBolleneCut1Forward.json": "La Bollène-Vésubie - Turini",
+    "DT_PacenoteBolleneCut1Reverse.json": "Turini - La Bollène-Vésubie",
+    "DT_PacenoteBolleneCut2Forward.json": "Turini - Peïra Cava",
+    "DT_PacenoteBolleneCut2Reverse.json": "Peïra Cava - Turini",
+    "DT_PacenoteBolleneCut3Forward.json": "Pra d'Alart",
+    "DT_PacenoteBolleneCut3Reverse.json": "Sommet de Turini",
+    "DT_PacenoteBolleneFullForward.json": "La Bollène-Vésubie - Peïra Cava",
+    "DT_PacenoteBolleneFullReverse.json": "Peïra Cava - La Bollène-Vésubie",
+
     "DT_PacenoteHafrenNorthForwardCut1.json": "Cwmbiga - Fedw Fain",
     "DT_PacenoteHafrenNorthForwardCut2.json": "Banc Gwyn - Afon Biga",
     "DT_PacenoteHafrenNorthFullForward.json": "Cwmbiga - Afon Biga",
@@ -48,6 +73,13 @@ conversion_pretty = {
     "DT_PacenoteSaverneCut1Reverse.json": "La traversée de La Mossig",
     "DT_PacenoteSaverneFullForward.json": "Forêt de Saverne",
     "DT_PacenoteSaverneFullReverse.json": "Steigenbach",
+
+    "DT_PacenoteSisteronCut1Forward.json": "Sisteron - Mézien",
+    "DT_PacenoteSisteronCut1Reverse.json": "Mézien - Sisteron",
+    "DT_PacenoteSisteronCut2Forward.json": "Mézien - St. Geniez",
+    "DT_PacenoteSisteronCut2Reverse.json": "St. Geniez - Mézien",
+    "DT_PacenoteSisteronFullForward.json": "Sisteron - St. Geniez",
+    "DT_PacenoteSisteronFullReverse.json": "St. Geniez - Sisteron",
 }
 
 table_offset = {
@@ -84,7 +116,7 @@ for key, value in conversion_table.items():
     data = json.load(open("../pacenotes_raw/" + key))
     rows = data[0]["Rows"]
 
-    offset = rows["R0000"]["SplineDistanceM"] - table_offset[key]
+    offset = rows["R0000"]["SplineDistanceM"] - table_offset.get(key, 50)
 
     pacenotes = [{
         "distance": int(offset),
