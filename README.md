@@ -130,7 +130,8 @@ It will pick one at random. When one is used it will also show in the Pacenote E
 as one note in the Pacenote Editor.
 
 Custom notes should ideally consist of letters and numbers. Please use the UpperCamelCase convention, and
-avoid names with only numbers and special characters. 
+avoid names with only numbers and special characters. The wave files should be PCM signed 16-bit little-endian, with
+one channel and a sampling rate of 44100 Hz.
 
 Thanks to
 ---------
