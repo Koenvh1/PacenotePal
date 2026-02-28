@@ -58,6 +58,8 @@ class Editor:
         self.pacenote_vars = []
 
         self.token_sounds = None
+        self.py_audio = None
+        self.stream = None
         self.pacenotes = None
         self.pacenote_options = []
 
@@ -72,6 +74,10 @@ class Editor:
             None
         )
         self.token_sounds = self.acrally.build_token_sounds()
+        if self.stream: self.stream.close()
+        if self.py_audio: self.py_audio.terminate()
+        self.py_audio, self.stream = util.open_stream(next(iter(self.token_sounds.values()))[0])
+
         self.pacenote_options = [x for x in self.token_sounds.keys() if "-" not in x]
         self.pacenote_options.extend(["Pause0.1s", "Pause0.25s", "Pause0.5s", "Pause1.0s", "Pause1.5s"])
         self.save_button["state"] = "normal"
@@ -262,7 +268,10 @@ class Editor:
                     elif t not in self.token_sounds:
                         lbl["foreground"] = "red"
                 def play(t=playable_tokens):
-                    threading.Thread(target=self.acrally.play_tokens, args=(t, self.token_sounds), daemon=True).start()
+                    threading.Thread(
+                        target=self.acrally.play_tokens,
+                        args=(self.stream, t, self.token_sounds), daemon=True
+                    ).start()
                 play_btn = ttk.Button(combined_pacenotes_frame, text="▶ Play", command=play)
                 play_btn.pack(anchor="w")
                 self.pacenote_elements.append(play_btn)

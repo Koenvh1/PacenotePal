@@ -15,7 +15,7 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 
-def play_audio(audio_bytes):
+def open_stream(audio_bytes):
     if type(audio_bytes) is bytes:
         audio_bytes = io.BytesIO(audio_bytes)
     with wave.open(audio_bytes, "rb") as wf:
@@ -24,16 +24,24 @@ def play_audio(audio_bytes):
                         channels=wf.getnchannels(),
                         rate=wf.getframerate(),
                         output=True)
+        return p, stream
 
-        while len(data := wf.readframes(1024)):
-            stream.write(data)
 
+def play_audio(stream, audio_bytes):
+    if type(audio_bytes) is bytes:
+        audio_bytes = io.BytesIO(audio_bytes)
+    with wave.open(audio_bytes, "rb") as wf:
+        stream.write(wf.readframes(wf.getnframes()), wf.getnframes())
+
+
+def play_beep():
+    with open(str(resource_path("beep.wav")), "rb") as f:
+        data = f.read()
+        p, stream = open_stream(data)
+        play_audio(stream, data)
         stream.close()
         p.terminate()
 
-def play_beep():
-    with open(str(resource_path("beep.wav")), "rb") as wf:
-        play_audio(wf)
 
 def initialise_audio():
     p = pyaudio.PyAudio()
