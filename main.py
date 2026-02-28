@@ -85,7 +85,7 @@ class Main:
         settings_window = tk.Toplevel(self.root)
         settings_window.title("Settings")
         settings_window.iconbitmap(util.resource_path("icon.ico"))
-        settings_window.geometry("280x420")
+        settings_window.geometry("280x450")
 
         settings_frame = ttk.Frame(settings_window)
         settings_frame.pack(fill="x", padx=10, pady=10)
@@ -96,13 +96,12 @@ class Main:
         voice_combo.grid(column=1, row=0, padx=5, pady=5)
 
         ttk.Label(settings_frame, text="Call distance").grid(column=0, row=1, padx=5, pady=5)
-        call_distance_var = tk.DoubleVar(value=self.config.get("call_distance", 1.0))
-        call_distance_spinbox = ttk.Spinbox(settings_frame, textvariable=call_distance_var, from_=0.1, to=5.0, increment=0.1)
+        call_distance_var = tk.DoubleVar(value=self.config.get("call_distance", 4.0))
+        call_distance_spinbox = ttk.Spinbox(settings_frame, textvariable=call_distance_var, from_=0.1, to=15.0, increment=0.1)
         call_distance_spinbox.grid(column=1, row=1, padx=5, pady=5)
 
-        ttk.Label(settings_frame, text="Multiplier for the call distance:\n"
-                                       "2.0 makes the calls twice as early,\n"
-                                       "0.5 makes the calls twice as late."
+        ttk.Label(settings_frame, text="Call distance in seconds before the corner:\n"
+                                       "2.0 means two seconds before the corner"
                   ).grid(column=0, columnspan=2, row=2, sticky="W")
 
         ttk.Label(settings_frame, text="Calls ahead").grid(column=0, row=3, padx=5, pady=5)
@@ -116,13 +115,14 @@ class Main:
 
         ttk.Label(settings_frame, text="Speed multiplier").grid(column=0, row=5, padx=5, pady=5)
         call_speed_multiplier_var = tk.DoubleVar(value=self.config.get("call_speed_multiplier", 1.0))
-        call_speed_multiplier_spinbox = ttk.Spinbox(settings_frame, textvariable=call_speed_multiplier_var, from_=0.0, to=5.0, increment=0.1)
+        call_speed_multiplier_spinbox = ttk.Spinbox(settings_frame, textvariable=call_speed_multiplier_var, from_=0.0, to=2.0, increment=0.1)
         call_speed_multiplier_spinbox.grid(column=1, row=5, padx=5, pady=5)
 
         ttk.Label(settings_frame, text="The multiplier for how much earlier the call\n"
-                                       "is made with higher speeds.\n"
-                                       "2.0 makes the speed twice as influential,\n"
-                                       "0.0 disables the speed influence entirely."
+                                       "is made with higher speeds.\n\n"
+                                       "1.0 is linear, 2.0 is quadratic, 0.5 is radical,\n"
+                                       "0.0 disables the speed influence entirely\n"
+                                       "making \"Call distance\" the distance in metres"
                   ).grid(column=0, columnspan=2, row=6, sticky="W")
 
         ttk.Label(settings_frame, text="Start button").grid(column=0, row=7, padx=5, pady=5)

@@ -1,6 +1,3 @@
-- distance: 112
-  link_to_next: false
-  notes: [Start]
 - distance: 132
   link_to_next: false
   notes: [Dist200]

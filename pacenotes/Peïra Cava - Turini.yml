@@ -1,6 +1,3 @@
-- distance: 324
-  link_to_next: false
-  notes: [Start]
 - distance: 374
   link_to_next: true
   notes: [Left4]

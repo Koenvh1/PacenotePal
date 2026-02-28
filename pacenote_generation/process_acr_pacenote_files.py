@@ -116,13 +116,14 @@ for key, value in conversion_table.items():
     data = json.load(open("../pacenotes_raw/" + key))
     rows = data[0]["Rows"]
 
-    offset = rows["R0000"]["SplineDistanceM"] - table_offset.get(key, 50)
+    # offset = rows["R0000"]["SplineDistanceM"] #- table_offset.get(key, 50)
 
-    pacenotes = [{
-        "distance": int(offset),
-        "link_to_next": False,
-        "notes": ["Start"],
-    }]
+    # pacenotes = [{
+    #     "distance": int(offset),
+    #     "link_to_next": False,
+    #     "notes": ["Start"],
+    # }]
+    pacenotes = []
     for _, row in rows.items():
         distance = int(row["SplineDistanceM"]) # + offset
         link_to_next = row["LinkToNext"]

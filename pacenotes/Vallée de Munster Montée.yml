@@ -1,6 +1,3 @@
-- distance: 190
-  link_to_next: false
-  notes: [Start]
 - distance: 210
   link_to_next: true
   notes: [Left5, Into]

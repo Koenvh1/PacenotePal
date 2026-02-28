@@ -1,6 +1,3 @@
-- distance: 4717
-  link_to_next: false
-  notes: [Start]
 - distance: 4767
   link_to_next: true
   notes: [Right5, Short]

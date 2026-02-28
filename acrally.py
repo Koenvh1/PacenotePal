@@ -35,15 +35,11 @@ class ACRally:
         self.started = False
         self.last_retrieve = time.time()
         self.speed_kmh = 0
-        # Distance does not always start at 0
-        self.distance = None
+        self.distance = 0
 
         self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml"))
-        if self.notes_list is not None:
-            self.distance = self.notes_list[0]["distance"]
-        else:
+        if self.notes_list is None:
             self.notes_list = []
-            self.distance = 0
 
     def start(self):
         retrieve = Thread(target=self.retrieve_thread, daemon=True)
@@ -81,21 +77,15 @@ class ACRally:
                 sm = last_shared_memory
 
             if sm is not None:
-                now = time.time()
-                delta_t = now - self.last_retrieve
-                self.last_retrieve = now
                 self.speed_kmh = sm.Physics.speed_kmh
-                speed_ms = self.speed_kmh * (5/18)
-                self.distance += speed_ms * delta_t
+                self.distance = sm.Graphics.distance_traveled
 
-                if speed_ms > 5:
+                if self.speed_kmh > 10:
                     # Detect whether player has set off from start line
                     self.started = True
 
-                # print(distance, sm.Static.track_length)
                 last_shared_memory = sm
             else:
-                # print(None)
                 continue
             time.sleep(0.05)
 
@@ -118,7 +108,7 @@ class ACRally:
                 previous_distances.pop(0)
 
             if (len(previous_distances) < self.max_calls_ahead and self.notes_list[0]["distance"]
-                    < self.distance + (80 * self.call_earliness) + ((self.speed_kmh / 9)**2 * self.call_speed_multiplier)):
+                    < self.distance + (self.call_earliness * ((self.speed_kmh * (5/18))**self.call_speed_multiplier))):
                 note = self.notes_list.pop(0)
                 previous_distances.append(note["distance"])
                 tokens = self.combine_tokens(note["notes"], token_sounds)

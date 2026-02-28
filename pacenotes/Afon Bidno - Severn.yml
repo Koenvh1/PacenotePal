@@ -1,6 +1,3 @@
-- distance: 192
-  link_to_next: false
-  notes: [Start]
 - distance: 262
   link_to_next: false
   notes: [Dist70, OverCrest]
