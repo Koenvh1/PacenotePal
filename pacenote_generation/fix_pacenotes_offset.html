@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PacenotePal fix pacenotes offset</title>
+
+    <style>
+      #pacenotes {
+        width: 500px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PacenotePal fix custom pacenotes offset</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Stage name</th>
+            <th>Offset measured by me</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr><td>Cwmbiga - Fedw Fain</td><td>70</td></tr>
+            <tr><td>Banc Gwyn - Afon Biga</td><td>20</td></tr>
+            <tr><td>Cwmbiga - Afon Biga</td><td>70</td></tr>
+            <tr><td>Afon Biga - Cwmbiga</td><td>30</td></tr>
+            <tr><td>Fedw Fain - Cwmbiga</td><td>50</td></tr>
+            <tr><td>Afon Biga - Banc Gwyn</td><td>30</td></tr>
+            <tr><td>Afon Bidno - Severn</td><td>70</td></tr>
+            <tr><td>Severn - Afon Bidno</td><td>40</td></tr>
+            <tr><td>Vallée de Munster Montée</td><td>20</td></tr>
+            <tr><td>Vallée de Munster Descente</td><td>30</td></tr>
+            <tr><td>Luttenbach près Munster</td><td>20</td></tr>
+            <tr><td>Forêt de Munster</td><td>50</td></tr>
+            <tr><td>Sommet de Munster</td><td>30</td></tr>
+            <tr><td>Col du petit Ballon</td><td>20</td></tr>
+            <tr><td>Obersteigen</td><td>40</td></tr>
+            <tr><td>La traversée de La Mossig</td><td>60</td></tr>
+            <tr><td>Forêt de Saverne</td><td>20</td></tr>
+            <tr><td>Steigenbach</td><td>60</td></tr>
+        </tbody>
+    </table>
+    <h3>Offset</h3>
+    <input type="number" id="offset" placeholder="Offset">
+    <h3>Pacenotes file</h3>
+    <textarea id="pacenotes">
+
+    </textarea><br>
+    <button onclick="convert()">Convert</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script>
+        function convert() {
+            let offset = parseInt(document.getElementById("offset").value);
+            let pacenote_string = document.getElementById("pacenotes").value;
+            let pacenotes = jsyaml.load(pacenote_string);
+
+            for (let i = 0; i < pacenotes.length; i++) {
+              pacenotes[i]["distance"] += offset;
+            }
+
+            document.getElementById("pacenotes").value = jsyaml.dump(pacenotes);
+        }
+    </script>
+  </body>
+</html>
