@@ -26,7 +26,7 @@ voice = texttospeech.VoiceSelectionParams(
 )
 
 # Set the text input to be synthesized
-item_count = len(original.items())
+item_count = len(data.items())
 i = 1
 
 for key, value in data.items():

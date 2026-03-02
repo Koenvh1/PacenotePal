@@ -34,5 +34,5 @@ to_generate = sorted(list(set(to_generate)))
 for entry in to_generate:
     notes = entry.split("-")
     if len(notes) >= 2:
-        combined = " ".join([translation[x] for x in notes])
+        combined = ", ".join([translation.get(x, "") for x in notes])
         output.write(f"{entry}\t{combined.lower()}\n")

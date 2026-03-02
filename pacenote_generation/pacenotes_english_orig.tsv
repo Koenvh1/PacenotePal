@@ -1,0 +1,229 @@
+Left1	Left 1
+Left2	Left 2
+Left3	Left 3
+Left4	Left 4
+Left5	Left 5
+Left6	Left 6
+Right1	Right 1
+Right2	Right 2
+Right3	Right 3
+Right4	Right 4
+Right5	Right 5
+Right6	Right 6
+LeftRight	Left Right
+RightLeft	Right Left
+LeftAcuteHP	Acute Hairpin Left
+RightAcuteHP	Acute Hairpin Right
+LeftHP	Hairpin Left
+RightHP	Hairpin Right
+LeftOpenHP	Open Hairpin Left
+RightOpenHP	Open Hairpin Right
+LeftSquare	Square Left
+RightSquare	Square Right
+SuddenLeft	Sudden Left
+SuddenRight	Sudden Right
+LeftChicane	Chicane Left
+RightChicane	Chicane Right
+LeftChicaneEntry	Chicane Left Entry
+RightChicaneEntry	Chicane Right Entry
+Chicane	Chicane
+LeftFlat	Flat Left
+RightFlat	Flat Right
+LeftKink	Kink Left
+RightKink	Kink Right
+Kinks	Kinks
+KinksStartingLeft	Kinks Starting Left
+KinksStartingRight	Kinks Starting Right
+GoLeft	Go Left
+GoRight	Go Right
+GoStraight	Go Straight
+Dist40	40
+Dist50	50
+Dist60	60
+Dist70	70
+Dist80	80
+Dist90	90
+Dist100	100
+Dist130	130
+Dist150	150
+Dist170	170
+Dist200	200
+Dist250	250
+Dist300	300
+Dist350	350
+Dist400	400
+LongStraight	Long Straight
+VeryLongStraight	Very Long Straight
+Over	Over
+And	And
+Into	Into
+After	After
+Caution	Caution
+DontCut	Don't Cut
+Dont	Don't
+Cut	Cut
+SmallCut	Small Cut
+BigCut	Big Cut
+Yes	Yes
+CutIn	Cut Inside
+Hidden	Hidden
+Blind	Blind
+Brake	Brake
+HeavyBrake	Heavy Brake
+Handbrake	Handbrake
+BadCamber	Bad Camber
+FlatOut	Flat Out
+Slippery	Slippery
+KeepLeft	Keep Left
+KeepRight	Keep Right
+KeepMiddle	Keep Middle
+KeepIn	Keep In
+KeepOut	Keep Out
+CautionInside	Caution Inside
+CautionOutside	Caution Outside
+Sudden	Sudden
+Immediate	Immediate
+TightensLate	Tightens Late
+OpensLate	Opens Late
+Late	Late
+Early	Early
+SlowDown	Slow Down
+Long	Long
+VeryLong	Very Long
+Short	Short
+ShortMale	Short
+LongMale	Long
+Tightens	Tightens
+Opens	Opens
+Narrows	Narrows
+NarrowsOutside	Narrows Outside
+NarrowsInside	Narrows Inside
+NarrowsLeft	Narrows Left
+NarrowsRight	Narrows Right
+Widens	Widens
+WidensOutside	Widens Outside
+WidensInside	Widens Inside
+WidensLeft	Widens Left
+WidensRight	Widens Right
+Tighten1	Tightens 1
+Tighten2	Tightens 2
+Tighten3	Tightens 3
+Tighten4	Tightens 4
+Tighten5	Tightens 5
+SmallCrest	Small Crest
+BigCrest	Big Crest
+Crest	Crest
+OverCrest	Over Crest
+FlatCrest	Flat Crest
+JumpMaybe	Jump Maybe
+JumpSmall	Small Jump
+OverJumpSmall	Over Small Jump
+JumpBig	Big Jump
+OverBigJump	Over Big Jump
+Jump	Jump
+OverJump	Over Jump
+Hole	Hole
+Plus	Plus
+Minus	Minus
+Holes	Holes
+Inside	Inside
+Outside	Outside
+Bump	Bump
+OverBump	Over Bump
+Bumps	Bumps
+OverBumps	Over Bumps
+Dip	Dip
+IntoDip	Into Dip
+BigDip	Big Dip
+Ford	Ford
+Ditch	Ditch
+DitchInside	Ditch Inside
+DitchOutside	Ditch Outside
+Rough	Rough
+Loose	Loose
+Gravel	Gravel
+OnGravel	On Gravel
+Asphalt	Asphalt
+OnAsphalt	On Asphalt
+Snow	Snow
+OnSnow	On Snow
+Ice	Ice
+OnIce	On Ice
+SnowAndIce	Snow And Ice
+OnSnowAndIce	On Snow And Ice
+Concrete	Concrete
+OnConcrete	On Concrete
+Pavement	Pavement
+OnPavement	On Pavement
+LoseGravel	Loose Gravel
+OnLooseGravel	On Loose Gravel
+Cobbles	Cobbles
+OnCobbles	On Cobbles
+Pothole1	Puddle
+Pothole2	Big Puddle
+Potholes1	Puddles
+Potholes2	Big Puddles
+AtTheHouse	At House
+AtTheCrossroad	At Crossroad
+Crossroad	Crossroad
+AfterCrossroad	After Crossroad
+AtJunction	At Junction
+Junction	Junction
+AfterJunction	After Junction
+AtTheRoundabout	At Roundabout
+Roundabout	Roundabout
+LogsOutside	Logs Outside
+LogsInside	Logs Inside
+Logs	Logs
+ThreesOutside	Trees Outside
+ThreesInside	Trees Inside
+Threes	Trees
+TreeOutside	Tree Outside
+TreeInside	Tree Inside
+Tree	Tree
+OverBridge	Over Bridge
+Bridge	Bridge
+UnderBridge	Under Bridge
+ThroughGate	Through Gate
+Gate	Gate
+AtTheGate	At Gate
+AtTheRail	At Rail
+Downhill	Downhill
+UpHill	Uphill
+Up	Up
+Down	Down
+Water	Water
+WaterSplash	Water Splash
+ThroughWater	Through Water
+Tunnel	Tunnel
+ThroughTunnel	Through Tunnel
+Ruts	Ruts
+Barrel	Barrel
+Tyres	Tyres
+Pole	Pole
+Bale	Bale
+AroundBarrel	Around Barrel
+AroundTyres	Around Tyres
+AroundPole	Around Pole
+AroundBale	Around Bale
+AroundSign	Around Sign
+AroundSigns	Around Signs
+AtTheBarrel	At Barrel
+AtTheTyres	At Tyres
+AtThePoles	At Poles
+AtTheBale	At Bale
+AtTheSigns	At Signs
+Signs	Signs
+AfterTheSigns	After Signs
+AtTheSign	At Sign
+Sign	Sign
+AfterTheSign	After Sign
+StopAtMarshals	Stop At Marshals
+AfterEnd	After Finish
+Finish	Finish
+Rock	Rock
+Rocks	Rocks
+RocksInside	Rocks Inside
+RocksOutside	Rocks Outside
+Wet	Wet
+Mud	Mud
