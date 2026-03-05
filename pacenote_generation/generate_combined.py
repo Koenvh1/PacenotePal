@@ -1,4 +1,5 @@
 import collections
+import json
 import os
 
 import yaml
@@ -30,9 +31,11 @@ for file in os.listdir("../pacenotes"):
                     new_notes = []
         to_generate.append("-".join(new_notes))
 
+details = json.load(open("DT_PacenoteTokens_EA.json"))[0]["Rows"]
+
 to_generate = sorted(list(set(to_generate)))
 for entry in to_generate:
     notes = entry.split("-")
     if len(notes) >= 2:
-        combined = ", ".join([translation.get(x, "") for x in notes])
+        combined = " ".join([(f'<emphasis level="strong">{translation.get(x, "")}</emphasis>' if x in details and details[x]["Category"] not in ["Conjunctions"] else translation.get(x, "")) for x in notes])
         output.write(f"{entry}\t{combined.lower()}\n")

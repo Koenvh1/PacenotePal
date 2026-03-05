@@ -1,604 +1,604 @@
-AfterEnd-Brake-Right1	after finish, brake, right 1, 
-AfterEnd-Left3-AtTheJunction-Narrows-OverCrest	after finish, left 3, , narrows, over crest, 
-AfterEnd-Right3-Tightens	after finish, right 3, tightens, 
-AfterFinish-Brake-Left4-Tighten2	, brake, left 4, tightens 2, 
-And-Caution-Right5	and, caution, right 5, 
-And-KinksStartingLeft	and, kinks starting left, 
-And-KinksStartingLeft-DontCut	and, kinks starting left, don't cut, 
-And-KinksStartingLeft-OverCrest	and, kinks starting left, over crest, 
-And-KinksStartingRight	and, kinks starting right, 
-And-KinksStartingRight-Brake	and, kinks starting right, brake, 
-And-KinksStartingRight-OverBumps	and, kinks starting right, over bumps, 
-And-Left1-DontCut	and, left 1, don't cut, 
-And-Left2	and, left 2, 
-And-Left2-Long	and, left 2, long, 
-And-Left2-Long-TightensLate	and, left 2, long, tightens late, 
-And-Left2-Opens	and, left 2, opens, 
-And-Left2-OpensLate	and, left 2, opens late, 
-And-Left2-Short	and, left 2, short, 
-And-Left2-Tightens	and, left 2, tightens, 
-And-Left2-Tightens-Caution-ThroughGate	and, left 2, tightens, caution, through gate, 
-And-Left2-TightensLate	and, left 2, tightens late, 
-And-Left3	and, left 3, 
-And-Left3-Cut	and, left 3, cut, 
-And-Left3-DontCut	and, left 3, don't cut, 
-And-Left3-Long	and, left 3, long, 
-And-Left3-Long-TightensLate	and, left 3, long, tightens late, 
-And-Left3-Opens	and, left 3, opens, 
-And-Left3-Opens-VeryLong	and, left 3, opens, very long, 
-And-Left3-Short	and, left 3, short, 
-And-Left3-Tighten2	and, left 3, tightens 2, 
-And-Left3-Tighten2-Late	and, left 3, tightens 2, late, 
-And-Left3-Tightens	and, left 3, tightens, 
-And-Left3-TightensLate	and, left 3, tightens late, 
-And-Left4	and, left 4, 
-And-Left4-Brake	and, left 4, brake, 
-And-Left4-Caution-LogsOutside	and, left 4, caution, logs outside, 
-And-Left4-DontCut	and, left 4, don't cut, 
-And-Left4-Long	and, left 4, long, 
-And-Left4-Long-DontCut	and, left 4, long, don't cut, 
-And-Left4-Long-Opens	and, left 4, long, opens, 
-And-Left4-OverCrest	and, left 4, over crest, 
-And-Left4-Short	and, left 4, short, 
-And-Left4-Short-DontCut	and, left 4, short, don't cut, 
-And-Left4-Tightens	and, left 4, tightens, 
-And-Left4-VeryLong	and, left 4, very long, 
-And-Left5	and, left 5, 
-And-Left5-Brake	and, left 5, brake, 
-And-Left5-DontCut	and, left 5, don't cut, 
-And-Left5-Long	and, left 5, long, 
-And-Left5-Long-Tighten4-Caution-BadCamber	and, left 5, long, tightens 4, caution, bad camber, 
-And-Left5-OverCrest	and, left 5, over crest, 
-And-Left5-OverCrest-GoStraight	and, left 5, over crest, go straight, 
-And-Left5-Short	and, left 5, short, 
-And-Left5-Tighten4-Late	and, left 5, tightens 4, late, 
-And-Left5-VeryLong-Tighten4-Late	and, left 5, very long, tightens 4, late, 
-And-Left6	and, left 6, 
-And-Left6-Caution-DitchInside	and, left 6, caution, ditch inside, 
-And-LeftFlat	and, flat left, 
-And-LeftFlat-Long-OverCrest-KeepOut	and, flat left, long, over crest, keep out, 
-And-LeftKink	and, kink left, 
-And-Right2	and, right 2, 
-And-Right2-Caution-DitchOutside	and, right 2, caution, ditch outside, 
-And-Right2-Late	and, right 2, late, 
-And-Right2-Long	and, right 2, long, 
-And-Right2-Long-Opens	and, right 2, long, opens, 
-And-Right2-Narrows	and, right 2, narrows, 
-And-Right2-Opens	and, right 2, opens, 
-And-Right2-ThroughTunnel	and, right 2, through tunnel, 
-And-Right2-Tightens	and, right 2, tightens, 
-And-Right2-TightensLate-DontCut	and, right 2, tightens late, don't cut, 
-And-Right3	and, right 3, 
-And-Right3-Cut	and, right 3, cut, 
-And-Right3-KeepIn	and, right 3, keep in, 
-And-Right3-Long	and, right 3, long, 
-And-Right3-Narrows-DontCut	and, right 3, narrows, don't cut, 
-And-Right3-Opens	and, right 3, opens, 
-And-Right3-OverCrest	and, right 3, over crest, 
-And-Right3-Short	and, right 3, short, 
-And-Right3-Short-KeepIn	and, right 3, short, keep in, 
-And-Right3-Tighten2-Late	and, right 3, tightens 2, late, 
-And-Right3-Tightens	and, right 3, tightens, 
-And-Right3-TightensLate-SmallCut	and, right 3, tightens late, small cut, 
-And-Right3-VeryLong	and, right 3, very long, 
-And-Right3-VeryLong-Opens	and, right 3, very long, opens, 
-And-Right3-VeryLong-TightensLate	and, right 3, very long, tightens late, 
-And-Right4	and, right 4, 
-And-Right4-BigCut	and, right 4, big cut, 
-And-Right4-DontCut	and, right 4, don't cut, 
-And-Right4-Long	and, right 4, long, 
-And-Right4-Long-KeepIn	and, right 4, long, keep in, 
-And-Right4-Long-Opens	and, right 4, long, opens, 
-And-Right4-Long-OpensLate	and, right 4, long, opens late, 
-And-Right4-Long-OverCrest	and, right 4, long, over crest, 
-And-Right4-Long-Tighten2-Late	and, right 4, long, tightens 2, late, 
-And-Right4-Narrows	and, right 4, narrows, 
-And-Right4-Narrows-OverBridge	and, right 4, narrows, over bridge, 
-And-Right4-Opens	and, right 4, opens, 
-And-Right4-OverBumps	and, right 4, over bumps, 
-And-Right4-OverCrest	and, right 4, over crest, 
-And-Right4-Short	and, right 4, short, 
-And-Right4-Tightens	and, right 4, tightens, 
-And-Right4-TightensLate	and, right 4, tightens late, 
-And-Right4-VeryLong	and, right 4, very long, 
-And-Right4-VeryLong-TightensLate	and, right 4, very long, tightens late, 
-And-Right4-Widens	and, right 4, widens, 
-And-Right5	and, right 5, 
-And-Right5-Brake	and, right 5, brake, 
-And-Right5-Cut	and, right 5, cut, 
-And-Right5-KeepIn	and, right 5, keep in, 
-And-Right5-Long	and, right 5, long, 
-And-Right5-Long-OverBumps	and, right 5, long, over bumps, 
-And-Right5-Short	and, right 5, short, 
-And-Right5-Tighten4-Long	and, right 5, tightens 4, long, 
-And-Right6	and, right 6, 
-And-Right6-DontCut-Into	and, right 6, don't cut, into, 
-And-Right6-Long	and, right 6, long, 
-And-Right6-Short	and, right 6, short, 
-And-Right6-VeryLong-Tighten5-Late	and, right 6, very long, tightens 5, late, 
-And-RightFlat	and, flat right, 
-And-RightKink	and, kink right, 
-And-RightSquare-DontCut	and, square right, don't cut, 
-And-Sudden-Right3-KeepIn	and, sudden, right 3, keep in, 
-And-Sudden-Right3-Short	and, sudden, right 3, short, 
-And-Sudden-Right4-Opens	and, sudden, right 4, opens, 
-And-Sudden-Right5-Short	and, sudden, right 5, short, 
-And-TightensLate	and, tightens late, 
-Brake-And-StopAtMarshals	brake, and, stop at marshals, 
-Brake-Into-Left1-Long	brake, into, left 1, long, 
-Brake-Into-Left2	brake, into, left 2, 
-Brake-Into-Left3-Tightens	brake, into, left 3, tightens, 
-Brake-Into-LeftHP	brake, into, hairpin left, 
-Brake-Into-Right1-Opens	brake, into, right 1, opens, 
-Brake-Into-Right2-Tightens	brake, into, right 2, tightens, 
-Brake-Into-Right2-VeryLong-TightensLate	brake, into, right 2, very long, tightens late, 
-Brake-Into-Right3	brake, into, right 3, 
-Brake-Into-Right4-Long	brake, into, right 4, long, 
-Brake-Into-RightHP	brake, into, hairpin right, 
-Brake-KeepRight-Right4	brake, keep right, right 4, 
-Brake-Left1	brake, left 1, 
-Brake-Left2-Long	brake, left 2, long, 
-Brake-Left3	brake, left 3, 
-Brake-Left3-Tighten2	brake, left 3, tightens 2, 
-Brake-Left3-Tightens	brake, left 3, tightens, 
-Brake-Left4	brake, left 4, 
-Brake-Left4-Tightens	brake, left 4, tightens, 
-Brake-LeftAcuteHP	brake, acute hairpin left, 
-Brake-LeftHP	brake, hairpin left, 
-Brake-Right2-Long	brake, right 2, long, 
-Brake-Right2-Opens	brake, right 2, opens, 
-Brake-Right2-Tighten1	brake, right 2, tightens 1, 
-Brake-Right3-Long-TightensLate	brake, right 3, long, tightens late, 
-Brake-Right4	brake, right 4, 
-Brake-Right5	brake, right 5, 
-Brake-Right5-Tightens	brake, right 5, tightens, 
-Brake-RightHP	brake, hairpin right, 
-Caution-BadCamber	caution, bad camber, 
-Caution-Brake	caution, brake, 
-Caution-Brake-Left5	caution, brake, left 5, 
-Caution-Brake-Left5-OverCrest	caution, brake, left 5, over crest, 
-Caution-Brake-Left6	caution, brake, left 6, 
-Caution-Brake-LeftKink-Into	caution, brake, kink left, into, 
-Caution-Brake-Right3	caution, brake, right 3, 
-Caution-Brake-Right5	caution, brake, right 5, 
-Caution-Brake-Right5-Tightens	caution, brake, right 5, tightens, 
-Caution-Brake-RightChicane-Narrows	caution, brake, chicane right, narrows, 
-Caution-Brake-RightChicaneEntry	caution, brake, chicane right entry, 
-Caution-Bumps	caution, bumps, 
-Caution-GoRight-OverJumpSmall	caution, go right, over small jump, 
-Caution-HeavyBrake-Left1-DontCut	caution, heavy brake, left 1, don't cut, 
-Caution-HeavyBrake-RightHP-Narrows	caution, heavy brake, hairpin right, narrows, 
-Caution-Into-Right4-Long-Tightens	caution, into, right 4, long, tightens, 
-Caution-Into-Right4-VeryLong-Tightens	caution, into, right 4, very long, tightens, 
-Caution-KeepIn	caution, keep in, 
-Caution-KeepRight-Narrows	caution, keep right, narrows, 
-Caution-KinksStartingLeft-OverCrest	caution, kinks starting left, over crest, 
-Caution-KinksStartingRight-OverBumps	caution, kinks starting right, over bumps, 
-Caution-Left2-Late-KeepIn	caution, left 2, late, keep in, 
-Caution-Left2-Short-DontCut	caution, left 2, short, don't cut, 
-Caution-Left2-Tightens	caution, left 2, tightens, 
-Caution-Left3	caution, left 3, 
-Caution-Left3-AtJunction-Narrows-OverCrest	caution, left 3, at junction, narrows, over crest, 
-Caution-Left3-DontCut	caution, left 3, don't cut, 
-Caution-Left3-KeepIn	caution, left 3, keep in, 
-Caution-Left3-Long-Tightens	caution, left 3, long, tightens, 
-Caution-Left3-Narrows-OverBridge	caution, left 3, narrows, over bridge, 
-Caution-Left3-Tighten2-Late	caution, left 3, tightens 2, late, 
-Caution-Left3-Tightens	caution, left 3, tightens, 
-Caution-Left4	caution, left 4, 
-Caution-Left4-Brake	caution, left 4, brake, 
-Caution-Left4-DontCut	caution, left 4, don't cut, 
-Caution-Left4-Long-Tightens-KeepIn	caution, left 4, long, tightens, keep in, 
-Caution-Left5	caution, left 5, 
-Caution-Left5-Long-DontCut	caution, left 5, long, don't cut, 
-Caution-Left6-Brake	caution, left 6, brake, 
-Caution-LeftHP	caution, hairpin left, 
-Caution-LeftHP-Tightens	caution, hairpin left, tightens, 
-Caution-LeftHP-TightensLate	caution, hairpin left, tightens late, 
-Caution-LeftSquare-DontCut	caution, square left, don't cut, 
-Caution-LogsInside	caution, logs inside, 
-Caution-OverCrest-Into-Right4	caution, over crest, into, right 4, 
-Caution-Right2	caution, right 2, 
-Caution-Right3	caution, right 3, 
-Caution-Right3-Brake	caution, right 3, brake, 
-Caution-Right3-Long-Narrows-TightensLate	caution, right 3, long, narrows, tightens late, 
-Caution-Right3-Narrows	caution, right 3, narrows, 
-Caution-Right3-Opens	caution, right 3, opens, 
-Caution-Right3-OverCrest	caution, right 3, over crest, 
-Caution-Right3-Tighten2	caution, right 3, tightens 2, 
-Caution-Right4	caution, right 4, 
-Caution-Right4-Brake	caution, right 4, brake, 
-Caution-Right4-Long-Tightens	caution, right 4, long, tightens, 
-Caution-Right4-Opens	caution, right 4, opens, 
-Caution-Right4-Tighten2-Late	caution, right 4, tightens 2, late, 
-Caution-Right5	caution, right 5, 
-Caution-Right5-Brake	caution, right 5, brake, 
-Caution-Right5-Bumps	caution, right 5, bumps, 
-Caution-Right5-KeepIn	caution, right 5, keep in, 
-Caution-Right5-Long-Tighten3-Late	caution, right 5, long, tightens 3, late, 
-Caution-Right5-OverBumps	caution, right 5, over bumps, 
-Caution-Right5-OverCrest-DontCut-KeepIn	caution, right 5, over crest, don't cut, keep in, 
-Caution-Right5-Tightens	caution, right 5, tightens, 
-Caution-Right6-Into	caution, right 6, into, 
-Caution-ThroughGate	caution, through gate, 
-Crest-Into	crest, into, 
-Dip-Left3-KeepIn	dip, left 3, keep in, 
-Dist100-OverCrest	100, over crest, 
-Dist130-OverCrest	130, over crest, 
-Dist170-Widens	170, widens, 
-Dist200-Kinks	200, kinks, 
-Dist200-OverCrest	200, over crest, 
-Dist250-Kinks	250, kinks, 
-Dist250-OverBumps	250, over bumps, 
-Dist300-Kinks	300, kinks, 
-Dist40-Brake	40, brake, 
-Dist40-Caution-Brake-OverCrest	40, caution, brake, over crest, 
-Dist40-KeepRight	40, keep right, 
-Dist40-Narrows	40, narrows, 
-Dist40-OverCrest	40, over crest, 
-Dist40-OverCrest-Into	40, over crest, into, 
-Dist50-OverBumps	50, over bumps, 
-Dist50-OverCrest	50, over crest, 
-Dist60-OverBumps	60, over bumps, 
-Dist60-OverCrest	60, over crest, 
-Dist60-OverCrest-Brake	60, over crest, brake, 
-Dist70-OverCrest	70, over crest, 
-Dist80-KeepLeft	80, keep left, 
-Dist80-OverBumps	80, over bumps, 
-Dist80-OverCrest	80, over crest, 
-Dist80-OverCrest-KeepLeft	80, over crest, keep left, 
-Dist90-OverCrest	90, over crest, 
-DontCut-KeepIn	don't cut, keep in, 
-DontCut-LogsInside	don't cut, logs inside, 
-Into-Left1	into, left 1, 
-Into-Left1-Long	into, left 1, long, 
-Into-Left1-Long-DontCut	into, left 1, long, don't cut, 
-Into-Left1-Narrows	into, left 1, narrows, 
-Into-Left1-Tightens	into, left 1, tightens, 
-Into-Left2	into, left 2, 
-Into-Left2-Caution-DontCut	into, left 2, caution, don't cut, 
-Into-Left2-DontCut	into, left 2, don't cut, 
-Into-Left2-Late	into, left 2, late, 
-Into-Left2-Long	into, left 2, long, 
-Into-Left2-Long-Opens	into, left 2, long, opens, 
-Into-Left2-Long-OpensLate-DontCut	into, left 2, long, opens late, don't cut, 
-Into-Left2-Long-Tighten1	into, left 2, long, tightens 1, 
-Into-Left2-Long-TightensLate	into, left 2, long, tightens late, 
-Into-Left2-Narrows	into, left 2, narrows, 
-Into-Left2-Short-Narrows	into, left 2, short, narrows, 
-Into-Left2-Tighten1	into, left 2, tightens 1, 
-Into-Left2-Tightens	into, left 2, tightens, 
-Into-Left2-Tightens-DontCut	into, left 2, tightens, don't cut, 
-Into-Left2-VeryLong-TightensLate	into, left 2, very long, tightens late, 
-Into-Left2-Widens	into, left 2, widens, 
-Into-Left3	into, left 3, 
-Into-Left3-Cut	into, left 3, cut, 
-Into-Left3-DontCut	into, left 3, don't cut, 
-Into-Left3-Long-Tightens	into, left 3, long, tightens, 
-Into-Left3-Long-TightensLate	into, left 3, long, tightens late, 
-Into-Left3-Narrows-Late	into, left 3, narrows, late, 
-Into-Left3-OverCrest	into, left 3, over crest, 
-Into-Left3-Short	into, left 3, short, 
-Into-Left3-SmallCut	into, left 3, small cut, 
-Into-Left3-Tighten1	into, left 3, tightens 1, 
-Into-Left3-Tighten2-DontCut	into, left 3, tightens 2, don't cut, 
-Into-Left3-Tighten2-Late	into, left 3, tightens 2, late, 
-Into-Left3-Tightens	into, left 3, tightens, 
-Into-Left3-Tightens-Cut	into, left 3, tightens, cut, 
-Into-Left3-Tightens-DontCut	into, left 3, tightens, don't cut, 
-Into-Left3-Tightens-OverCrest	into, left 3, tightens, over crest, 
-Into-Left4	into, left 4, 
-Into-Left4-Long	into, left 4, long, 
-Into-Left4-Long-Tightens	into, left 4, long, tightens, 
-Into-Left4-Long-TightensLate	into, left 4, long, tightens late, 
-Into-Left4-Opens	into, left 4, opens, 
-Into-Left4-OverCrest	into, left 4, over crest, 
-Into-Left4-Short	into, left 4, short, 
-Into-Left4-Short-DontCut	into, left 4, short, don't cut, 
-Into-Left4-SmallCut	into, left 4, small cut, 
-Into-Left4-Tighten1-Late	into, left 4, tightens 1, late, 
-Into-Left4-Tighten2	into, left 4, tightens 2, 
-Into-Left4-Tighten3	into, left 4, tightens 3, 
-Into-Left4-Tightens-OverCrest	into, left 4, tightens, over crest, 
-Into-Left5	into, left 5, 
-Into-Left5-Long	into, left 5, long, 
-Into-Left5-OverCrest	into, left 5, over crest, 
-Into-Left5-Short	into, left 5, short, 
-Into-Left6	into, left 6, 
-Into-Left6-Brake	into, left 6, brake, 
-Into-Left6-Long	into, left 6, long, 
-Into-LeftHP	into, hairpin left, 
-Into-LeftHP-TightensLate	into, hairpin left, tightens late, 
-Into-LeftOpenHP	into, open hairpin left, 
-Into-LeftOpenHP-TightensLate	into, open hairpin left, tightens late, 
-Into-LeftSquare-DontCut	into, square left, don't cut, 
-Into-Right1	into, right 1, 
-Into-Right1-Late	into, right 1, late, 
-Into-Right1-Long	into, right 1, long, 
-Into-Right1-Long-DontCut	into, right 1, long, don't cut, 
-Into-Right1-Opens	into, right 1, opens, 
-Into-Right1-VeryLong-Opens	into, right 1, very long, opens, 
-Into-Right2	into, right 2, 
-Into-Right2-DontCut	into, right 2, don't cut, 
-Into-Right2-Late	into, right 2, late, 
-Into-Right2-Long	into, right 2, long, 
-Into-Right2-Long-DontCut	into, right 2, long, don't cut, 
-Into-Right2-OverCrest-DontCut	into, right 2, over crest, don't cut, 
-Into-Right2-Short	into, right 2, short, 
-Into-Right2-Short-Cut	into, right 2, short, cut, 
-Into-Right2-Tightens	into, right 2, tightens, 
-Into-Right3	into, right 3, 
-Into-Right3-Caution-Short-DontCut	into, right 3, caution, short, don't cut, 
-Into-Right3-Caution-Tighten2-Late-DontCut	into, right 3, caution, tightens 2, late, don't cut, 
-Into-Right3-DontCut-KeepIn	into, right 3, don't cut, keep in, 
-Into-Right3-DontCut-Narrows	into, right 3, don't cut, narrows, 
-Into-Right3-KeepIn	into, right 3, keep in, 
-Into-Right3-Long	into, right 3, long, 
-Into-Right3-Long-DontCut-Late	into, right 3, long, don't cut, late, 
-Into-Right3-Long-OpensLate	into, right 3, long, opens late, 
-Into-Right3-Long-TightensLate	into, right 3, long, tightens late, 
-Into-Right3-Opens	into, right 3, opens, 
-Into-Right3-Opens-DontCut	into, right 3, opens, don't cut, 
-Into-Right3-Short	into, right 3, short, 
-Into-Right3-Short-Caution-DontCut	into, right 3, short, caution, don't cut, 
-Into-Right3-Tightens	into, right 3, tightens, 
-Into-Right3-Tightens-DontCut	into, right 3, tightens, don't cut, 
-Into-Right3-Tightens-OverCrest	into, right 3, tightens, over crest, 
-Into-Right3-TightensLate	into, right 3, tightens late, 
-Into-Right3-VeryLong	into, right 3, very long, 
-Into-Right4	into, right 4, 
-Into-Right4-Dip	into, right 4, dip, 
-Into-Right4-DontCut	into, right 4, don't cut, 
-Into-Right4-KeepIn	into, right 4, keep in, 
-Into-Right4-Long	into, right 4, long, 
-Into-Right4-Long-DontCut	into, right 4, long, don't cut, 
-Into-Right4-Opens	into, right 4, opens, 
-Into-Right4-Short-DontCut	into, right 4, short, don't cut, 
-Into-Right4-Short-OverCrest	into, right 4, short, over crest, 
-Into-Right4-Tightens	into, right 4, tightens, 
-Into-Right4-VeryLong	into, right 4, very long, 
-Into-Right4-VeryLong-Tighten3-Late	into, right 4, very long, tightens 3, late, 
-Into-Right5	into, right 5, 
-Into-Right5-KeepIn	into, right 5, keep in, 
-Into-Right5-Long	into, right 5, long, 
-Into-Right5-Long-Tighten3	into, right 5, long, tightens 3, 
-Into-Right5-Long-Tighten4	into, right 5, long, tightens 4, 
-Into-Right5-Long-TightensLate	into, right 5, long, tightens late, 
-Into-Right5-Opens	into, right 5, opens, 
-Into-Right5-OverCrest	into, right 5, over crest, 
-Into-Right5-OverCrest-Cut	into, right 5, over crest, cut, 
-Into-Right5-Short	into, right 5, short, 
-Into-Right5-Tightens	into, right 5, tightens, 
-Into-Right5-Tightens-KeepIn	into, right 5, tightens, keep in, 
-Into-Right5-VeryLong-TightensLate	into, right 5, very long, tightens late, 
-Into-Right6	into, right 6, 
-Into-Right6-KeepOut	into, right 6, keep out, 
-Into-Right6-Long	into, right 6, long, 
-Into-RightHP	into, hairpin right, 
-Into-RightHP-TightensLate	into, hairpin right, tightens late, 
-Into-RightOpenHP	into, open hairpin right, 
-Into-RightOpenHP-TightensLate	into, open hairpin right, tightens late, 
-Into-Sudden-LeftAcuteHP	into, sudden, acute hairpin left, 
-Into-Sudden-Right1	into, sudden, right 1, 
-Into-Sudden-RightHP-TightensLate	into, sudden, hairpin right, tightens late, 
-Junction-GoLeft	junction, go left, 
-Junction-GoRight	junction, go right, 
-Junction-LeftSquare	junction, square left, 
-Junction-RightSquare	junction, square right, 
-KeepIn-OverCrest	keep in, over crest, 
-KeepRight-Into-Left5-Short	keep right, into, left 5, short, 
-Kinks-Dist150	kinks, 150, 
-Kinks-IntoDip	kinks, into dip, 
-Kinks-OverCrest	kinks, over crest, 
-KinksStartingLeft-OverCrest	kinks starting left, over crest, 
-KinksStartingLeft-OverCrest-Narrows	kinks starting left, over crest, narrows, 
-KinksStartingRight-Cut	kinks starting right, cut, 
-Late-Left2-DontCut	late, left 2, don't cut, 
-Left1-Long-Widens	left 1, long, widens, 
-Left1-Tightens	left 1, tightens, 
-Left2-Long	left 2, long, 
-Left2-Long-Opens	left 2, long, opens, 
-Left2-Long-OpensLate	left 2, long, opens late, 
-Left2-Long-SmallCut	left 2, long, small cut, 
-Left2-Opens	left 2, opens, 
-Left2-Opens-OverCrest	left 2, opens, over crest, 
-Left2-OpensLate	left 2, opens late, 
-Left2-Short	left 2, short, 
-Left2-Tighten1	left 2, tightens 1, 
-Left2-Tightens	left 2, tightens, 
-Left2-TightensLate-OverCrest-DontCut	left 2, tightens late, over crest, don't cut, 
-Left3-AfterJunction-Narrows-OverCrest	left 3, after junction, narrows, over crest, 
-Left3-Brake	left 3, brake, 
-Left3-DontCut	left 3, don't cut, 
-Left3-DontCut-And	left 3, don't cut, and, 
-Left3-Long	left 3, long, 
-Left3-Long-DontCut-TightensLate	left 3, long, don't cut, tightens late, 
-Left3-Long-Opens	left 3, long, opens, 
-Left3-Long-OpensLate	left 3, long, opens late, 
-Left3-Long-SmallCut	left 3, long, small cut, 
-Left3-Long-Tighten2	left 3, long, tightens 2, 
-Left3-Long-TightensLate	left 3, long, tightens late, 
-Left3-Long-Widens-And-TightensLate	left 3, long, widens, and, tightens late, 
-Left3-Narrows-OverBridge	left 3, narrows, over bridge, 
-Left3-Opens	left 3, opens, 
-Left3-Opens-DontCut-Late	left 3, opens, don't cut, late, 
-Left3-Opens-Long	left 3, opens, long, 
-Left3-OverCrest	left 3, over crest, 
-Left3-Short	left 3, short, 
-Left3-Short-SmallCut	left 3, short, small cut, 
-Left3-Tighten2	left 3, tightens 2, 
-Left3-Tightens	left 3, tightens, 
-Left3-Tightens-DontCut	left 3, tightens, don't cut, 
-Left3-Tightens-DontCut-Late	left 3, tightens, don't cut, late, 
-Left3-TightensLate	left 3, tightens late, 
-Left4-Cut	left 4, cut, 
-Left4-DontCut	left 4, don't cut, 
-Left4-Long	left 4, long, 
-Left4-Long-DontCut	left 4, long, don't cut, 
-Left4-Long-Opens	left 4, long, opens, 
-Left4-Long-OverCrest	left 4, long, over crest, 
-Left4-Long-Tighten3	left 4, long, tightens 3, 
-Left4-Long-Tighten3-DontCut	left 4, long, tightens 3, don't cut, 
-Left4-Long-Tightens-DontCut	left 4, long, tightens, don't cut, 
-Left4-Narrows	left 4, narrows, 
-Left4-Opens-DontCut	left 4, opens, don't cut, 
-Left4-OverCrest	left 4, over crest, 
-Left4-OverCrest-DontCut-KeepIn	left 4, over crest, don't cut, keep in, 
-Left4-Short	left 4, short, 
-Left4-Short-DontCut	left 4, short, don't cut, 
-Left4-Short-KeepIn	left 4, short, keep in, 
-Left4-Tighten3	left 4, tightens 3, 
-Left4-Tighten3-Caution-DontCut-KeepIn	left 4, tightens 3, caution, don't cut, keep in, 
-Left4-Tighten3-OverCrest-VeryLong	left 4, tightens 3, over crest, very long, 
-Left4-Tightens	left 4, tightens, 
-Left4-Tightens-KeepIn	left 4, tightens, keep in, 
-Left4-VeryLong	left 4, very long, 
-Left4-VeryLong-DontCut	left 4, very long, don't cut, 
-Left4-VeryLong-Opens	left 4, very long, opens, 
-Left4-VeryLong-OverCrest-KeepIn	left 4, very long, over crest, keep in, 
-Left5-And	left 5, and, 
-Left5-Brake	left 5, brake, 
-Left5-DontCut	left 5, don't cut, 
-Left5-Into	left 5, into, 
-Left5-Long	left 5, long, 
-Left5-Long-OverBumps	left 5, long, over bumps, 
-Left5-Long-OverCrest	left 5, long, over crest, 
-Left5-Long-Tightens	left 5, long, tightens, 
-Left5-Long-TightensLate	left 5, long, tightens late, 
-Left5-Opens	left 5, opens, 
-Left5-OverCrest	left 5, over crest, 
-Left5-Short-OverCrest	left 5, short, over crest, 
-Left5-Tighten3-Late	left 5, tightens 3, late, 
-Left5-Tighten4	left 5, tightens 4, 
-Left5-Tighten4-Brake	left 5, tightens 4, brake, 
-Left5-Tightens-OverCrest	left 5, tightens, over crest, 
-Left5-VeryLong	left 5, very long, 
-Left5-VeryLong-Tighten4	left 5, very long, tightens 4, 
-Left6-DontCut-Short	left 6, don't cut, short, 
-Left6-KeepIn	left 6, keep in, 
-Left6-KeepOut	left 6, keep out, 
-Left6-Long	left 6, long, 
-Left6-Long-DontCut	left 6, long, don't cut, 
-Left6-Long-OverBump-DontCut	left 6, long, over bump, don't cut, 
-Left6-OverBump	left 6, over bump, 
-Left6-OverCrest	left 6, over crest, 
-Left6-Short-DontCut	left 6, short, don't cut, 
-Left6-Tighten5	left 6, tightens 5, 
-Left6-VeryLong-Tightens	left 6, very long, tightens, 
-LeftFlat-DontCut	flat left, don't cut, 
-LeftFlat-IntoDip	flat left, into dip, 
-LeftFlat-KeepLeft	flat left, keep left, 
-LeftFlat-Long	flat left, long, 
-LeftFlat-OverBridge	flat left, over bridge, 
-LeftFlat-OverCrest	flat left, over crest, 
-LeftHP-Opens-UpHill	hairpin left, opens, uphill, 
-LeftHP-TightensLate	hairpin left, tightens late, 
-LeftKink-KeepRight	kink left, keep right, 
-LeftOpenHP-Narrows-Late	open hairpin left, narrows, late, 
-Opens-And-Tightens	opens, and, tightens, 
-Opens-And-TightensLate	opens, and, tightens late, 
-Over-Finish	over, finish, 
-Over-JumpMaybe	over, jump maybe, 
-OverBump-Into-Right4-DontCut	over bump, into, right 4, don't cut, 
-OverCrest-Dist80	over crest, 80, 
-OverCrest-Into-Right1-Long-Opens	over crest, into, right 1, long, opens, 
-OverCrest-Into-Right3-Short	over crest, into, right 3, short, 
-OverCrest-Into-Right4-Long	over crest, into, right 4, long, 
-OverCrest-Into-Right4-Long-Opens	over crest, into, right 4, long, opens, 
-OverCrest-Into-Right5	over crest, into, right 5, 
-Right1-DontCut	right 1, don't cut, 
-Right1-Long-Tightens	right 1, long, tightens, 
-Right1-Long-TightensLate	right 1, long, tightens late, 
-Right2-Caution-Tightens-OverBridge	right 2, caution, tightens, over bridge, 
-Right2-DontCut	right 2, don't cut, 
-Right2-KeepIn	right 2, keep in, 
-Right2-Long	right 2, long, 
-Right2-Long-Opens	right 2, long, opens, 
-Right2-Long-Opens-DontCut	right 2, long, opens, don't cut, 
-Right2-Opens	right 2, opens, 
-Right2-Opens-DontCut	right 2, opens, don't cut, 
-Right2-Opens-Long	right 2, opens, long, 
-Right2-OpensLate	right 2, opens late, 
-Right2-SmallCut	right 2, small cut, 
-Right2-Tighten1	right 2, tightens 1, 
-Right2-Tightens	right 2, tightens, 
-Right2-Tightens-DontCut	right 2, tightens, don't cut, 
-Right2-TightensLate	right 2, tightens late, 
-Right3-Caution-DontCut-KeepIn	right 3, caution, don't cut, keep in, 
-Right3-DontCut	right 3, don't cut, 
-Right3-KeepIn	right 3, keep in, 
-Right3-Long	right 3, long, 
-Right3-Long-Narrows-TightensLate	right 3, long, narrows, tightens late, 
-Right3-Long-Opens	right 3, long, opens, 
-Right3-Long-Tighten2-Late	right 3, long, tightens 2, late, 
-Right3-Long-TightensLate	right 3, long, tightens late, 
-Right3-Long-TightensLate-SmallCut	right 3, long, tightens late, small cut, 
-Right3-Opens	right 3, opens, 
-Right3-OverCrest-Widens	right 3, over crest, widens, 
-Right3-Short	right 3, short, 
-Right3-Short-DontCut-KeepIn	right 3, short, don't cut, keep in, 
-Right3-Short-KeepIn	right 3, short, keep in, 
-Right3-Tighten2-Late	right 3, tightens 2, late, 
-Right3-Tightens	right 3, tightens, 
-Right3-Tightens-DontCut	right 3, tightens, don't cut, 
-Right3-Tightens-IntoDip	right 3, tightens, into dip, 
-Right3-Tightens-SmallCut	right 3, tightens, small cut, 
-Right3-TightensLate-DontCut	right 3, tightens late, don't cut, 
-Right4-BadCamber	right 4, bad camber, 
-Right4-Brake	right 4, brake, 
-Right4-Caution-IntoDip	right 4, caution, into dip, 
-Right4-DontCut	right 4, don't cut, 
-Right4-DontCut-Late	right 4, don't cut, late, 
-Right4-KeepIn	right 4, keep in, 
-Right4-Long	right 4, long, 
-Right4-Long-Tighten1-Late	right 4, long, tightens 1, late, 
-Right4-Long-Tightens	right 4, long, tightens, 
-Right4-Long-TightensLate	right 4, long, tightens late, 
-Right4-Opens	right 4, opens, 
-Right4-OverBumps	right 4, over bumps, 
-Right4-OverCrest	right 4, over crest, 
-Right4-Short	right 4, short, 
-Right4-Short-KeepIn	right 4, short, keep in, 
-Right4-Short-OverCrest	right 4, short, over crest, 
-Right4-SmallCut	right 4, small cut, 
-Right4-Tighten3-Late	right 4, tightens 3, late, 
-Right4-Tighten3-Late-DontCut	right 4, tightens 3, late, don't cut, 
-Right4-Tightens	right 4, tightens, 
-Right4-Tightens-DontCut	right 4, tightens, don't cut, 
-Right4-Tightens-OverCrest	right 4, tightens, over crest, 
-Right4-VeryLong-OverCrest	right 4, very long, over crest, 
-Right4-VeryLong-TightensLate	right 4, very long, tightens late, 
-Right5-Brake	right 5, brake, 
-Right5-DontCut	right 5, don't cut, 
-Right5-KeepIn	right 5, keep in, 
-Right5-KeepOut	right 5, keep out, 
-Right5-Long	right 5, long, 
-Right5-Long-Opens	right 5, long, opens, 
-Right5-Long-Opens-OverCrest	right 5, long, opens, over crest, 
-Right5-Long-OverCrest-KeepIn	right 5, long, over crest, keep in, 
-Right5-Short	right 5, short, 
-Right5-SlowDown	right 5, slow down, 
-Right5-VeryLong	right 5, very long, 
-Right5-VeryLong-TightensLate	right 5, very long, tightens late, 
-Right6-Brake	right 6, brake, 
-Right6-DontCut	right 6, don't cut, 
-Right6-KeepIn	right 6, keep in, 
-Right6-Long	right 6, long, 
-Right6-OverCrest	right 6, over crest, 
-Right6-Short	right 6, short, 
-Right6-Short-DontCut	right 6, short, don't cut, 
-Right6-ThroughTunnel	right 6, through tunnel, 
-Right6-Tightens	right 6, tightens, 
-Right6-TightensLate	right 6, tightens late, 
-RightFlat-OverBridge	flat right, over bridge, 
-RightFlat-OverCrest	flat right, over crest, 
-RightHP-Opens	hairpin right, opens, 
-RightKink-Into	kink right, into, 
-SlowDown-And-StopAtMarshals	slow down, and, stop at marshals, 
-SlowDown-Right4-Tightens	slow down, right 4, tightens, 
-SlowDown-StopAtMarshals	slow down, stop at marshals, 
-SmallCut-KeepIn	small cut, keep in, 
-Sudden-Right4	sudden, right 4, 
-Tighten2-Late	tightens 2, late, 
-Tighten3-Late	tightens 3, late, 
-Tighten4-Late-KeepIn	tightens 4, late, keep in, 
+AfterEnd-Brake-Right1	<emphasis level="strong">after finish</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">right 1</emphasis>
+AfterEnd-Left3-AtTheJunction-Narrows-OverCrest	<emphasis level="strong">after finish</emphasis> <emphasis level="strong">left 3</emphasis>  <emphasis level="strong">narrows</emphasis> <emphasis level="strong">over crest</emphasis>
+AfterEnd-Right3-Tightens	<emphasis level="strong">after finish</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis>
+AfterFinish-Brake-Left4-Tighten2	 <emphasis level="strong">brake</emphasis> <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 2</emphasis>
+And-Caution-Right5	and <emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis>
+And-KinksStartingLeft	and <emphasis level="strong">kinks starting left</emphasis>
+And-KinksStartingLeft-DontCut	and <emphasis level="strong">kinks starting left</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-KinksStartingLeft-OverCrest	and <emphasis level="strong">kinks starting left</emphasis> <emphasis level="strong">over crest</emphasis>
+And-KinksStartingRight	and <emphasis level="strong">kinks starting right</emphasis>
+And-KinksStartingRight-Brake	and <emphasis level="strong">kinks starting right</emphasis> <emphasis level="strong">brake</emphasis>
+And-KinksStartingRight-OverBumps	and <emphasis level="strong">kinks starting right</emphasis> <emphasis level="strong">over bumps</emphasis>
+And-Left1-DontCut	and <emphasis level="strong">left 1</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Left2	and <emphasis level="strong">left 2</emphasis>
+And-Left2-Long	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis>
+And-Left2-Long-TightensLate	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Left2-Opens	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">opens</emphasis>
+And-Left2-OpensLate	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">opens late</emphasis>
+And-Left2-Short	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">short</emphasis>
+And-Left2-Tightens	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens</emphasis>
+And-Left2-Tightens-Caution-ThroughGate	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">through gate</emphasis>
+And-Left2-TightensLate	and <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Left3	and <emphasis level="strong">left 3</emphasis>
+And-Left3-Cut	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">cut</emphasis>
+And-Left3-DontCut	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Left3-Long	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis>
+And-Left3-Long-TightensLate	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Left3-Opens	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">opens</emphasis>
+And-Left3-Opens-VeryLong	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">very long</emphasis>
+And-Left3-Short	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">short</emphasis>
+And-Left3-Tighten2	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis>
+And-Left3-Tighten2-Late	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+And-Left3-Tightens	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis>
+And-Left3-TightensLate	and <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Left4	and <emphasis level="strong">left 4</emphasis>
+And-Left4-Brake	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">brake</emphasis>
+And-Left4-Caution-LogsOutside	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">logs outside</emphasis>
+And-Left4-DontCut	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Left4-Long	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis>
+And-Left4-Long-DontCut	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Left4-Long-Opens	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+And-Left4-OverCrest	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">over crest</emphasis>
+And-Left4-Short	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis>
+And-Left4-Short-DontCut	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Left4-Tightens	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens</emphasis>
+And-Left4-VeryLong	and <emphasis level="strong">left 4</emphasis> <emphasis level="strong">very long</emphasis>
+And-Left5	and <emphasis level="strong">left 5</emphasis>
+And-Left5-Brake	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">brake</emphasis>
+And-Left5-DontCut	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Left5-Long	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis>
+And-Left5-Long-Tighten4-Caution-BadCamber	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 4</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">bad camber</emphasis>
+And-Left5-OverCrest	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">over crest</emphasis>
+And-Left5-OverCrest-GoStraight	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">go straight</emphasis>
+And-Left5-Short	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">short</emphasis>
+And-Left5-Tighten4-Late	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">tightens 4</emphasis> <emphasis level="strong">late</emphasis>
+And-Left5-VeryLong-Tighten4-Late	and <emphasis level="strong">left 5</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens 4</emphasis> <emphasis level="strong">late</emphasis>
+And-Left6	and <emphasis level="strong">left 6</emphasis>
+And-Left6-Caution-DitchInside	and <emphasis level="strong">left 6</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">ditch inside</emphasis>
+And-LeftFlat	and <emphasis level="strong">flat left</emphasis>
+And-LeftFlat-Long-OverCrest-KeepOut	and <emphasis level="strong">flat left</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">keep out</emphasis>
+And-LeftKink	and <emphasis level="strong">kink left</emphasis>
+And-Right2	and <emphasis level="strong">right 2</emphasis>
+And-Right2-Caution-DitchOutside	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">ditch outside</emphasis>
+And-Right2-Late	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">late</emphasis>
+And-Right2-Long	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis>
+And-Right2-Long-Opens	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+And-Right2-Narrows	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">narrows</emphasis>
+And-Right2-Opens	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">opens</emphasis>
+And-Right2-ThroughTunnel	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">through tunnel</emphasis>
+And-Right2-Tightens	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens</emphasis>
+And-Right2-TightensLate-DontCut	and <emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens late</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Right3	and <emphasis level="strong">right 3</emphasis>
+And-Right3-Cut	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">cut</emphasis>
+And-Right3-KeepIn	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">keep in</emphasis>
+And-Right3-Long	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis>
+And-Right3-Narrows-DontCut	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Right3-Opens	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">opens</emphasis>
+And-Right3-OverCrest	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">over crest</emphasis>
+And-Right3-Short	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis>
+And-Right3-Short-KeepIn	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">keep in</emphasis>
+And-Right3-Tighten2-Late	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+And-Right3-Tightens	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis>
+And-Right3-TightensLate-SmallCut	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens late</emphasis> <emphasis level="strong">small cut</emphasis>
+And-Right3-VeryLong	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">very long</emphasis>
+And-Right3-VeryLong-Opens	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">opens</emphasis>
+And-Right3-VeryLong-TightensLate	and <emphasis level="strong">right 3</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Right4	and <emphasis level="strong">right 4</emphasis>
+And-Right4-BigCut	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">big cut</emphasis>
+And-Right4-DontCut	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Right4-Long	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis>
+And-Right4-Long-KeepIn	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">keep in</emphasis>
+And-Right4-Long-Opens	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+And-Right4-Long-OpensLate	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens late</emphasis>
+And-Right4-Long-OverCrest	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over crest</emphasis>
+And-Right4-Long-Tighten2-Late	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+And-Right4-Narrows	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">narrows</emphasis>
+And-Right4-Narrows-OverBridge	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">over bridge</emphasis>
+And-Right4-Opens	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">opens</emphasis>
+And-Right4-OverBumps	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">over bumps</emphasis>
+And-Right4-OverCrest	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">over crest</emphasis>
+And-Right4-Short	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">short</emphasis>
+And-Right4-Tightens	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens</emphasis>
+And-Right4-TightensLate	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Right4-VeryLong	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis>
+And-Right4-VeryLong-TightensLate	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+And-Right4-Widens	and <emphasis level="strong">right 4</emphasis> <emphasis level="strong">widens</emphasis>
+And-Right5	and <emphasis level="strong">right 5</emphasis>
+And-Right5-Brake	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">brake</emphasis>
+And-Right5-Cut	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">cut</emphasis>
+And-Right5-KeepIn	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">keep in</emphasis>
+And-Right5-Long	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis>
+And-Right5-Long-OverBumps	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over bumps</emphasis>
+And-Right5-Short	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">short</emphasis>
+And-Right5-Tighten4-Long	and <emphasis level="strong">right 5</emphasis> <emphasis level="strong">tightens 4</emphasis> <emphasis level="strong">long</emphasis>
+And-Right6	and <emphasis level="strong">right 6</emphasis>
+And-Right6-DontCut-Into	and <emphasis level="strong">right 6</emphasis> <emphasis level="strong">don't cut</emphasis> into
+And-Right6-Long	and <emphasis level="strong">right 6</emphasis> <emphasis level="strong">long</emphasis>
+And-Right6-Short	and <emphasis level="strong">right 6</emphasis> <emphasis level="strong">short</emphasis>
+And-Right6-VeryLong-Tighten5-Late	and <emphasis level="strong">right 6</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens 5</emphasis> <emphasis level="strong">late</emphasis>
+And-RightFlat	and <emphasis level="strong">flat right</emphasis>
+And-RightKink	and <emphasis level="strong">kink right</emphasis>
+And-RightSquare-DontCut	and <emphasis level="strong">square right</emphasis> <emphasis level="strong">don't cut</emphasis>
+And-Sudden-Right3-KeepIn	and <emphasis level="strong">sudden</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">keep in</emphasis>
+And-Sudden-Right3-Short	and <emphasis level="strong">sudden</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis>
+And-Sudden-Right4-Opens	and <emphasis level="strong">sudden</emphasis> <emphasis level="strong">right 4</emphasis> <emphasis level="strong">opens</emphasis>
+And-Sudden-Right5-Short	and <emphasis level="strong">sudden</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">short</emphasis>
+And-TightensLate	and <emphasis level="strong">tightens late</emphasis>
+Brake-And-StopAtMarshals	<emphasis level="strong">brake</emphasis> and <emphasis level="strong">stop at marshals</emphasis>
+Brake-Into-Left1-Long	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">left 1</emphasis> <emphasis level="strong">long</emphasis>
+Brake-Into-Left2	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">left 2</emphasis>
+Brake-Into-Left3-Tightens	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Brake-Into-LeftHP	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">hairpin left</emphasis>
+Brake-Into-Right1-Opens	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">opens</emphasis>
+Brake-Into-Right2-Tightens	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens</emphasis>
+Brake-Into-Right2-VeryLong-TightensLate	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Brake-Into-Right3	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">right 3</emphasis>
+Brake-Into-Right4-Long	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis>
+Brake-Into-RightHP	<emphasis level="strong">brake</emphasis> into <emphasis level="strong">hairpin right</emphasis>
+Brake-KeepRight-Right4	<emphasis level="strong">brake</emphasis> <emphasis level="strong">keep right</emphasis> <emphasis level="strong">right 4</emphasis>
+Brake-Left1	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 1</emphasis>
+Brake-Left2-Long	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis>
+Brake-Left3	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 3</emphasis>
+Brake-Left3-Tighten2	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis>
+Brake-Left3-Tightens	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Brake-Left4	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 4</emphasis>
+Brake-Left4-Tightens	<emphasis level="strong">brake</emphasis> <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens</emphasis>
+Brake-LeftAcuteHP	<emphasis level="strong">brake</emphasis> <emphasis level="strong">acute hairpin left</emphasis>
+Brake-LeftHP	<emphasis level="strong">brake</emphasis> <emphasis level="strong">hairpin left</emphasis>
+Brake-Right2-Long	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis>
+Brake-Right2-Opens	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 2</emphasis> <emphasis level="strong">opens</emphasis>
+Brake-Right2-Tighten1	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens 1</emphasis>
+Brake-Right3-Long-TightensLate	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Brake-Right4	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 4</emphasis>
+Brake-Right5	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 5</emphasis>
+Brake-Right5-Tightens	<emphasis level="strong">brake</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">tightens</emphasis>
+Brake-RightHP	<emphasis level="strong">brake</emphasis> <emphasis level="strong">hairpin right</emphasis>
+Caution-BadCamber	<emphasis level="strong">caution</emphasis> <emphasis level="strong">bad camber</emphasis>
+Caution-Brake	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis>
+Caution-Brake-Left5	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">left 5</emphasis>
+Caution-Brake-Left5-OverCrest	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">left 5</emphasis> <emphasis level="strong">over crest</emphasis>
+Caution-Brake-Left6	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">left 6</emphasis>
+Caution-Brake-LeftKink-Into	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">kink left</emphasis> into
+Caution-Brake-Right3	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">right 3</emphasis>
+Caution-Brake-Right5	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">right 5</emphasis>
+Caution-Brake-Right5-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Brake-RightChicane-Narrows	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">chicane right</emphasis> <emphasis level="strong">narrows</emphasis>
+Caution-Brake-RightChicaneEntry	<emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">chicane right entry</emphasis>
+Caution-Bumps	<emphasis level="strong">caution</emphasis> <emphasis level="strong">bumps</emphasis>
+Caution-GoRight-OverJumpSmall	<emphasis level="strong">caution</emphasis> <emphasis level="strong">go right</emphasis> <emphasis level="strong">over small jump</emphasis>
+Caution-HeavyBrake-Left1-DontCut	<emphasis level="strong">caution</emphasis> <emphasis level="strong">heavy brake</emphasis> <emphasis level="strong">left 1</emphasis> <emphasis level="strong">don't cut</emphasis>
+Caution-HeavyBrake-RightHP-Narrows	<emphasis level="strong">caution</emphasis> <emphasis level="strong">heavy brake</emphasis> <emphasis level="strong">hairpin right</emphasis> <emphasis level="strong">narrows</emphasis>
+Caution-Into-Right4-Long-Tightens	<emphasis level="strong">caution</emphasis> into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Into-Right4-VeryLong-Tightens	<emphasis level="strong">caution</emphasis> into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-KeepIn	<emphasis level="strong">caution</emphasis> <emphasis level="strong">keep in</emphasis>
+Caution-KeepRight-Narrows	<emphasis level="strong">caution</emphasis> <emphasis level="strong">keep right</emphasis> <emphasis level="strong">narrows</emphasis>
+Caution-KinksStartingLeft-OverCrest	<emphasis level="strong">caution</emphasis> <emphasis level="strong">kinks starting left</emphasis> <emphasis level="strong">over crest</emphasis>
+Caution-KinksStartingRight-OverBumps	<emphasis level="strong">caution</emphasis> <emphasis level="strong">kinks starting right</emphasis> <emphasis level="strong">over bumps</emphasis>
+Caution-Left2-Late-KeepIn	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 2</emphasis> <emphasis level="strong">late</emphasis> <emphasis level="strong">keep in</emphasis>
+Caution-Left2-Short-DontCut	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 2</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Caution-Left2-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Left3	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis>
+Caution-Left3-AtJunction-Narrows-OverCrest	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">at junction</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">over crest</emphasis>
+Caution-Left3-DontCut	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">don't cut</emphasis>
+Caution-Left3-KeepIn	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">keep in</emphasis>
+Caution-Left3-Long-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Left3-Narrows-OverBridge	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">over bridge</emphasis>
+Caution-Left3-Tighten2-Late	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+Caution-Left3-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Left4	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 4</emphasis>
+Caution-Left4-Brake	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 4</emphasis> <emphasis level="strong">brake</emphasis>
+Caution-Left4-DontCut	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+Caution-Left4-Long-Tightens-KeepIn	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">keep in</emphasis>
+Caution-Left5	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 5</emphasis>
+Caution-Left5-Long-DontCut	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Caution-Left6-Brake	<emphasis level="strong">caution</emphasis> <emphasis level="strong">left 6</emphasis> <emphasis level="strong">brake</emphasis>
+Caution-LeftHP	<emphasis level="strong">caution</emphasis> <emphasis level="strong">hairpin left</emphasis>
+Caution-LeftHP-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">hairpin left</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-LeftHP-TightensLate	<emphasis level="strong">caution</emphasis> <emphasis level="strong">hairpin left</emphasis> <emphasis level="strong">tightens late</emphasis>
+Caution-LeftSquare-DontCut	<emphasis level="strong">caution</emphasis> <emphasis level="strong">square left</emphasis> <emphasis level="strong">don't cut</emphasis>
+Caution-LogsInside	<emphasis level="strong">caution</emphasis> <emphasis level="strong">logs inside</emphasis>
+Caution-OverCrest-Into-Right4	<emphasis level="strong">caution</emphasis> <emphasis level="strong">over crest</emphasis> into <emphasis level="strong">right 4</emphasis>
+Caution-Right2	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 2</emphasis>
+Caution-Right3	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis>
+Caution-Right3-Brake	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">brake</emphasis>
+Caution-Right3-Long-Narrows-TightensLate	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">tightens late</emphasis>
+Caution-Right3-Narrows	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">narrows</emphasis>
+Caution-Right3-Opens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">opens</emphasis>
+Caution-Right3-OverCrest	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">over crest</emphasis>
+Caution-Right3-Tighten2	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens 2</emphasis>
+Caution-Right4	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 4</emphasis>
+Caution-Right4-Brake	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 4</emphasis> <emphasis level="strong">brake</emphasis>
+Caution-Right4-Long-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Right4-Opens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 4</emphasis> <emphasis level="strong">opens</emphasis>
+Caution-Right4-Tighten2-Late	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+Caution-Right5	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis>
+Caution-Right5-Brake	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">brake</emphasis>
+Caution-Right5-Bumps	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">bumps</emphasis>
+Caution-Right5-KeepIn	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">keep in</emphasis>
+Caution-Right5-Long-Tighten3-Late	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">late</emphasis>
+Caution-Right5-OverBumps	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">over bumps</emphasis>
+Caution-Right5-OverCrest-DontCut-KeepIn	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Caution-Right5-Tightens	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 5</emphasis> <emphasis level="strong">tightens</emphasis>
+Caution-Right6-Into	<emphasis level="strong">caution</emphasis> <emphasis level="strong">right 6</emphasis> into
+Caution-ThroughGate	<emphasis level="strong">caution</emphasis> <emphasis level="strong">through gate</emphasis>
+Crest-Into	<emphasis level="strong">crest</emphasis> into
+Dip-Left3-KeepIn	<emphasis level="strong">dip</emphasis> <emphasis level="strong">left 3</emphasis> <emphasis level="strong">keep in</emphasis>
+Dist100-OverCrest	<emphasis level="strong">100</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist130-OverCrest	<emphasis level="strong">130</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist170-Widens	<emphasis level="strong">170</emphasis> <emphasis level="strong">widens</emphasis>
+Dist200-Kinks	<emphasis level="strong">200</emphasis> <emphasis level="strong">kinks</emphasis>
+Dist200-OverCrest	<emphasis level="strong">200</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist250-Kinks	<emphasis level="strong">250</emphasis> <emphasis level="strong">kinks</emphasis>
+Dist250-OverBumps	<emphasis level="strong">250</emphasis> <emphasis level="strong">over bumps</emphasis>
+Dist300-Kinks	<emphasis level="strong">300</emphasis> <emphasis level="strong">kinks</emphasis>
+Dist40-Brake	<emphasis level="strong">40</emphasis> <emphasis level="strong">brake</emphasis>
+Dist40-Caution-Brake-OverCrest	<emphasis level="strong">40</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">brake</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist40-KeepRight	<emphasis level="strong">40</emphasis> <emphasis level="strong">keep right</emphasis>
+Dist40-Narrows	<emphasis level="strong">40</emphasis> <emphasis level="strong">narrows</emphasis>
+Dist40-OverCrest	<emphasis level="strong">40</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist40-OverCrest-Into	<emphasis level="strong">40</emphasis> <emphasis level="strong">over crest</emphasis> into
+Dist50-OverBumps	<emphasis level="strong">50</emphasis> <emphasis level="strong">over bumps</emphasis>
+Dist50-OverCrest	<emphasis level="strong">50</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist60-OverBumps	<emphasis level="strong">60</emphasis> <emphasis level="strong">over bumps</emphasis>
+Dist60-OverCrest	<emphasis level="strong">60</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist60-OverCrest-Brake	<emphasis level="strong">60</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">brake</emphasis>
+Dist70-OverCrest	<emphasis level="strong">70</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist80-KeepLeft	<emphasis level="strong">80</emphasis> <emphasis level="strong">keep left</emphasis>
+Dist80-OverBumps	<emphasis level="strong">80</emphasis> <emphasis level="strong">over bumps</emphasis>
+Dist80-OverCrest	<emphasis level="strong">80</emphasis> <emphasis level="strong">over crest</emphasis>
+Dist80-OverCrest-KeepLeft	<emphasis level="strong">80</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">keep left</emphasis>
+Dist90-OverCrest	<emphasis level="strong">90</emphasis> <emphasis level="strong">over crest</emphasis>
+DontCut-KeepIn	<emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+DontCut-LogsInside	<emphasis level="strong">don't cut</emphasis> <emphasis level="strong">logs inside</emphasis>
+Into-Left1	into <emphasis level="strong">left 1</emphasis>
+Into-Left1-Long	into <emphasis level="strong">left 1</emphasis> <emphasis level="strong">long</emphasis>
+Into-Left1-Long-DontCut	into <emphasis level="strong">left 1</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left1-Narrows	into <emphasis level="strong">left 1</emphasis> <emphasis level="strong">narrows</emphasis>
+Into-Left1-Tightens	into <emphasis level="strong">left 1</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Left2	into <emphasis level="strong">left 2</emphasis>
+Into-Left2-Caution-DontCut	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left2-DontCut	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left2-Late	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">late</emphasis>
+Into-Left2-Long	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis>
+Into-Left2-Long-Opens	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Left2-Long-OpensLate-DontCut	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens late</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left2-Long-Tighten1	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 1</emphasis>
+Into-Left2-Long-TightensLate	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Left2-Narrows	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">narrows</emphasis>
+Into-Left2-Short-Narrows	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">narrows</emphasis>
+Into-Left2-Tighten1	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens 1</emphasis>
+Into-Left2-Tightens	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Left2-Tightens-DontCut	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left2-VeryLong-TightensLate	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Left2-Widens	into <emphasis level="strong">left 2</emphasis> <emphasis level="strong">widens</emphasis>
+Into-Left3	into <emphasis level="strong">left 3</emphasis>
+Into-Left3-Cut	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">cut</emphasis>
+Into-Left3-DontCut	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left3-Long-Tightens	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Left3-Long-TightensLate	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Left3-Narrows-Late	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">late</emphasis>
+Into-Left3-OverCrest	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Left3-Short	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">short</emphasis>
+Into-Left3-SmallCut	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">small cut</emphasis>
+Into-Left3-Tighten1	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 1</emphasis>
+Into-Left3-Tighten2-DontCut	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left3-Tighten2-Late	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+Into-Left3-Tightens	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Left3-Tightens-Cut	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">cut</emphasis>
+Into-Left3-Tightens-DontCut	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left3-Tightens-OverCrest	into <emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Left4	into <emphasis level="strong">left 4</emphasis>
+Into-Left4-Long	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis>
+Into-Left4-Long-Tightens	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Left4-Long-TightensLate	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Left4-Opens	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Left4-OverCrest	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Left4-Short	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis>
+Into-Left4-Short-DontCut	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Left4-SmallCut	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">small cut</emphasis>
+Into-Left4-Tighten1-Late	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 1</emphasis> <emphasis level="strong">late</emphasis>
+Into-Left4-Tighten2	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 2</emphasis>
+Into-Left4-Tighten3	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 3</emphasis>
+Into-Left4-Tightens-OverCrest	into <emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Left5	into <emphasis level="strong">left 5</emphasis>
+Into-Left5-Long	into <emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis>
+Into-Left5-OverCrest	into <emphasis level="strong">left 5</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Left5-Short	into <emphasis level="strong">left 5</emphasis> <emphasis level="strong">short</emphasis>
+Into-Left6	into <emphasis level="strong">left 6</emphasis>
+Into-Left6-Brake	into <emphasis level="strong">left 6</emphasis> <emphasis level="strong">brake</emphasis>
+Into-Left6-Long	into <emphasis level="strong">left 6</emphasis> <emphasis level="strong">long</emphasis>
+Into-LeftHP	into <emphasis level="strong">hairpin left</emphasis>
+Into-LeftHP-TightensLate	into <emphasis level="strong">hairpin left</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-LeftOpenHP	into <emphasis level="strong">open hairpin left</emphasis>
+Into-LeftOpenHP-TightensLate	into <emphasis level="strong">open hairpin left</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-LeftSquare-DontCut	into <emphasis level="strong">square left</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right1	into <emphasis level="strong">right 1</emphasis>
+Into-Right1-Late	into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">late</emphasis>
+Into-Right1-Long	into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">long</emphasis>
+Into-Right1-Long-DontCut	into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right1-Opens	into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Right1-VeryLong-Opens	into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Right2	into <emphasis level="strong">right 2</emphasis>
+Into-Right2-DontCut	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right2-Late	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">late</emphasis>
+Into-Right2-Long	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis>
+Into-Right2-Long-DontCut	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right2-OverCrest-DontCut	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right2-Short	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">short</emphasis>
+Into-Right2-Short-Cut	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">cut</emphasis>
+Into-Right2-Tightens	into <emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Right3	into <emphasis level="strong">right 3</emphasis>
+Into-Right3-Caution-Short-DontCut	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right3-Caution-Tighten2-Late-DontCut	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right3-DontCut-KeepIn	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Into-Right3-DontCut-Narrows	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">narrows</emphasis>
+Into-Right3-KeepIn	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">keep in</emphasis>
+Into-Right3-Long	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis>
+Into-Right3-Long-DontCut-Late	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">late</emphasis>
+Into-Right3-Long-OpensLate	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens late</emphasis>
+Into-Right3-Long-TightensLate	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Right3-Opens	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Right3-Opens-DontCut	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right3-Short	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis>
+Into-Right3-Short-Caution-DontCut	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right3-Tightens	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Right3-Tightens-DontCut	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right3-Tightens-OverCrest	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Right3-TightensLate	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Right3-VeryLong	into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">very long</emphasis>
+Into-Right4	into <emphasis level="strong">right 4</emphasis>
+Into-Right4-Dip	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">dip</emphasis>
+Into-Right4-DontCut	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right4-KeepIn	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">keep in</emphasis>
+Into-Right4-Long	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis>
+Into-Right4-Long-DontCut	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right4-Opens	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Right4-Short-DontCut	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Into-Right4-Short-OverCrest	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Right4-Tightens	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Right4-VeryLong	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis>
+Into-Right4-VeryLong-Tighten3-Late	into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">late</emphasis>
+Into-Right5	into <emphasis level="strong">right 5</emphasis>
+Into-Right5-KeepIn	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">keep in</emphasis>
+Into-Right5-Long	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis>
+Into-Right5-Long-Tighten3	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 3</emphasis>
+Into-Right5-Long-Tighten4	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 4</emphasis>
+Into-Right5-Long-TightensLate	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Right5-Opens	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">opens</emphasis>
+Into-Right5-OverCrest	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">over crest</emphasis>
+Into-Right5-OverCrest-Cut	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">cut</emphasis>
+Into-Right5-Short	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">short</emphasis>
+Into-Right5-Tightens	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">tightens</emphasis>
+Into-Right5-Tightens-KeepIn	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">keep in</emphasis>
+Into-Right5-VeryLong-TightensLate	into <emphasis level="strong">right 5</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Right6	into <emphasis level="strong">right 6</emphasis>
+Into-Right6-KeepOut	into <emphasis level="strong">right 6</emphasis> <emphasis level="strong">keep out</emphasis>
+Into-Right6-Long	into <emphasis level="strong">right 6</emphasis> <emphasis level="strong">long</emphasis>
+Into-RightHP	into <emphasis level="strong">hairpin right</emphasis>
+Into-RightHP-TightensLate	into <emphasis level="strong">hairpin right</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-RightOpenHP	into <emphasis level="strong">open hairpin right</emphasis>
+Into-RightOpenHP-TightensLate	into <emphasis level="strong">open hairpin right</emphasis> <emphasis level="strong">tightens late</emphasis>
+Into-Sudden-LeftAcuteHP	into <emphasis level="strong">sudden</emphasis> <emphasis level="strong">acute hairpin left</emphasis>
+Into-Sudden-Right1	into <emphasis level="strong">sudden</emphasis> <emphasis level="strong">right 1</emphasis>
+Into-Sudden-RightHP-TightensLate	into <emphasis level="strong">sudden</emphasis> <emphasis level="strong">hairpin right</emphasis> <emphasis level="strong">tightens late</emphasis>
+Junction-GoLeft	<emphasis level="strong">junction</emphasis> <emphasis level="strong">go left</emphasis>
+Junction-GoRight	<emphasis level="strong">junction</emphasis> <emphasis level="strong">go right</emphasis>
+Junction-LeftSquare	<emphasis level="strong">junction</emphasis> <emphasis level="strong">square left</emphasis>
+Junction-RightSquare	<emphasis level="strong">junction</emphasis> <emphasis level="strong">square right</emphasis>
+KeepIn-OverCrest	<emphasis level="strong">keep in</emphasis> <emphasis level="strong">over crest</emphasis>
+KeepRight-Into-Left5-Short	<emphasis level="strong">keep right</emphasis> into <emphasis level="strong">left 5</emphasis> <emphasis level="strong">short</emphasis>
+Kinks-Dist150	<emphasis level="strong">kinks</emphasis> <emphasis level="strong">150</emphasis>
+Kinks-IntoDip	<emphasis level="strong">kinks</emphasis> <emphasis level="strong">into dip</emphasis>
+Kinks-OverCrest	<emphasis level="strong">kinks</emphasis> <emphasis level="strong">over crest</emphasis>
+KinksStartingLeft-OverCrest	<emphasis level="strong">kinks starting left</emphasis> <emphasis level="strong">over crest</emphasis>
+KinksStartingLeft-OverCrest-Narrows	<emphasis level="strong">kinks starting left</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">narrows</emphasis>
+KinksStartingRight-Cut	<emphasis level="strong">kinks starting right</emphasis> <emphasis level="strong">cut</emphasis>
+Late-Left2-DontCut	<emphasis level="strong">late</emphasis> <emphasis level="strong">left 2</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left1-Long-Widens	<emphasis level="strong">left 1</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">widens</emphasis>
+Left1-Tightens	<emphasis level="strong">left 1</emphasis> <emphasis level="strong">tightens</emphasis>
+Left2-Long	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis>
+Left2-Long-Opens	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Left2-Long-OpensLate	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens late</emphasis>
+Left2-Long-SmallCut	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">small cut</emphasis>
+Left2-Opens	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">opens</emphasis>
+Left2-Opens-OverCrest	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">over crest</emphasis>
+Left2-OpensLate	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">opens late</emphasis>
+Left2-Short	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">short</emphasis>
+Left2-Tighten1	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens 1</emphasis>
+Left2-Tightens	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens</emphasis>
+Left2-TightensLate-OverCrest-DontCut	<emphasis level="strong">left 2</emphasis> <emphasis level="strong">tightens late</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left3-AfterJunction-Narrows-OverCrest	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">after junction</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">over crest</emphasis>
+Left3-Brake	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">brake</emphasis>
+Left3-DontCut	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left3-DontCut-And	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">don't cut</emphasis> and
+Left3-Long	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis>
+Left3-Long-DontCut-TightensLate	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">tightens late</emphasis>
+Left3-Long-Opens	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Left3-Long-OpensLate	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens late</emphasis>
+Left3-Long-SmallCut	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">small cut</emphasis>
+Left3-Long-Tighten2	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 2</emphasis>
+Left3-Long-TightensLate	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Left3-Long-Widens-And-TightensLate	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">widens</emphasis> and <emphasis level="strong">tightens late</emphasis>
+Left3-Narrows-OverBridge	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">over bridge</emphasis>
+Left3-Opens	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">opens</emphasis>
+Left3-Opens-DontCut-Late	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">late</emphasis>
+Left3-Opens-Long	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">long</emphasis>
+Left3-OverCrest	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">over crest</emphasis>
+Left3-Short	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">short</emphasis>
+Left3-Short-SmallCut	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">small cut</emphasis>
+Left3-Tighten2	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens 2</emphasis>
+Left3-Tightens	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Left3-Tightens-DontCut	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left3-Tightens-DontCut-Late	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">late</emphasis>
+Left3-TightensLate	<emphasis level="strong">left 3</emphasis> <emphasis level="strong">tightens late</emphasis>
+Left4-Cut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">cut</emphasis>
+Left4-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-Long	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis>
+Left4-Long-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-Long-Opens	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Left4-Long-OverCrest	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over crest</emphasis>
+Left4-Long-Tighten3	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 3</emphasis>
+Left4-Long-Tighten3-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-Long-Tightens-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-Narrows	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">narrows</emphasis>
+Left4-Opens-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-OverCrest	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">over crest</emphasis>
+Left4-OverCrest-DontCut-KeepIn	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Left4-Short	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis>
+Left4-Short-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-Short-KeepIn	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">keep in</emphasis>
+Left4-Tighten3	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 3</emphasis>
+Left4-Tighten3-Caution-DontCut-KeepIn	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Left4-Tighten3-OverCrest-VeryLong	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">very long</emphasis>
+Left4-Tightens	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens</emphasis>
+Left4-Tightens-KeepIn	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">keep in</emphasis>
+Left4-VeryLong	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">very long</emphasis>
+Left4-VeryLong-DontCut	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left4-VeryLong-Opens	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">opens</emphasis>
+Left4-VeryLong-OverCrest-KeepIn	<emphasis level="strong">left 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">keep in</emphasis>
+Left5-And	<emphasis level="strong">left 5</emphasis> and
+Left5-Brake	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">brake</emphasis>
+Left5-DontCut	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left5-Into	<emphasis level="strong">left 5</emphasis> into
+Left5-Long	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis>
+Left5-Long-OverBumps	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over bumps</emphasis>
+Left5-Long-OverCrest	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over crest</emphasis>
+Left5-Long-Tightens	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Left5-Long-TightensLate	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Left5-Opens	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">opens</emphasis>
+Left5-OverCrest	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">over crest</emphasis>
+Left5-Short-OverCrest	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">over crest</emphasis>
+Left5-Tighten3-Late	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">late</emphasis>
+Left5-Tighten4	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">tightens 4</emphasis>
+Left5-Tighten4-Brake	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">tightens 4</emphasis> <emphasis level="strong">brake</emphasis>
+Left5-Tightens-OverCrest	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">over crest</emphasis>
+Left5-VeryLong	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">very long</emphasis>
+Left5-VeryLong-Tighten4	<emphasis level="strong">left 5</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens 4</emphasis>
+Left6-DontCut-Short	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">short</emphasis>
+Left6-KeepIn	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">keep in</emphasis>
+Left6-KeepOut	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">keep out</emphasis>
+Left6-Long	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">long</emphasis>
+Left6-Long-DontCut	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left6-Long-OverBump-DontCut	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over bump</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left6-OverBump	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">over bump</emphasis>
+Left6-OverCrest	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">over crest</emphasis>
+Left6-Short-DontCut	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Left6-Tighten5	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">tightens 5</emphasis>
+Left6-VeryLong-Tightens	<emphasis level="strong">left 6</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens</emphasis>
+LeftFlat-DontCut	<emphasis level="strong">flat left</emphasis> <emphasis level="strong">don't cut</emphasis>
+LeftFlat-IntoDip	<emphasis level="strong">flat left</emphasis> <emphasis level="strong">into dip</emphasis>
+LeftFlat-KeepLeft	<emphasis level="strong">flat left</emphasis> <emphasis level="strong">keep left</emphasis>
+LeftFlat-Long	<emphasis level="strong">flat left</emphasis> <emphasis level="strong">long</emphasis>
+LeftFlat-OverBridge	<emphasis level="strong">flat left</emphasis> <emphasis level="strong">over bridge</emphasis>
+LeftFlat-OverCrest	<emphasis level="strong">flat left</emphasis> <emphasis level="strong">over crest</emphasis>
+LeftHP-Opens-UpHill	<emphasis level="strong">hairpin left</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">uphill</emphasis>
+LeftHP-TightensLate	<emphasis level="strong">hairpin left</emphasis> <emphasis level="strong">tightens late</emphasis>
+LeftKink-KeepRight	<emphasis level="strong">kink left</emphasis> <emphasis level="strong">keep right</emphasis>
+LeftOpenHP-Narrows-Late	<emphasis level="strong">open hairpin left</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">late</emphasis>
+Opens-And-Tightens	<emphasis level="strong">opens</emphasis> and <emphasis level="strong">tightens</emphasis>
+Opens-And-TightensLate	<emphasis level="strong">opens</emphasis> and <emphasis level="strong">tightens late</emphasis>
+Over-Finish	over <emphasis level="strong">finish</emphasis>
+Over-JumpMaybe	over <emphasis level="strong">jump maybe</emphasis>
+OverBump-Into-Right4-DontCut	<emphasis level="strong">over bump</emphasis> into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+OverCrest-Dist80	<emphasis level="strong">over crest</emphasis> <emphasis level="strong">80</emphasis>
+OverCrest-Into-Right1-Long-Opens	<emphasis level="strong">over crest</emphasis> into <emphasis level="strong">right 1</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+OverCrest-Into-Right3-Short	<emphasis level="strong">over crest</emphasis> into <emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis>
+OverCrest-Into-Right4-Long	<emphasis level="strong">over crest</emphasis> into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis>
+OverCrest-Into-Right4-Long-Opens	<emphasis level="strong">over crest</emphasis> into <emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+OverCrest-Into-Right5	<emphasis level="strong">over crest</emphasis> into <emphasis level="strong">right 5</emphasis>
+Right1-DontCut	<emphasis level="strong">right 1</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right1-Long-Tightens	<emphasis level="strong">right 1</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Right1-Long-TightensLate	<emphasis level="strong">right 1</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right2-Caution-Tightens-OverBridge	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">over bridge</emphasis>
+Right2-DontCut	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right2-KeepIn	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">keep in</emphasis>
+Right2-Long	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis>
+Right2-Long-Opens	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Right2-Long-Opens-DontCut	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right2-Opens	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">opens</emphasis>
+Right2-Opens-DontCut	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right2-Opens-Long	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">long</emphasis>
+Right2-OpensLate	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">opens late</emphasis>
+Right2-SmallCut	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">small cut</emphasis>
+Right2-Tighten1	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens 1</emphasis>
+Right2-Tightens	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens</emphasis>
+Right2-Tightens-DontCut	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right2-TightensLate	<emphasis level="strong">right 2</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right3-Caution-DontCut-KeepIn	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Right3-DontCut	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right3-KeepIn	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">keep in</emphasis>
+Right3-Long	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis>
+Right3-Long-Narrows-TightensLate	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">narrows</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right3-Long-Opens	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Right3-Long-Tighten2-Late	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+Right3-Long-TightensLate	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right3-Long-TightensLate-SmallCut	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis> <emphasis level="strong">small cut</emphasis>
+Right3-Opens	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">opens</emphasis>
+Right3-OverCrest-Widens	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">widens</emphasis>
+Right3-Short	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis>
+Right3-Short-DontCut-KeepIn	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Right3-Short-KeepIn	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">keep in</emphasis>
+Right3-Tighten2-Late	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+Right3-Tightens	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis>
+Right3-Tightens-DontCut	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right3-Tightens-IntoDip	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">into dip</emphasis>
+Right3-Tightens-SmallCut	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">small cut</emphasis>
+Right3-TightensLate-DontCut	<emphasis level="strong">right 3</emphasis> <emphasis level="strong">tightens late</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right4-BadCamber	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">bad camber</emphasis>
+Right4-Brake	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">brake</emphasis>
+Right4-Caution-IntoDip	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">caution</emphasis> <emphasis level="strong">into dip</emphasis>
+Right4-DontCut	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right4-DontCut-Late	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">don't cut</emphasis> <emphasis level="strong">late</emphasis>
+Right4-KeepIn	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">keep in</emphasis>
+Right4-Long	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis>
+Right4-Long-Tighten1-Late	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens 1</emphasis> <emphasis level="strong">late</emphasis>
+Right4-Long-Tightens	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens</emphasis>
+Right4-Long-TightensLate	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right4-Opens	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">opens</emphasis>
+Right4-OverBumps	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">over bumps</emphasis>
+Right4-OverCrest	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">over crest</emphasis>
+Right4-Short	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">short</emphasis>
+Right4-Short-KeepIn	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">keep in</emphasis>
+Right4-Short-OverCrest	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">over crest</emphasis>
+Right4-SmallCut	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">small cut</emphasis>
+Right4-Tighten3-Late	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">late</emphasis>
+Right4-Tighten3-Late-DontCut	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">late</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right4-Tightens	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens</emphasis>
+Right4-Tightens-DontCut	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right4-Tightens-OverCrest	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens</emphasis> <emphasis level="strong">over crest</emphasis>
+Right4-VeryLong-OverCrest	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">over crest</emphasis>
+Right4-VeryLong-TightensLate	<emphasis level="strong">right 4</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right5-Brake	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">brake</emphasis>
+Right5-DontCut	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right5-KeepIn	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">keep in</emphasis>
+Right5-KeepOut	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">keep out</emphasis>
+Right5-Long	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis>
+Right5-Long-Opens	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis>
+Right5-Long-Opens-OverCrest	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">opens</emphasis> <emphasis level="strong">over crest</emphasis>
+Right5-Long-OverCrest-KeepIn	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">long</emphasis> <emphasis level="strong">over crest</emphasis> <emphasis level="strong">keep in</emphasis>
+Right5-Short	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">short</emphasis>
+Right5-SlowDown	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">slow down</emphasis>
+Right5-VeryLong	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">very long</emphasis>
+Right5-VeryLong-TightensLate	<emphasis level="strong">right 5</emphasis> <emphasis level="strong">very long</emphasis> <emphasis level="strong">tightens late</emphasis>
+Right6-Brake	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">brake</emphasis>
+Right6-DontCut	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right6-KeepIn	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">keep in</emphasis>
+Right6-Long	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">long</emphasis>
+Right6-OverCrest	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">over crest</emphasis>
+Right6-Short	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">short</emphasis>
+Right6-Short-DontCut	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">short</emphasis> <emphasis level="strong">don't cut</emphasis>
+Right6-ThroughTunnel	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">through tunnel</emphasis>
+Right6-Tightens	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">tightens</emphasis>
+Right6-TightensLate	<emphasis level="strong">right 6</emphasis> <emphasis level="strong">tightens late</emphasis>
+RightFlat-OverBridge	<emphasis level="strong">flat right</emphasis> <emphasis level="strong">over bridge</emphasis>
+RightFlat-OverCrest	<emphasis level="strong">flat right</emphasis> <emphasis level="strong">over crest</emphasis>
+RightHP-Opens	<emphasis level="strong">hairpin right</emphasis> <emphasis level="strong">opens</emphasis>
+RightKink-Into	<emphasis level="strong">kink right</emphasis> into
+SlowDown-And-StopAtMarshals	<emphasis level="strong">slow down</emphasis> and <emphasis level="strong">stop at marshals</emphasis>
+SlowDown-Right4-Tightens	<emphasis level="strong">slow down</emphasis> <emphasis level="strong">right 4</emphasis> <emphasis level="strong">tightens</emphasis>
+SlowDown-StopAtMarshals	<emphasis level="strong">slow down</emphasis> <emphasis level="strong">stop at marshals</emphasis>
+SmallCut-KeepIn	<emphasis level="strong">small cut</emphasis> <emphasis level="strong">keep in</emphasis>
+Sudden-Right4	<emphasis level="strong">sudden</emphasis> <emphasis level="strong">right 4</emphasis>
+Tighten2-Late	<emphasis level="strong">tightens 2</emphasis> <emphasis level="strong">late</emphasis>
+Tighten3-Late	<emphasis level="strong">tightens 3</emphasis> <emphasis level="strong">late</emphasis>
+Tighten4-Late-KeepIn	<emphasis level="strong">tightens 4</emphasis> <emphasis level="strong">late</emphasis> <emphasis level="strong">keep in</emphasis>

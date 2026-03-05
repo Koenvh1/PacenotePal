@@ -35,7 +35,7 @@ for key, value in data.items():
         print("skip")
         continue
 
-    synthesis_input = texttospeech.SynthesisInput(text=value)
+    synthesis_input = texttospeech.SynthesisInput(ssml=value)
 
     # Select the type of audio file you want returned
     audio_config = texttospeech.AudioConfig(

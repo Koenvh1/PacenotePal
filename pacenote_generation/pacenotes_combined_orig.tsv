@@ -1,604 +1,604 @@
-AfterEnd-Brake-Right1	na de finish, rem, 1 rechts
-AfterEnd-Left3-AtTheJunction-Narrows-OverCrest	na de finish, 3 links, , versmalt, over kam
-AfterEnd-Right3-Tightens	na de finish, 3 rechts, sluit
-AfterFinish-Brake-Left4-Tighten2	, rem, 4 links, sluit 2
-And-Caution-Right5	en, attentie, 5 rechts
-And-KinksStartingLeft	en, kronkel begint links
-And-KinksStartingLeft-DontCut	en, kronkel begint links, niet snijden
-And-KinksStartingLeft-OverCrest	en, kronkel begint links, over kam
-And-KinksStartingRight	en, kronkel begint rechts
-And-KinksStartingRight-Brake	en, kronkel begint rechts, rem
-And-KinksStartingRight-OverBumps	en, kronkel begint rechts, over hobbels
-And-Left1-DontCut	en, 1 links, niet snijden
-And-Left2	en, 2 links
-And-Left2-Long	en, 2 links, lang
-And-Left2-Long-TightensLate	en, 2 links, lang, sluit laat
-And-Left2-Opens	en, 2 links, opent
-And-Left2-OpensLate	en, 2 links, opent laat
-And-Left2-Short	en, 2 links, kort
-And-Left2-Tightens	en, 2 links, sluit
-And-Left2-Tightens-Caution-ThroughGate	en, 2 links, sluit, attentie, door poort
-And-Left2-TightensLate	en, 2 links, sluit laat
-And-Left3	en, 3 links
-And-Left3-Cut	en, 3 links, snijden
-And-Left3-DontCut	en, 3 links, niet snijden
-And-Left3-Long	en, 3 links, lang
-And-Left3-Long-TightensLate	en, 3 links, lang, sluit laat
-And-Left3-Opens	en, 3 links, opent
-And-Left3-Opens-VeryLong	en, 3 links, opent, extra lang
-And-Left3-Short	en, 3 links, kort
-And-Left3-Tighten2	en, 3 links, sluit 2
-And-Left3-Tighten2-Late	en, 3 links, sluit 2, laat
-And-Left3-Tightens	en, 3 links, sluit
-And-Left3-TightensLate	en, 3 links, sluit laat
-And-Left4	en, 4 links
-And-Left4-Brake	en, 4 links, rem
-And-Left4-Caution-LogsOutside	en, 4 links, attentie, boomstammen buiten
-And-Left4-DontCut	en, 4 links, niet snijden
-And-Left4-Long	en, 4 links, lang
-And-Left4-Long-DontCut	en, 4 links, lang, niet snijden
-And-Left4-Long-Opens	en, 4 links, lang, opent
-And-Left4-OverCrest	en, 4 links, over kam
-And-Left4-Short	en, 4 links, kort
-And-Left4-Short-DontCut	en, 4 links, kort, niet snijden
-And-Left4-Tightens	en, 4 links, sluit
-And-Left4-VeryLong	en, 4 links, extra lang
-And-Left5	en, 5 links
-And-Left5-Brake	en, 5 links, rem
-And-Left5-DontCut	en, 5 links, niet snijden
-And-Left5-Long	en, 5 links, lang
-And-Left5-Long-Tighten4-Caution-BadCamber	en, 5 links, lang, sluit 4, attentie, slechte camber
-And-Left5-OverCrest	en, 5 links, over kam
-And-Left5-OverCrest-GoStraight	en, 5 links, over kam, rechtdoor
-And-Left5-Short	en, 5 links, kort
-And-Left5-Tighten4-Late	en, 5 links, sluit 4, laat
-And-Left5-VeryLong-Tighten4-Late	en, 5 links, extra lang, sluit 4, laat
-And-Left6	en, 6 links
-And-Left6-Caution-DitchInside	en, 6 links, attentie, greppel binnen
-And-LeftFlat	en, vol links
-And-LeftFlat-Long-OverCrest-KeepOut	en, vol links, lang, over kam, houd buiten
-And-LeftKink	en, kronkel links
-And-Right2	en, 2 rechts
-And-Right2-Caution-DitchOutside	en, 2 rechts, attentie, greppel buiten
-And-Right2-Late	en, 2 rechts, laat
-And-Right2-Long	en, 2 rechts, lang
-And-Right2-Long-Opens	en, 2 rechts, lang, opent
-And-Right2-Narrows	en, 2 rechts, versmalt
-And-Right2-Opens	en, 2 rechts, opent
-And-Right2-ThroughTunnel	en, 2 rechts, door tunnel
-And-Right2-Tightens	en, 2 rechts, sluit
-And-Right2-TightensLate-DontCut	en, 2 rechts, sluit laat, niet snijden
-And-Right3	en, 3 rechts
-And-Right3-Cut	en, 3 rechts, snijden
-And-Right3-KeepIn	en, 3 rechts, houd binnen
-And-Right3-Long	en, 3 rechts, lang
-And-Right3-Narrows-DontCut	en, 3 rechts, versmalt, niet snijden
-And-Right3-Opens	en, 3 rechts, opent
-And-Right3-OverCrest	en, 3 rechts, over kam
-And-Right3-Short	en, 3 rechts, kort
-And-Right3-Short-KeepIn	en, 3 rechts, kort, houd binnen
-And-Right3-Tighten2-Late	en, 3 rechts, sluit 2, laat
-And-Right3-Tightens	en, 3 rechts, sluit
-And-Right3-TightensLate-SmallCut	en, 3 rechts, sluit laat, beetje snijden
-And-Right3-VeryLong	en, 3 rechts, extra lang
-And-Right3-VeryLong-Opens	en, 3 rechts, extra lang, opent
-And-Right3-VeryLong-TightensLate	en, 3 rechts, extra lang, sluit laat
-And-Right4	en, 4 rechts
-And-Right4-BigCut	en, 4 rechts, ruim snijden
-And-Right4-DontCut	en, 4 rechts, niet snijden
-And-Right4-Long	en, 4 rechts, lang
-And-Right4-Long-KeepIn	en, 4 rechts, lang, houd binnen
-And-Right4-Long-Opens	en, 4 rechts, lang, opent
-And-Right4-Long-OpensLate	en, 4 rechts, lang, opent laat
-And-Right4-Long-OverCrest	en, 4 rechts, lang, over kam
-And-Right4-Long-Tighten2-Late	en, 4 rechts, lang, sluit 2, laat
-And-Right4-Narrows	en, 4 rechts, versmalt
-And-Right4-Narrows-OverBridge	en, 4 rechts, versmalt, over brug
-And-Right4-Opens	en, 4 rechts, opent
-And-Right4-OverBumps	en, 4 rechts, over hobbels
-And-Right4-OverCrest	en, 4 rechts, over kam
-And-Right4-Short	en, 4 rechts, kort
-And-Right4-Tightens	en, 4 rechts, sluit
-And-Right4-TightensLate	en, 4 rechts, sluit laat
-And-Right4-VeryLong	en, 4 rechts, extra lang
-And-Right4-VeryLong-TightensLate	en, 4 rechts, extra lang, sluit laat
-And-Right4-Widens	en, 4 rechts, verruimt
-And-Right5	en, 5 rechts
-And-Right5-Brake	en, 5 rechts, rem
-And-Right5-Cut	en, 5 rechts, snijden
-And-Right5-KeepIn	en, 5 rechts, houd binnen
-And-Right5-Long	en, 5 rechts, lang
-And-Right5-Long-OverBumps	en, 5 rechts, lang, over hobbels
-And-Right5-Short	en, 5 rechts, kort
-And-Right5-Tighten4-Long	en, 5 rechts, sluit 4, lang
-And-Right6	en, 6 rechts
-And-Right6-DontCut-Into	en, 6 rechts, niet snijden, naar
-And-Right6-Long	en, 6 rechts, lang
-And-Right6-Short	en, 6 rechts, kort
-And-Right6-VeryLong-Tighten5-Late	en, 6 rechts, extra lang, sluit 5, laat
-And-RightFlat	en, vol rechts
-And-RightKink	en, kronkel rechts
-And-RightSquare-DontCut	en, haaks rechts, niet snijden
-And-Sudden-Right3-KeepIn	en, directe, 3 rechts, houd binnen
-And-Sudden-Right3-Short	en, directe, 3 rechts, kort
-And-Sudden-Right4-Opens	en, directe, 4 rechts, opent
-And-Sudden-Right5-Short	en, directe, 5 rechts, kort
-And-TightensLate	en, sluit laat
-Brake-And-StopAtMarshals	rem, en, stop bij de marshals
-Brake-Into-Left1-Long	rem, naar, 1 links, lang
-Brake-Into-Left2	rem, naar, 2 links
-Brake-Into-Left3-Tightens	rem, naar, 3 links, sluit
-Brake-Into-LeftHP	rem, naar, haarspeld links
-Brake-Into-Right1-Opens	rem, naar, 1 rechts, opent
-Brake-Into-Right2-Tightens	rem, naar, 2 rechts, sluit
-Brake-Into-Right2-VeryLong-TightensLate	rem, naar, 2 rechts, extra lang, sluit laat
-Brake-Into-Right3	rem, naar, 3 rechts
-Brake-Into-Right4-Long	rem, naar, 4 rechts, lang
-Brake-Into-RightHP	rem, naar, haarspeld rechts
-Brake-KeepRight-Right4	rem, houd rechts, 4 rechts
-Brake-Left1	rem, 1 links
-Brake-Left2-Long	rem, 2 links, lang
-Brake-Left3	rem, 3 links
-Brake-Left3-Tighten2	rem, 3 links, sluit 2
-Brake-Left3-Tightens	rem, 3 links, sluit
-Brake-Left4	rem, 4 links
-Brake-Left4-Tightens	rem, 4 links, sluit
-Brake-LeftAcuteHP	rem, scherpe haarspeld links
-Brake-LeftHP	rem, haarspeld links
-Brake-Right2-Long	rem, 2 rechts, lang
-Brake-Right2-Opens	rem, 2 rechts, opent
-Brake-Right2-Tighten1	rem, 2 rechts, sluit 1
-Brake-Right3-Long-TightensLate	rem, 3 rechts, lang, sluit laat
-Brake-Right4	rem, 4 rechts
-Brake-Right5	rem, 5 rechts
-Brake-Right5-Tightens	rem, 5 rechts, sluit
-Brake-RightHP	rem, haarspeld rechts
-Caution-BadCamber	attentie, slechte camber
-Caution-Brake	attentie, rem
-Caution-Brake-Left5	attentie, rem, 5 links
-Caution-Brake-Left5-OverCrest	attentie, rem, 5 links, over kam
-Caution-Brake-Left6	attentie, rem, 6 links
-Caution-Brake-LeftKink-Into	attentie, rem, kronkel links, naar
-Caution-Brake-Right3	attentie, rem, 3 rechts
-Caution-Brake-Right5	attentie, rem, 5 rechts
-Caution-Brake-Right5-Tightens	attentie, rem, 5 rechts, sluit
-Caution-Brake-RightChicane-Narrows	attentie, rem, chicane rechts, versmalt
-Caution-Brake-RightChicaneEntry	attentie, rem, chicane ingang rechts
-Caution-Bumps	attentie, hobbels
-Caution-GoRight-OverJumpSmall	attentie, rechtsaf, over kleine sprong
-Caution-HeavyBrake-Left1-DontCut	attentie, rem hard, 1 links, niet snijden
-Caution-HeavyBrake-RightHP-Narrows	attentie, rem hard, haarspeld rechts, versmalt
-Caution-Into-Right4-Long-Tightens	attentie, naar, 4 rechts, lang, sluit
-Caution-Into-Right4-VeryLong-Tightens	attentie, naar, 4 rechts, extra lang, sluit
-Caution-KeepIn	attentie, houd binnen
-Caution-KeepRight-Narrows	attentie, houd rechts, versmalt
-Caution-KinksStartingLeft-OverCrest	attentie, kronkel begint links, over kam
-Caution-KinksStartingRight-OverBumps	attentie, kronkel begint rechts, over hobbels
-Caution-Left2-Late-KeepIn	attentie, 2 links, laat, houd binnen
-Caution-Left2-Short-DontCut	attentie, 2 links, kort, niet snijden
-Caution-Left2-Tightens	attentie, 2 links, sluit
-Caution-Left3	attentie, 3 links
-Caution-Left3-AtJunction-Narrows-OverCrest	attentie, 3 links, bij splitsing, versmalt, over kam
-Caution-Left3-DontCut	attentie, 3 links, niet snijden
-Caution-Left3-KeepIn	attentie, 3 links, houd binnen
-Caution-Left3-Long-Tightens	attentie, 3 links, lang, sluit
-Caution-Left3-Narrows-OverBridge	attentie, 3 links, versmalt, over brug
-Caution-Left3-Tighten2-Late	attentie, 3 links, sluit 2, laat
-Caution-Left3-Tightens	attentie, 3 links, sluit
-Caution-Left4	attentie, 4 links
-Caution-Left4-Brake	attentie, 4 links, rem
-Caution-Left4-DontCut	attentie, 4 links, niet snijden
-Caution-Left4-Long-Tightens-KeepIn	attentie, 4 links, lang, sluit, houd binnen
-Caution-Left5	attentie, 5 links
-Caution-Left5-Long-DontCut	attentie, 5 links, lang, niet snijden
-Caution-Left6-Brake	attentie, 6 links, rem
-Caution-LeftHP	attentie, haarspeld links
-Caution-LeftHP-Tightens	attentie, haarspeld links, sluit
-Caution-LeftHP-TightensLate	attentie, haarspeld links, sluit laat
-Caution-LeftSquare-DontCut	attentie, haaks links, niet snijden
-Caution-LogsInside	attentie, boomstammen binnen
-Caution-OverCrest-Into-Right4	attentie, over kam, naar, 4 rechts
-Caution-Right2	attentie, 2 rechts
-Caution-Right3	attentie, 3 rechts
-Caution-Right3-Brake	attentie, 3 rechts, rem
-Caution-Right3-Long-Narrows-TightensLate	attentie, 3 rechts, lang, versmalt, sluit laat
-Caution-Right3-Narrows	attentie, 3 rechts, versmalt
-Caution-Right3-Opens	attentie, 3 rechts, opent
-Caution-Right3-OverCrest	attentie, 3 rechts, over kam
-Caution-Right3-Tighten2	attentie, 3 rechts, sluit 2
-Caution-Right4	attentie, 4 rechts
-Caution-Right4-Brake	attentie, 4 rechts, rem
-Caution-Right4-Long-Tightens	attentie, 4 rechts, lang, sluit
-Caution-Right4-Opens	attentie, 4 rechts, opent
-Caution-Right4-Tighten2-Late	attentie, 4 rechts, sluit 2, laat
-Caution-Right5	attentie, 5 rechts
-Caution-Right5-Brake	attentie, 5 rechts, rem
-Caution-Right5-Bumps	attentie, 5 rechts, hobbels
-Caution-Right5-KeepIn	attentie, 5 rechts, houd binnen
-Caution-Right5-Long-Tighten3-Late	attentie, 5 rechts, lang, sluit 3, laat
-Caution-Right5-OverBumps	attentie, 5 rechts, over hobbels
-Caution-Right5-OverCrest-DontCut-KeepIn	attentie, 5 rechts, over kam, niet snijden, houd binnen
-Caution-Right5-Tightens	attentie, 5 rechts, sluit
-Caution-Right6-Into	attentie, 6 rechts, naar
-Caution-ThroughGate	attentie, door poort
-Crest-Into	kam, naar
-Dip-Left3-KeepIn	daling, 3 links, houd binnen
-Dist100-OverCrest	100, over kam
-Dist130-OverCrest	130, over kam
-Dist170-Widens	170, verruimt
-Dist200-Kinks	200, kronkels
-Dist200-OverCrest	200, over kam
-Dist250-Kinks	250, kronkels
-Dist250-OverBumps	250, over hobbels
-Dist300-Kinks	300, kronkels
-Dist40-Brake	40, rem
-Dist40-Caution-Brake-OverCrest	40, attentie, rem, over kam
-Dist40-KeepRight	40, houd rechts
-Dist40-Narrows	40, versmalt
-Dist40-OverCrest	40, over kam
-Dist40-OverCrest-Into	40, over kam, naar
-Dist50-OverBumps	50, over hobbels
-Dist50-OverCrest	50, over kam
-Dist60-OverBumps	60, over hobbels
-Dist60-OverCrest	60, over kam
-Dist60-OverCrest-Brake	60, over kam, rem
-Dist70-OverCrest	70, over kam
-Dist80-KeepLeft	80, houd links
-Dist80-OverBumps	80, over hobbels
-Dist80-OverCrest	80, over kam
-Dist80-OverCrest-KeepLeft	80, over kam, houd links
-Dist90-OverCrest	90, over kam
-DontCut-KeepIn	niet snijden, houd binnen
-DontCut-LogsInside	niet snijden, boomstammen binnen
-Into-Left1	naar, 1 links
-Into-Left1-Long	naar, 1 links, lang
-Into-Left1-Long-DontCut	naar, 1 links, lang, niet snijden
-Into-Left1-Narrows	naar, 1 links, versmalt
-Into-Left1-Tightens	naar, 1 links, sluit
-Into-Left2	naar, 2 links
-Into-Left2-Caution-DontCut	naar, 2 links, attentie, niet snijden
-Into-Left2-DontCut	naar, 2 links, niet snijden
-Into-Left2-Late	naar, 2 links, laat
-Into-Left2-Long	naar, 2 links, lang
-Into-Left2-Long-Opens	naar, 2 links, lang, opent
-Into-Left2-Long-OpensLate-DontCut	naar, 2 links, lang, opent laat, niet snijden
-Into-Left2-Long-Tighten1	naar, 2 links, lang, sluit 1
-Into-Left2-Long-TightensLate	naar, 2 links, lang, sluit laat
-Into-Left2-Narrows	naar, 2 links, versmalt
-Into-Left2-Short-Narrows	naar, 2 links, kort, versmalt
-Into-Left2-Tighten1	naar, 2 links, sluit 1
-Into-Left2-Tightens	naar, 2 links, sluit
-Into-Left2-Tightens-DontCut	naar, 2 links, sluit, niet snijden
-Into-Left2-VeryLong-TightensLate	naar, 2 links, extra lang, sluit laat
-Into-Left2-Widens	naar, 2 links, verruimt
-Into-Left3	naar, 3 links
-Into-Left3-Cut	naar, 3 links, snijden
-Into-Left3-DontCut	naar, 3 links, niet snijden
-Into-Left3-Long-Tightens	naar, 3 links, lang, sluit
-Into-Left3-Long-TightensLate	naar, 3 links, lang, sluit laat
-Into-Left3-Narrows-Late	naar, 3 links, versmalt, laat
-Into-Left3-OverCrest	naar, 3 links, over kam
-Into-Left3-Short	naar, 3 links, kort
-Into-Left3-SmallCut	naar, 3 links, beetje snijden
-Into-Left3-Tighten1	naar, 3 links, sluit 1
-Into-Left3-Tighten2-DontCut	naar, 3 links, sluit 2, niet snijden
-Into-Left3-Tighten2-Late	naar, 3 links, sluit 2, laat
-Into-Left3-Tightens	naar, 3 links, sluit
-Into-Left3-Tightens-Cut	naar, 3 links, sluit, snijden
-Into-Left3-Tightens-DontCut	naar, 3 links, sluit, niet snijden
-Into-Left3-Tightens-OverCrest	naar, 3 links, sluit, over kam
-Into-Left4	naar, 4 links
-Into-Left4-Long	naar, 4 links, lang
-Into-Left4-Long-Tightens	naar, 4 links, lang, sluit
-Into-Left4-Long-TightensLate	naar, 4 links, lang, sluit laat
-Into-Left4-Opens	naar, 4 links, opent
-Into-Left4-OverCrest	naar, 4 links, over kam
-Into-Left4-Short	naar, 4 links, kort
-Into-Left4-Short-DontCut	naar, 4 links, kort, niet snijden
-Into-Left4-SmallCut	naar, 4 links, beetje snijden
-Into-Left4-Tighten1-Late	naar, 4 links, sluit 1, laat
-Into-Left4-Tighten2	naar, 4 links, sluit 2
-Into-Left4-Tighten3	naar, 4 links, sluit 3
-Into-Left4-Tightens-OverCrest	naar, 4 links, sluit, over kam
-Into-Left5	naar, 5 links
-Into-Left5-Long	naar, 5 links, lang
-Into-Left5-OverCrest	naar, 5 links, over kam
-Into-Left5-Short	naar, 5 links, kort
-Into-Left6	naar, 6 links
-Into-Left6-Brake	naar, 6 links, rem
-Into-Left6-Long	naar, 6 links, lang
-Into-LeftHP	naar, haarspeld links
-Into-LeftHP-TightensLate	naar, haarspeld links, sluit laat
-Into-LeftOpenHP	naar, open haarspeld links
-Into-LeftOpenHP-TightensLate	naar, open haarspeld links, sluit laat
-Into-LeftSquare-DontCut	naar, haaks links, niet snijden
-Into-Right1	naar, 1 rechts
-Into-Right1-Late	naar, 1 rechts, laat
-Into-Right1-Long	naar, 1 rechts, lang
-Into-Right1-Long-DontCut	naar, 1 rechts, lang, niet snijden
-Into-Right1-Opens	naar, 1 rechts, opent
-Into-Right1-VeryLong-Opens	naar, 1 rechts, extra lang, opent
-Into-Right2	naar, 2 rechts
-Into-Right2-DontCut	naar, 2 rechts, niet snijden
-Into-Right2-Late	naar, 2 rechts, laat
-Into-Right2-Long	naar, 2 rechts, lang
-Into-Right2-Long-DontCut	naar, 2 rechts, lang, niet snijden
-Into-Right2-OverCrest-DontCut	naar, 2 rechts, over kam, niet snijden
-Into-Right2-Short	naar, 2 rechts, kort
-Into-Right2-Short-Cut	naar, 2 rechts, kort, snijden
-Into-Right2-Tightens	naar, 2 rechts, sluit
-Into-Right3	naar, 3 rechts
-Into-Right3-Caution-Short-DontCut	naar, 3 rechts, attentie, kort, niet snijden
-Into-Right3-Caution-Tighten2-Late-DontCut	naar, 3 rechts, attentie, sluit 2, laat, niet snijden
-Into-Right3-DontCut-KeepIn	naar, 3 rechts, niet snijden, houd binnen
-Into-Right3-DontCut-Narrows	naar, 3 rechts, niet snijden, versmalt
-Into-Right3-KeepIn	naar, 3 rechts, houd binnen
-Into-Right3-Long	naar, 3 rechts, lang
-Into-Right3-Long-DontCut-Late	naar, 3 rechts, lang, niet snijden, laat
-Into-Right3-Long-OpensLate	naar, 3 rechts, lang, opent laat
-Into-Right3-Long-TightensLate	naar, 3 rechts, lang, sluit laat
-Into-Right3-Opens	naar, 3 rechts, opent
-Into-Right3-Opens-DontCut	naar, 3 rechts, opent, niet snijden
-Into-Right3-Short	naar, 3 rechts, kort
-Into-Right3-Short-Caution-DontCut	naar, 3 rechts, kort, attentie, niet snijden
-Into-Right3-Tightens	naar, 3 rechts, sluit
-Into-Right3-Tightens-DontCut	naar, 3 rechts, sluit, niet snijden
-Into-Right3-Tightens-OverCrest	naar, 3 rechts, sluit, over kam
-Into-Right3-TightensLate	naar, 3 rechts, sluit laat
-Into-Right3-VeryLong	naar, 3 rechts, extra lang
-Into-Right4	naar, 4 rechts
-Into-Right4-Dip	naar, 4 rechts, daling
-Into-Right4-DontCut	naar, 4 rechts, niet snijden
-Into-Right4-KeepIn	naar, 4 rechts, houd binnen
-Into-Right4-Long	naar, 4 rechts, lang
-Into-Right4-Long-DontCut	naar, 4 rechts, lang, niet snijden
-Into-Right4-Opens	naar, 4 rechts, opent
-Into-Right4-Short-DontCut	naar, 4 rechts, kort, niet snijden
-Into-Right4-Short-OverCrest	naar, 4 rechts, kort, over kam
-Into-Right4-Tightens	naar, 4 rechts, sluit
-Into-Right4-VeryLong	naar, 4 rechts, extra lang
-Into-Right4-VeryLong-Tighten3-Late	naar, 4 rechts, extra lang, sluit 3, laat
-Into-Right5	naar, 5 rechts
-Into-Right5-KeepIn	naar, 5 rechts, houd binnen
-Into-Right5-Long	naar, 5 rechts, lang
-Into-Right5-Long-Tighten3	naar, 5 rechts, lang, sluit 3
-Into-Right5-Long-Tighten4	naar, 5 rechts, lang, sluit 4
-Into-Right5-Long-TightensLate	naar, 5 rechts, lang, sluit laat
-Into-Right5-Opens	naar, 5 rechts, opent
-Into-Right5-OverCrest	naar, 5 rechts, over kam
-Into-Right5-OverCrest-Cut	naar, 5 rechts, over kam, snijden
-Into-Right5-Short	naar, 5 rechts, kort
-Into-Right5-Tightens	naar, 5 rechts, sluit
-Into-Right5-Tightens-KeepIn	naar, 5 rechts, sluit, houd binnen
-Into-Right5-VeryLong-TightensLate	naar, 5 rechts, extra lang, sluit laat
-Into-Right6	naar, 6 rechts
-Into-Right6-KeepOut	naar, 6 rechts, houd buiten
-Into-Right6-Long	naar, 6 rechts, lang
-Into-RightHP	naar, haarspeld rechts
-Into-RightHP-TightensLate	naar, haarspeld rechts, sluit laat
-Into-RightOpenHP	naar, open haarspeld rechts
-Into-RightOpenHP-TightensLate	naar, open haarspeld rechts, sluit laat
-Into-Sudden-LeftAcuteHP	naar, directe, scherpe haarspeld links
-Into-Sudden-Right1	naar, directe, 1 rechts
-Into-Sudden-RightHP-TightensLate	naar, directe, haarspeld rechts, sluit laat
-Junction-GoLeft	splitsing, linksaf
-Junction-GoRight	splitsing, rechtsaf
-Junction-LeftSquare	splitsing, haaks links
-Junction-RightSquare	splitsing, haaks rechts
-KeepIn-OverCrest	houd binnen, over kam
-KeepRight-Into-Left5-Short	houd rechts, naar, 5 links, kort
-Kinks-Dist150	kronkels, 150
-Kinks-IntoDip	kronkels, naar daling
-Kinks-OverCrest	kronkels, over kam
-KinksStartingLeft-OverCrest	kronkel begint links, over kam
-KinksStartingLeft-OverCrest-Narrows	kronkel begint links, over kam, versmalt
-KinksStartingRight-Cut	kronkel begint rechts, snijden
-Late-Left2-DontCut	laat, 2 links, niet snijden
-Left1-Long-Widens	1 links, lang, verruimt
-Left1-Tightens	1 links, sluit
-Left2-Long	2 links, lang
-Left2-Long-Opens	2 links, lang, opent
-Left2-Long-OpensLate	2 links, lang, opent laat
-Left2-Long-SmallCut	2 links, lang, beetje snijden
-Left2-Opens	2 links, opent
-Left2-Opens-OverCrest	2 links, opent, over kam
-Left2-OpensLate	2 links, opent laat
-Left2-Short	2 links, kort
-Left2-Tighten1	2 links, sluit 1
-Left2-Tightens	2 links, sluit
-Left2-TightensLate-OverCrest-DontCut	2 links, sluit laat, over kam, niet snijden
-Left3-AfterJunction-Narrows-OverCrest	3 links, na splitsing, versmalt, over kam
-Left3-Brake	3 links, rem
-Left3-DontCut	3 links, niet snijden
-Left3-DontCut-And	3 links, niet snijden, en
-Left3-Long	3 links, lang
-Left3-Long-DontCut-TightensLate	3 links, lang, niet snijden, sluit laat
-Left3-Long-Opens	3 links, lang, opent
-Left3-Long-OpensLate	3 links, lang, opent laat
-Left3-Long-SmallCut	3 links, lang, beetje snijden
-Left3-Long-Tighten2	3 links, lang, sluit 2
-Left3-Long-TightensLate	3 links, lang, sluit laat
-Left3-Long-Widens-And-TightensLate	3 links, lang, verruimt, en, sluit laat
-Left3-Narrows-OverBridge	3 links, versmalt, over brug
-Left3-Opens	3 links, opent
-Left3-Opens-DontCut-Late	3 links, opent, niet snijden, laat
-Left3-Opens-Long	3 links, opent, lang
-Left3-OverCrest	3 links, over kam
-Left3-Short	3 links, kort
-Left3-Short-SmallCut	3 links, kort, beetje snijden
-Left3-Tighten2	3 links, sluit 2
-Left3-Tightens	3 links, sluit
-Left3-Tightens-DontCut	3 links, sluit, niet snijden
-Left3-Tightens-DontCut-Late	3 links, sluit, niet snijden, laat
-Left3-TightensLate	3 links, sluit laat
-Left4-Cut	4 links, snijden
-Left4-DontCut	4 links, niet snijden
-Left4-Long	4 links, lang
-Left4-Long-DontCut	4 links, lang, niet snijden
-Left4-Long-Opens	4 links, lang, opent
-Left4-Long-OverCrest	4 links, lang, over kam
-Left4-Long-Tighten3	4 links, lang, sluit 3
-Left4-Long-Tighten3-DontCut	4 links, lang, sluit 3, niet snijden
-Left4-Long-Tightens-DontCut	4 links, lang, sluit, niet snijden
-Left4-Narrows	4 links, versmalt
-Left4-Opens-DontCut	4 links, opent, niet snijden
-Left4-OverCrest	4 links, over kam
-Left4-OverCrest-DontCut-KeepIn	4 links, over kam, niet snijden, houd binnen
-Left4-Short	4 links, kort
-Left4-Short-DontCut	4 links, kort, niet snijden
-Left4-Short-KeepIn	4 links, kort, houd binnen
-Left4-Tighten3	4 links, sluit 3
-Left4-Tighten3-Caution-DontCut-KeepIn	4 links, sluit 3, attentie, niet snijden, houd binnen
-Left4-Tighten3-OverCrest-VeryLong	4 links, sluit 3, over kam, extra lang
-Left4-Tightens	4 links, sluit
-Left4-Tightens-KeepIn	4 links, sluit, houd binnen
-Left4-VeryLong	4 links, extra lang
-Left4-VeryLong-DontCut	4 links, extra lang, niet snijden
-Left4-VeryLong-Opens	4 links, extra lang, opent
-Left4-VeryLong-OverCrest-KeepIn	4 links, extra lang, over kam, houd binnen
-Left5-And	5 links, en
-Left5-Brake	5 links, rem
-Left5-DontCut	5 links, niet snijden
-Left5-Into	5 links, naar
-Left5-Long	5 links, lang
-Left5-Long-OverBumps	5 links, lang, over hobbels
-Left5-Long-OverCrest	5 links, lang, over kam
-Left5-Long-Tightens	5 links, lang, sluit
-Left5-Long-TightensLate	5 links, lang, sluit laat
-Left5-Opens	5 links, opent
-Left5-OverCrest	5 links, over kam
-Left5-Short-OverCrest	5 links, kort, over kam
-Left5-Tighten3-Late	5 links, sluit 3, laat
-Left5-Tighten4	5 links, sluit 4
-Left5-Tighten4-Brake	5 links, sluit 4, rem
-Left5-Tightens-OverCrest	5 links, sluit, over kam
-Left5-VeryLong	5 links, extra lang
-Left5-VeryLong-Tighten4	5 links, extra lang, sluit 4
-Left6-DontCut-Short	6 links, niet snijden, kort
-Left6-KeepIn	6 links, houd binnen
-Left6-KeepOut	6 links, houd buiten
-Left6-Long	6 links, lang
-Left6-Long-DontCut	6 links, lang, niet snijden
-Left6-Long-OverBump-DontCut	6 links, lang, over hobbel, niet snijden
-Left6-OverBump	6 links, over hobbel
-Left6-OverCrest	6 links, over kam
-Left6-Short-DontCut	6 links, kort, niet snijden
-Left6-Tighten5	6 links, sluit 5
-Left6-VeryLong-Tightens	6 links, extra lang, sluit
-LeftFlat-DontCut	vol links, niet snijden
-LeftFlat-IntoDip	vol links, naar daling
-LeftFlat-KeepLeft	vol links, houd links
-LeftFlat-Long	vol links, lang
-LeftFlat-OverBridge	vol links, over brug
-LeftFlat-OverCrest	vol links, over kam
-LeftHP-Opens-UpHill	haarspeld links, opent, heuvel op
-LeftHP-TightensLate	haarspeld links, sluit laat
-LeftKink-KeepRight	kronkel links, houd rechts
-LeftOpenHP-Narrows-Late	open haarspeld links, versmalt, laat
-Opens-And-Tightens	opent, en, sluit
-Opens-And-TightensLate	opent, en, sluit laat
-Over-Finish	over, finish
-Over-JumpMaybe	over, sprong misschien
-OverBump-Into-Right4-DontCut	over hobbel, naar, 4 rechts, niet snijden
-OverCrest-Dist80	over kam, 80
-OverCrest-Into-Right1-Long-Opens	over kam, naar, 1 rechts, lang, opent
-OverCrest-Into-Right3-Short	over kam, naar, 3 rechts, kort
-OverCrest-Into-Right4-Long	over kam, naar, 4 rechts, lang
-OverCrest-Into-Right4-Long-Opens	over kam, naar, 4 rechts, lang, opent
-OverCrest-Into-Right5	over kam, naar, 5 rechts
-Right1-DontCut	1 rechts, niet snijden
-Right1-Long-Tightens	1 rechts, lang, sluit
-Right1-Long-TightensLate	1 rechts, lang, sluit laat
-Right2-Caution-Tightens-OverBridge	2 rechts, attentie, sluit, over brug
-Right2-DontCut	2 rechts, niet snijden
-Right2-KeepIn	2 rechts, houd binnen
-Right2-Long	2 rechts, lang
-Right2-Long-Opens	2 rechts, lang, opent
-Right2-Long-Opens-DontCut	2 rechts, lang, opent, niet snijden
-Right2-Opens	2 rechts, opent
-Right2-Opens-DontCut	2 rechts, opent, niet snijden
-Right2-Opens-Long	2 rechts, opent, lang
-Right2-OpensLate	2 rechts, opent laat
-Right2-SmallCut	2 rechts, beetje snijden
-Right2-Tighten1	2 rechts, sluit 1
-Right2-Tightens	2 rechts, sluit
-Right2-Tightens-DontCut	2 rechts, sluit, niet snijden
-Right2-TightensLate	2 rechts, sluit laat
-Right3-Caution-DontCut-KeepIn	3 rechts, attentie, niet snijden, houd binnen
-Right3-DontCut	3 rechts, niet snijden
-Right3-KeepIn	3 rechts, houd binnen
-Right3-Long	3 rechts, lang
-Right3-Long-Narrows-TightensLate	3 rechts, lang, versmalt, sluit laat
-Right3-Long-Opens	3 rechts, lang, opent
-Right3-Long-Tighten2-Late	3 rechts, lang, sluit 2, laat
-Right3-Long-TightensLate	3 rechts, lang, sluit laat
-Right3-Long-TightensLate-SmallCut	3 rechts, lang, sluit laat, beetje snijden
-Right3-Opens	3 rechts, opent
-Right3-OverCrest-Widens	3 rechts, over kam, verruimt
-Right3-Short	3 rechts, kort
-Right3-Short-DontCut-KeepIn	3 rechts, kort, niet snijden, houd binnen
-Right3-Short-KeepIn	3 rechts, kort, houd binnen
-Right3-Tighten2-Late	3 rechts, sluit 2, laat
-Right3-Tightens	3 rechts, sluit
-Right3-Tightens-DontCut	3 rechts, sluit, niet snijden
-Right3-Tightens-IntoDip	3 rechts, sluit, naar daling
-Right3-Tightens-SmallCut	3 rechts, sluit, beetje snijden
-Right3-TightensLate-DontCut	3 rechts, sluit laat, niet snijden
-Right4-BadCamber	4 rechts, slechte camber
-Right4-Brake	4 rechts, rem
-Right4-Caution-IntoDip	4 rechts, attentie, naar daling
-Right4-DontCut	4 rechts, niet snijden
-Right4-DontCut-Late	4 rechts, niet snijden, laat
-Right4-KeepIn	4 rechts, houd binnen
-Right4-Long	4 rechts, lang
-Right4-Long-Tighten1-Late	4 rechts, lang, sluit 1, laat
-Right4-Long-Tightens	4 rechts, lang, sluit
-Right4-Long-TightensLate	4 rechts, lang, sluit laat
-Right4-Opens	4 rechts, opent
-Right4-OverBumps	4 rechts, over hobbels
-Right4-OverCrest	4 rechts, over kam
-Right4-Short	4 rechts, kort
-Right4-Short-KeepIn	4 rechts, kort, houd binnen
-Right4-Short-OverCrest	4 rechts, kort, over kam
-Right4-SmallCut	4 rechts, beetje snijden
-Right4-Tighten3-Late	4 rechts, sluit 3, laat
-Right4-Tighten3-Late-DontCut	4 rechts, sluit 3, laat, niet snijden
-Right4-Tightens	4 rechts, sluit
-Right4-Tightens-DontCut	4 rechts, sluit, niet snijden
-Right4-Tightens-OverCrest	4 rechts, sluit, over kam
-Right4-VeryLong-OverCrest	4 rechts, extra lang, over kam
-Right4-VeryLong-TightensLate	4 rechts, extra lang, sluit laat
-Right5-Brake	5 rechts, rem
-Right5-DontCut	5 rechts, niet snijden
-Right5-KeepIn	5 rechts, houd binnen
-Right5-KeepOut	5 rechts, houd buiten
-Right5-Long	5 rechts, lang
-Right5-Long-Opens	5 rechts, lang, opent
-Right5-Long-Opens-OverCrest	5 rechts, lang, opent, over kam
-Right5-Long-OverCrest-KeepIn	5 rechts, lang, over kam, houd binnen
-Right5-Short	5 rechts, kort
-Right5-SlowDown	5 rechts, langzaam
-Right5-VeryLong	5 rechts, extra lang
-Right5-VeryLong-TightensLate	5 rechts, extra lang, sluit laat
-Right6-Brake	6 rechts, rem
-Right6-DontCut	6 rechts, niet snijden
-Right6-KeepIn	6 rechts, houd binnen
-Right6-Long	6 rechts, lang
-Right6-OverCrest	6 rechts, over kam
-Right6-Short	6 rechts, kort
-Right6-Short-DontCut	6 rechts, kort, niet snijden
-Right6-ThroughTunnel	6 rechts, door tunnel
-Right6-Tightens	6 rechts, sluit
-Right6-TightensLate	6 rechts, sluit laat
-RightFlat-OverBridge	vol rechts, over brug
-RightFlat-OverCrest	vol rechts, over kam
-RightHP-Opens	haarspeld rechts, opent
-RightKink-Into	kronkel rechts, naar
-SlowDown-And-StopAtMarshals	langzaam, en, stop bij de marshals
-SlowDown-Right4-Tightens	langzaam, 4 rechts, sluit
-SlowDown-StopAtMarshals	langzaam, stop bij de marshals
-SmallCut-KeepIn	beetje snijden, houd binnen
-Sudden-Right4	directe, 4 rechts
-Tighten2-Late	sluit 2, laat
-Tighten3-Late	sluit 3, laat
-Tighten4-Late-KeepIn	sluit 4, laat, houd binnen
+AfterEnd-Brake-Right1	<emphasis level="strong">na de finish</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">1 rechts</emphasis>
+AfterEnd-Left3-AtTheJunction-Narrows-OverCrest	<emphasis level="strong">na de finish</emphasis> <emphasis level="strong">3 links</emphasis>  <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">over kam</emphasis>
+AfterEnd-Right3-Tightens	<emphasis level="strong">na de finish</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+AfterFinish-Brake-Left4-Tighten2	 <emphasis level="strong">rem</emphasis> <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 2</emphasis>
+And-Caution-Right5	en <emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis>
+And-KinksStartingLeft	en <emphasis level="strong">kronkel begint links</emphasis>
+And-KinksStartingLeft-DontCut	en <emphasis level="strong">kronkel begint links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-KinksStartingLeft-OverCrest	en <emphasis level="strong">kronkel begint links</emphasis> <emphasis level="strong">over kam</emphasis>
+And-KinksStartingRight	en <emphasis level="strong">kronkel begint rechts</emphasis>
+And-KinksStartingRight-Brake	en <emphasis level="strong">kronkel begint rechts</emphasis> <emphasis level="strong">rem</emphasis>
+And-KinksStartingRight-OverBumps	en <emphasis level="strong">kronkel begint rechts</emphasis> <emphasis level="strong">over hobbels</emphasis>
+And-Left1-DontCut	en <emphasis level="strong">1 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Left2	en <emphasis level="strong">2 links</emphasis>
+And-Left2-Long	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis>
+And-Left2-Long-TightensLate	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Left2-Opens	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">opent</emphasis>
+And-Left2-OpensLate	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">opent laat</emphasis>
+And-Left2-Short	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">kort</emphasis>
+And-Left2-Tightens	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit</emphasis>
+And-Left2-Tightens-Caution-ThroughGate	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">door poort</emphasis>
+And-Left2-TightensLate	en <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Left3	en <emphasis level="strong">3 links</emphasis>
+And-Left3-Cut	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">snijden</emphasis>
+And-Left3-DontCut	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Left3-Long	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis>
+And-Left3-Long-TightensLate	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Left3-Opens	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">opent</emphasis>
+And-Left3-Opens-VeryLong	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">extra lang</emphasis>
+And-Left3-Short	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">kort</emphasis>
+And-Left3-Tighten2	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis>
+And-Left3-Tighten2-Late	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+And-Left3-Tightens	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis>
+And-Left3-TightensLate	en <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Left4	en <emphasis level="strong">4 links</emphasis>
+And-Left4-Brake	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">rem</emphasis>
+And-Left4-Caution-LogsOutside	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">boomstammen buiten</emphasis>
+And-Left4-DontCut	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Left4-Long	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis>
+And-Left4-Long-DontCut	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Left4-Long-Opens	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+And-Left4-OverCrest	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">over kam</emphasis>
+And-Left4-Short	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis>
+And-Left4-Short-DontCut	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Left4-Tightens	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit</emphasis>
+And-Left4-VeryLong	en <emphasis level="strong">4 links</emphasis> <emphasis level="strong">extra lang</emphasis>
+And-Left5	en <emphasis level="strong">5 links</emphasis>
+And-Left5-Brake	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">rem</emphasis>
+And-Left5-DontCut	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Left5-Long	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis>
+And-Left5-Long-Tighten4-Caution-BadCamber	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 4</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">slechte camber</emphasis>
+And-Left5-OverCrest	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">over kam</emphasis>
+And-Left5-OverCrest-GoStraight	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">rechtdoor</emphasis>
+And-Left5-Short	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">kort</emphasis>
+And-Left5-Tighten4-Late	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">sluit 4</emphasis> <emphasis level="strong">laat</emphasis>
+And-Left5-VeryLong-Tighten4-Late	en <emphasis level="strong">5 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit 4</emphasis> <emphasis level="strong">laat</emphasis>
+And-Left6	en <emphasis level="strong">6 links</emphasis>
+And-Left6-Caution-DitchInside	en <emphasis level="strong">6 links</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">greppel binnen</emphasis>
+And-LeftFlat	en <emphasis level="strong">vol links</emphasis>
+And-LeftFlat-Long-OverCrest-KeepOut	en <emphasis level="strong">vol links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">houd buiten</emphasis>
+And-LeftKink	en <emphasis level="strong">kronkel links</emphasis>
+And-Right2	en <emphasis level="strong">2 rechts</emphasis>
+And-Right2-Caution-DitchOutside	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">greppel buiten</emphasis>
+And-Right2-Late	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">laat</emphasis>
+And-Right2-Long	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+And-Right2-Long-Opens	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+And-Right2-Narrows	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">versmalt</emphasis>
+And-Right2-Opens	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+And-Right2-ThroughTunnel	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">door tunnel</emphasis>
+And-Right2-Tightens	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+And-Right2-TightensLate-DontCut	en <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Right3	en <emphasis level="strong">3 rechts</emphasis>
+And-Right3-Cut	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">snijden</emphasis>
+And-Right3-KeepIn	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+And-Right3-Long	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+And-Right3-Narrows-DontCut	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Right3-Opens	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+And-Right3-OverCrest	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+And-Right3-Short	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+And-Right3-Short-KeepIn	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">houd binnen</emphasis>
+And-Right3-Tighten2-Late	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+And-Right3-Tightens	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+And-Right3-TightensLate-SmallCut	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+And-Right3-VeryLong	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">extra lang</emphasis>
+And-Right3-VeryLong-Opens	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">opent</emphasis>
+And-Right3-VeryLong-TightensLate	en <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Right4	en <emphasis level="strong">4 rechts</emphasis>
+And-Right4-BigCut	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">ruim snijden</emphasis>
+And-Right4-DontCut	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Right4-Long	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+And-Right4-Long-KeepIn	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">houd binnen</emphasis>
+And-Right4-Long-Opens	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+And-Right4-Long-OpensLate	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent laat</emphasis>
+And-Right4-Long-OverCrest	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over kam</emphasis>
+And-Right4-Long-Tighten2-Late	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+And-Right4-Narrows	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">versmalt</emphasis>
+And-Right4-Narrows-OverBridge	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">over brug</emphasis>
+And-Right4-Opens	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+And-Right4-OverBumps	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">over hobbels</emphasis>
+And-Right4-OverCrest	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+And-Right4-Short	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+And-Right4-Tightens	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+And-Right4-TightensLate	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Right4-VeryLong	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis>
+And-Right4-VeryLong-TightensLate	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+And-Right4-Widens	en <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">verruimt</emphasis>
+And-Right5	en <emphasis level="strong">5 rechts</emphasis>
+And-Right5-Brake	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+And-Right5-Cut	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">snijden</emphasis>
+And-Right5-KeepIn	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+And-Right5-Long	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+And-Right5-Long-OverBumps	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over hobbels</emphasis>
+And-Right5-Short	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+And-Right5-Tighten4-Long	en <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">sluit 4</emphasis> <emphasis level="strong">lang</emphasis>
+And-Right6	en <emphasis level="strong">6 rechts</emphasis>
+And-Right6-DontCut-Into	en <emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis> naar
+And-Right6-Long	en <emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+And-Right6-Short	en <emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+And-Right6-VeryLong-Tighten5-Late	en <emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit 5</emphasis> <emphasis level="strong">laat</emphasis>
+And-RightFlat	en <emphasis level="strong">vol rechts</emphasis>
+And-RightKink	en <emphasis level="strong">kronkel rechts</emphasis>
+And-RightSquare-DontCut	en <emphasis level="strong">haaks rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+And-Sudden-Right3-KeepIn	en <emphasis level="strong">directe</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+And-Sudden-Right3-Short	en <emphasis level="strong">directe</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+And-Sudden-Right4-Opens	en <emphasis level="strong">directe</emphasis> <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+And-Sudden-Right5-Short	en <emphasis level="strong">directe</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+And-TightensLate	en <emphasis level="strong">sluit laat</emphasis>
+Brake-And-StopAtMarshals	<emphasis level="strong">rem</emphasis> en <emphasis level="strong">stop bij de marshals</emphasis>
+Brake-Into-Left1-Long	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">1 links</emphasis> <emphasis level="strong">lang</emphasis>
+Brake-Into-Left2	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">2 links</emphasis>
+Brake-Into-Left3-Tightens	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Brake-Into-LeftHP	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">haarspeld links</emphasis>
+Brake-Into-Right1-Opens	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Brake-Into-Right2-Tightens	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Brake-Into-Right2-VeryLong-TightensLate	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Brake-Into-Right3	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">3 rechts</emphasis>
+Brake-Into-Right4-Long	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Brake-Into-RightHP	<emphasis level="strong">rem</emphasis> naar <emphasis level="strong">haarspeld rechts</emphasis>
+Brake-KeepRight-Right4	<emphasis level="strong">rem</emphasis> <emphasis level="strong">houd rechts</emphasis> <emphasis level="strong">4 rechts</emphasis>
+Brake-Left1	<emphasis level="strong">rem</emphasis> <emphasis level="strong">1 links</emphasis>
+Brake-Left2-Long	<emphasis level="strong">rem</emphasis> <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis>
+Brake-Left3	<emphasis level="strong">rem</emphasis> <emphasis level="strong">3 links</emphasis>
+Brake-Left3-Tighten2	<emphasis level="strong">rem</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis>
+Brake-Left3-Tightens	<emphasis level="strong">rem</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Brake-Left4	<emphasis level="strong">rem</emphasis> <emphasis level="strong">4 links</emphasis>
+Brake-Left4-Tightens	<emphasis level="strong">rem</emphasis> <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Brake-LeftAcuteHP	<emphasis level="strong">rem</emphasis> <emphasis level="strong">scherpe haarspeld links</emphasis>
+Brake-LeftHP	<emphasis level="strong">rem</emphasis> <emphasis level="strong">haarspeld links</emphasis>
+Brake-Right2-Long	<emphasis level="strong">rem</emphasis> <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Brake-Right2-Opens	<emphasis level="strong">rem</emphasis> <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Brake-Right2-Tighten1	<emphasis level="strong">rem</emphasis> <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit 1</emphasis>
+Brake-Right3-Long-TightensLate	<emphasis level="strong">rem</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Brake-Right4	<emphasis level="strong">rem</emphasis> <emphasis level="strong">4 rechts</emphasis>
+Brake-Right5	<emphasis level="strong">rem</emphasis> <emphasis level="strong">5 rechts</emphasis>
+Brake-Right5-Tightens	<emphasis level="strong">rem</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Brake-RightHP	<emphasis level="strong">rem</emphasis> <emphasis level="strong">haarspeld rechts</emphasis>
+Caution-BadCamber	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">slechte camber</emphasis>
+Caution-Brake	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis>
+Caution-Brake-Left5	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">5 links</emphasis>
+Caution-Brake-Left5-OverCrest	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">5 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Caution-Brake-Left6	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">6 links</emphasis>
+Caution-Brake-LeftKink-Into	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">kronkel links</emphasis> naar
+Caution-Brake-Right3	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">3 rechts</emphasis>
+Caution-Brake-Right5	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">5 rechts</emphasis>
+Caution-Brake-Right5-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Brake-RightChicane-Narrows	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">chicane rechts</emphasis> <emphasis level="strong">versmalt</emphasis>
+Caution-Brake-RightChicaneEntry	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">chicane ingang rechts</emphasis>
+Caution-Bumps	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">hobbels</emphasis>
+Caution-GoRight-OverJumpSmall	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rechtsaf</emphasis> <emphasis level="strong">over kleine sprong</emphasis>
+Caution-HeavyBrake-Left1-DontCut	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem hard</emphasis> <emphasis level="strong">1 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Caution-HeavyBrake-RightHP-Narrows	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem hard</emphasis> <emphasis level="strong">haarspeld rechts</emphasis> <emphasis level="strong">versmalt</emphasis>
+Caution-Into-Right4-Long-Tightens	<emphasis level="strong">attentie</emphasis> naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Into-Right4-VeryLong-Tightens	<emphasis level="strong">attentie</emphasis> naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-KeepIn	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Caution-KeepRight-Narrows	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">houd rechts</emphasis> <emphasis level="strong">versmalt</emphasis>
+Caution-KinksStartingLeft-OverCrest	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">kronkel begint links</emphasis> <emphasis level="strong">over kam</emphasis>
+Caution-KinksStartingRight-OverBumps	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">kronkel begint rechts</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Caution-Left2-Late-KeepIn	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">2 links</emphasis> <emphasis level="strong">laat</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Caution-Left2-Short-DontCut	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">2 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Caution-Left2-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Left3	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis>
+Caution-Left3-AtJunction-Narrows-OverCrest	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">bij splitsing</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">over kam</emphasis>
+Caution-Left3-DontCut	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Caution-Left3-KeepIn	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Caution-Left3-Long-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Left3-Narrows-OverBridge	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">over brug</emphasis>
+Caution-Left3-Tighten2-Late	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+Caution-Left3-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Left4	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 links</emphasis>
+Caution-Left4-Brake	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 links</emphasis> <emphasis level="strong">rem</emphasis>
+Caution-Left4-DontCut	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Caution-Left4-Long-Tightens-KeepIn	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Caution-Left5	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 links</emphasis>
+Caution-Left5-Long-DontCut	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Caution-Left6-Brake	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">6 links</emphasis> <emphasis level="strong">rem</emphasis>
+Caution-LeftHP	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">haarspeld links</emphasis>
+Caution-LeftHP-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">haarspeld links</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-LeftHP-TightensLate	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">haarspeld links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Caution-LeftSquare-DontCut	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">haaks links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Caution-LogsInside	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">boomstammen binnen</emphasis>
+Caution-OverCrest-Into-Right4	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">over kam</emphasis> naar <emphasis level="strong">4 rechts</emphasis>
+Caution-Right2	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">2 rechts</emphasis>
+Caution-Right3	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis>
+Caution-Right3-Brake	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+Caution-Right3-Long-Narrows-TightensLate	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Caution-Right3-Narrows	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">versmalt</emphasis>
+Caution-Right3-Opens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Caution-Right3-OverCrest	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+Caution-Right3-Tighten2	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit 2</emphasis>
+Caution-Right4	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 rechts</emphasis>
+Caution-Right4-Brake	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+Caution-Right4-Long-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Right4-Opens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Caution-Right4-Tighten2-Late	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+Caution-Right5	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis>
+Caution-Right5-Brake	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+Caution-Right5-Bumps	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">hobbels</emphasis>
+Caution-Right5-KeepIn	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Caution-Right5-Long-Tighten3-Late	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">laat</emphasis>
+Caution-Right5-OverBumps	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Caution-Right5-OverCrest-DontCut-KeepIn	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Caution-Right5-Tightens	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Caution-Right6-Into	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">6 rechts</emphasis> naar
+Caution-ThroughGate	<emphasis level="strong">attentie</emphasis> <emphasis level="strong">door poort</emphasis>
+Crest-Into	<emphasis level="strong">kam</emphasis> naar
+Dip-Left3-KeepIn	<emphasis level="strong">daling</emphasis> <emphasis level="strong">3 links</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Dist100-OverCrest	<emphasis level="strong">100</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist130-OverCrest	<emphasis level="strong">130</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist170-Widens	<emphasis level="strong">170</emphasis> <emphasis level="strong">verruimt</emphasis>
+Dist200-Kinks	<emphasis level="strong">200</emphasis> <emphasis level="strong">kronkels</emphasis>
+Dist200-OverCrest	<emphasis level="strong">200</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist250-Kinks	<emphasis level="strong">250</emphasis> <emphasis level="strong">kronkels</emphasis>
+Dist250-OverBumps	<emphasis level="strong">250</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Dist300-Kinks	<emphasis level="strong">300</emphasis> <emphasis level="strong">kronkels</emphasis>
+Dist40-Brake	<emphasis level="strong">40</emphasis> <emphasis level="strong">rem</emphasis>
+Dist40-Caution-Brake-OverCrest	<emphasis level="strong">40</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">rem</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist40-KeepRight	<emphasis level="strong">40</emphasis> <emphasis level="strong">houd rechts</emphasis>
+Dist40-Narrows	<emphasis level="strong">40</emphasis> <emphasis level="strong">versmalt</emphasis>
+Dist40-OverCrest	<emphasis level="strong">40</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist40-OverCrest-Into	<emphasis level="strong">40</emphasis> <emphasis level="strong">over kam</emphasis> naar
+Dist50-OverBumps	<emphasis level="strong">50</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Dist50-OverCrest	<emphasis level="strong">50</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist60-OverBumps	<emphasis level="strong">60</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Dist60-OverCrest	<emphasis level="strong">60</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist60-OverCrest-Brake	<emphasis level="strong">60</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">rem</emphasis>
+Dist70-OverCrest	<emphasis level="strong">70</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist80-KeepLeft	<emphasis level="strong">80</emphasis> <emphasis level="strong">houd links</emphasis>
+Dist80-OverBumps	<emphasis level="strong">80</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Dist80-OverCrest	<emphasis level="strong">80</emphasis> <emphasis level="strong">over kam</emphasis>
+Dist80-OverCrest-KeepLeft	<emphasis level="strong">80</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">houd links</emphasis>
+Dist90-OverCrest	<emphasis level="strong">90</emphasis> <emphasis level="strong">over kam</emphasis>
+DontCut-KeepIn	<emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+DontCut-LogsInside	<emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">boomstammen binnen</emphasis>
+Into-Left1	naar <emphasis level="strong">1 links</emphasis>
+Into-Left1-Long	naar <emphasis level="strong">1 links</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Left1-Long-DontCut	naar <emphasis level="strong">1 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left1-Narrows	naar <emphasis level="strong">1 links</emphasis> <emphasis level="strong">versmalt</emphasis>
+Into-Left1-Tightens	naar <emphasis level="strong">1 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Left2	naar <emphasis level="strong">2 links</emphasis>
+Into-Left2-Caution-DontCut	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left2-DontCut	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left2-Late	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Left2-Long	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Left2-Long-Opens	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Left2-Long-OpensLate-DontCut	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent laat</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left2-Long-Tighten1	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 1</emphasis>
+Into-Left2-Long-TightensLate	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Left2-Narrows	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">versmalt</emphasis>
+Into-Left2-Short-Narrows	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">versmalt</emphasis>
+Into-Left2-Tighten1	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit 1</emphasis>
+Into-Left2-Tightens	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Left2-Tightens-DontCut	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left2-VeryLong-TightensLate	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Left2-Widens	naar <emphasis level="strong">2 links</emphasis> <emphasis level="strong">verruimt</emphasis>
+Into-Left3	naar <emphasis level="strong">3 links</emphasis>
+Into-Left3-Cut	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">snijden</emphasis>
+Into-Left3-DontCut	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left3-Long-Tightens	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Left3-Long-TightensLate	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Left3-Narrows-Late	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Left3-OverCrest	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Left3-Short	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">kort</emphasis>
+Into-Left3-SmallCut	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Into-Left3-Tighten1	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 1</emphasis>
+Into-Left3-Tighten2-DontCut	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left3-Tighten2-Late	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Left3-Tightens	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Left3-Tightens-Cut	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">snijden</emphasis>
+Into-Left3-Tightens-DontCut	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left3-Tightens-OverCrest	naar <emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Left4	naar <emphasis level="strong">4 links</emphasis>
+Into-Left4-Long	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Left4-Long-Tightens	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Left4-Long-TightensLate	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Left4-Opens	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Left4-OverCrest	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Left4-Short	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis>
+Into-Left4-Short-DontCut	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Left4-SmallCut	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Into-Left4-Tighten1-Late	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 1</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Left4-Tighten2	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 2</emphasis>
+Into-Left4-Tighten3	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 3</emphasis>
+Into-Left4-Tightens-OverCrest	naar <emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Left5	naar <emphasis level="strong">5 links</emphasis>
+Into-Left5-Long	naar <emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Left5-OverCrest	naar <emphasis level="strong">5 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Left5-Short	naar <emphasis level="strong">5 links</emphasis> <emphasis level="strong">kort</emphasis>
+Into-Left6	naar <emphasis level="strong">6 links</emphasis>
+Into-Left6-Brake	naar <emphasis level="strong">6 links</emphasis> <emphasis level="strong">rem</emphasis>
+Into-Left6-Long	naar <emphasis level="strong">6 links</emphasis> <emphasis level="strong">lang</emphasis>
+Into-LeftHP	naar <emphasis level="strong">haarspeld links</emphasis>
+Into-LeftHP-TightensLate	naar <emphasis level="strong">haarspeld links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-LeftOpenHP	naar <emphasis level="strong">open haarspeld links</emphasis>
+Into-LeftOpenHP-TightensLate	naar <emphasis level="strong">open haarspeld links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-LeftSquare-DontCut	naar <emphasis level="strong">haaks links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right1	naar <emphasis level="strong">1 rechts</emphasis>
+Into-Right1-Late	naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Right1-Long	naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Right1-Long-DontCut	naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right1-Opens	naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Right1-VeryLong-Opens	naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Right2	naar <emphasis level="strong">2 rechts</emphasis>
+Into-Right2-DontCut	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right2-Late	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Right2-Long	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Right2-Long-DontCut	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right2-OverCrest-DontCut	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right2-Short	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Into-Right2-Short-Cut	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">snijden</emphasis>
+Into-Right2-Tightens	naar <emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Right3	naar <emphasis level="strong">3 rechts</emphasis>
+Into-Right3-Caution-Short-DontCut	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right3-Caution-Tighten2-Late-DontCut	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right3-DontCut-KeepIn	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Into-Right3-DontCut-Narrows	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">versmalt</emphasis>
+Into-Right3-KeepIn	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Into-Right3-Long	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Right3-Long-DontCut-Late	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Right3-Long-OpensLate	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent laat</emphasis>
+Into-Right3-Long-TightensLate	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Right3-Opens	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Right3-Opens-DontCut	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right3-Short	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Into-Right3-Short-Caution-DontCut	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right3-Tightens	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Right3-Tightens-DontCut	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right3-Tightens-OverCrest	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Right3-TightensLate	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Right3-VeryLong	naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">extra lang</emphasis>
+Into-Right4	naar <emphasis level="strong">4 rechts</emphasis>
+Into-Right4-Dip	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">daling</emphasis>
+Into-Right4-DontCut	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right4-KeepIn	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Into-Right4-Long	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Right4-Long-DontCut	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right4-Opens	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Right4-Short-DontCut	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Into-Right4-Short-OverCrest	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Right4-Tightens	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Right4-VeryLong	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis>
+Into-Right4-VeryLong-Tighten3-Late	naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">laat</emphasis>
+Into-Right5	naar <emphasis level="strong">5 rechts</emphasis>
+Into-Right5-KeepIn	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Into-Right5-Long	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Into-Right5-Long-Tighten3	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 3</emphasis>
+Into-Right5-Long-Tighten4	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 4</emphasis>
+Into-Right5-Long-TightensLate	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Right5-Opens	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Into-Right5-OverCrest	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+Into-Right5-OverCrest-Cut	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">snijden</emphasis>
+Into-Right5-Short	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Into-Right5-Tightens	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Into-Right5-Tightens-KeepIn	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Into-Right5-VeryLong-TightensLate	naar <emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Right6	naar <emphasis level="strong">6 rechts</emphasis>
+Into-Right6-KeepOut	naar <emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">houd buiten</emphasis>
+Into-Right6-Long	naar <emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Into-RightHP	naar <emphasis level="strong">haarspeld rechts</emphasis>
+Into-RightHP-TightensLate	naar <emphasis level="strong">haarspeld rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-RightOpenHP	naar <emphasis level="strong">open haarspeld rechts</emphasis>
+Into-RightOpenHP-TightensLate	naar <emphasis level="strong">open haarspeld rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Into-Sudden-LeftAcuteHP	naar <emphasis level="strong">directe</emphasis> <emphasis level="strong">scherpe haarspeld links</emphasis>
+Into-Sudden-Right1	naar <emphasis level="strong">directe</emphasis> <emphasis level="strong">1 rechts</emphasis>
+Into-Sudden-RightHP-TightensLate	naar <emphasis level="strong">directe</emphasis> <emphasis level="strong">haarspeld rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Junction-GoLeft	<emphasis level="strong">splitsing</emphasis> <emphasis level="strong">linksaf</emphasis>
+Junction-GoRight	<emphasis level="strong">splitsing</emphasis> <emphasis level="strong">rechtsaf</emphasis>
+Junction-LeftSquare	<emphasis level="strong">splitsing</emphasis> <emphasis level="strong">haaks links</emphasis>
+Junction-RightSquare	<emphasis level="strong">splitsing</emphasis> <emphasis level="strong">haaks rechts</emphasis>
+KeepIn-OverCrest	<emphasis level="strong">houd binnen</emphasis> <emphasis level="strong">over kam</emphasis>
+KeepRight-Into-Left5-Short	<emphasis level="strong">houd rechts</emphasis> naar <emphasis level="strong">5 links</emphasis> <emphasis level="strong">kort</emphasis>
+Kinks-Dist150	<emphasis level="strong">kronkels</emphasis> <emphasis level="strong">150</emphasis>
+Kinks-IntoDip	<emphasis level="strong">kronkels</emphasis> <emphasis level="strong">naar daling</emphasis>
+Kinks-OverCrest	<emphasis level="strong">kronkels</emphasis> <emphasis level="strong">over kam</emphasis>
+KinksStartingLeft-OverCrest	<emphasis level="strong">kronkel begint links</emphasis> <emphasis level="strong">over kam</emphasis>
+KinksStartingLeft-OverCrest-Narrows	<emphasis level="strong">kronkel begint links</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">versmalt</emphasis>
+KinksStartingRight-Cut	<emphasis level="strong">kronkel begint rechts</emphasis> <emphasis level="strong">snijden</emphasis>
+Late-Left2-DontCut	<emphasis level="strong">laat</emphasis> <emphasis level="strong">2 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left1-Long-Widens	<emphasis level="strong">1 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">verruimt</emphasis>
+Left1-Tightens	<emphasis level="strong">1 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Left2-Long	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis>
+Left2-Long-Opens	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Left2-Long-OpensLate	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent laat</emphasis>
+Left2-Long-SmallCut	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Left2-Opens	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">opent</emphasis>
+Left2-Opens-OverCrest	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">over kam</emphasis>
+Left2-OpensLate	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">opent laat</emphasis>
+Left2-Short	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">kort</emphasis>
+Left2-Tighten1	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit 1</emphasis>
+Left2-Tightens	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Left2-TightensLate-OverCrest-DontCut	<emphasis level="strong">2 links</emphasis> <emphasis level="strong">sluit laat</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left3-AfterJunction-Narrows-OverCrest	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">na splitsing</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">over kam</emphasis>
+Left3-Brake	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">rem</emphasis>
+Left3-DontCut	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left3-DontCut-And	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">niet snijden</emphasis> en
+Left3-Long	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis>
+Left3-Long-DontCut-TightensLate	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Left3-Long-Opens	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Left3-Long-OpensLate	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent laat</emphasis>
+Left3-Long-SmallCut	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Left3-Long-Tighten2	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 2</emphasis>
+Left3-Long-TightensLate	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Left3-Long-Widens-And-TightensLate	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">verruimt</emphasis> en <emphasis level="strong">sluit laat</emphasis>
+Left3-Narrows-OverBridge	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">over brug</emphasis>
+Left3-Opens	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">opent</emphasis>
+Left3-Opens-DontCut-Late	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">laat</emphasis>
+Left3-Opens-Long	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">lang</emphasis>
+Left3-OverCrest	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Left3-Short	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">kort</emphasis>
+Left3-Short-SmallCut	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Left3-Tighten2	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit 2</emphasis>
+Left3-Tightens	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Left3-Tightens-DontCut	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left3-Tightens-DontCut-Late	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">laat</emphasis>
+Left3-TightensLate	<emphasis level="strong">3 links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Left4-Cut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">snijden</emphasis>
+Left4-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-Long	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis>
+Left4-Long-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-Long-Opens	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Left4-Long-OverCrest	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over kam</emphasis>
+Left4-Long-Tighten3	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 3</emphasis>
+Left4-Long-Tighten3-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-Long-Tightens-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-Narrows	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">versmalt</emphasis>
+Left4-Opens-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-OverCrest	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Left4-OverCrest-DontCut-KeepIn	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Left4-Short	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis>
+Left4-Short-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-Short-KeepIn	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Left4-Tighten3	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 3</emphasis>
+Left4-Tighten3-Caution-DontCut-KeepIn	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Left4-Tighten3-OverCrest-VeryLong	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">extra lang</emphasis>
+Left4-Tightens	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit</emphasis>
+Left4-Tightens-KeepIn	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Left4-VeryLong	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">extra lang</emphasis>
+Left4-VeryLong-DontCut	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left4-VeryLong-Opens	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">opent</emphasis>
+Left4-VeryLong-OverCrest-KeepIn	<emphasis level="strong">4 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Left5-And	<emphasis level="strong">5 links</emphasis> en
+Left5-Brake	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">rem</emphasis>
+Left5-DontCut	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left5-Into	<emphasis level="strong">5 links</emphasis> naar
+Left5-Long	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis>
+Left5-Long-OverBumps	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Left5-Long-OverCrest	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over kam</emphasis>
+Left5-Long-Tightens	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Left5-Long-TightensLate	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Left5-Opens	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">opent</emphasis>
+Left5-OverCrest	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Left5-Short-OverCrest	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">over kam</emphasis>
+Left5-Tighten3-Late	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">laat</emphasis>
+Left5-Tighten4	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">sluit 4</emphasis>
+Left5-Tighten4-Brake	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">sluit 4</emphasis> <emphasis level="strong">rem</emphasis>
+Left5-Tightens-OverCrest	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">over kam</emphasis>
+Left5-VeryLong	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">extra lang</emphasis>
+Left5-VeryLong-Tighten4	<emphasis level="strong">5 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit 4</emphasis>
+Left6-DontCut-Short	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">kort</emphasis>
+Left6-KeepIn	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Left6-KeepOut	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">houd buiten</emphasis>
+Left6-Long	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">lang</emphasis>
+Left6-Long-DontCut	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left6-Long-OverBump-DontCut	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over hobbel</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left6-OverBump	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">over hobbel</emphasis>
+Left6-OverCrest	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">over kam</emphasis>
+Left6-Short-DontCut	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Left6-Tighten5	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">sluit 5</emphasis>
+Left6-VeryLong-Tightens	<emphasis level="strong">6 links</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit</emphasis>
+LeftFlat-DontCut	<emphasis level="strong">vol links</emphasis> <emphasis level="strong">niet snijden</emphasis>
+LeftFlat-IntoDip	<emphasis level="strong">vol links</emphasis> <emphasis level="strong">naar daling</emphasis>
+LeftFlat-KeepLeft	<emphasis level="strong">vol links</emphasis> <emphasis level="strong">houd links</emphasis>
+LeftFlat-Long	<emphasis level="strong">vol links</emphasis> <emphasis level="strong">lang</emphasis>
+LeftFlat-OverBridge	<emphasis level="strong">vol links</emphasis> <emphasis level="strong">over brug</emphasis>
+LeftFlat-OverCrest	<emphasis level="strong">vol links</emphasis> <emphasis level="strong">over kam</emphasis>
+LeftHP-Opens-UpHill	<emphasis level="strong">haarspeld links</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">heuvel op</emphasis>
+LeftHP-TightensLate	<emphasis level="strong">haarspeld links</emphasis> <emphasis level="strong">sluit laat</emphasis>
+LeftKink-KeepRight	<emphasis level="strong">kronkel links</emphasis> <emphasis level="strong">houd rechts</emphasis>
+LeftOpenHP-Narrows-Late	<emphasis level="strong">open haarspeld links</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">laat</emphasis>
+Opens-And-Tightens	<emphasis level="strong">opent</emphasis> en <emphasis level="strong">sluit</emphasis>
+Opens-And-TightensLate	<emphasis level="strong">opent</emphasis> en <emphasis level="strong">sluit laat</emphasis>
+Over-Finish	over <emphasis level="strong">finish</emphasis>
+Over-JumpMaybe	over <emphasis level="strong">sprong misschien</emphasis>
+OverBump-Into-Right4-DontCut	<emphasis level="strong">over hobbel</emphasis> naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+OverCrest-Dist80	<emphasis level="strong">over kam</emphasis> <emphasis level="strong">80</emphasis>
+OverCrest-Into-Right1-Long-Opens	<emphasis level="strong">over kam</emphasis> naar <emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+OverCrest-Into-Right3-Short	<emphasis level="strong">over kam</emphasis> naar <emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+OverCrest-Into-Right4-Long	<emphasis level="strong">over kam</emphasis> naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+OverCrest-Into-Right4-Long-Opens	<emphasis level="strong">over kam</emphasis> naar <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+OverCrest-Into-Right5	<emphasis level="strong">over kam</emphasis> naar <emphasis level="strong">5 rechts</emphasis>
+Right1-DontCut	<emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right1-Long-Tightens	<emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Right1-Long-TightensLate	<emphasis level="strong">1 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right2-Caution-Tightens-OverBridge	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">over brug</emphasis>
+Right2-DontCut	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right2-KeepIn	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right2-Long	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Right2-Long-Opens	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Right2-Long-Opens-DontCut	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right2-Opens	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Right2-Opens-DontCut	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right2-Opens-Long	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">lang</emphasis>
+Right2-OpensLate	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">opent laat</emphasis>
+Right2-SmallCut	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Right2-Tighten1	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit 1</emphasis>
+Right2-Tightens	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Right2-Tightens-DontCut	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right2-TightensLate	<emphasis level="strong">2 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right3-Caution-DontCut-KeepIn	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right3-DontCut	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right3-KeepIn	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right3-Long	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Right3-Long-Narrows-TightensLate	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">versmalt</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right3-Long-Opens	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Right3-Long-Tighten2-Late	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+Right3-Long-TightensLate	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right3-Long-TightensLate-SmallCut	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Right3-Opens	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Right3-OverCrest-Widens	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">verruimt</emphasis>
+Right3-Short	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Right3-Short-DontCut-KeepIn	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right3-Short-KeepIn	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right3-Tighten2-Late	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+Right3-Tightens	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Right3-Tightens-DontCut	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right3-Tightens-IntoDip	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">naar daling</emphasis>
+Right3-Tightens-SmallCut	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Right3-TightensLate-DontCut	<emphasis level="strong">3 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right4-BadCamber	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">slechte camber</emphasis>
+Right4-Brake	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+Right4-Caution-IntoDip	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">attentie</emphasis> <emphasis level="strong">naar daling</emphasis>
+Right4-DontCut	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right4-DontCut-Late	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis> <emphasis level="strong">laat</emphasis>
+Right4-KeepIn	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right4-Long	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Right4-Long-Tighten1-Late	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit 1</emphasis> <emphasis level="strong">laat</emphasis>
+Right4-Long-Tightens	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit</emphasis>
+Right4-Long-TightensLate	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right4-Opens	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">opent</emphasis>
+Right4-OverBumps	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">over hobbels</emphasis>
+Right4-OverCrest	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+Right4-Short	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Right4-Short-KeepIn	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right4-Short-OverCrest	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">over kam</emphasis>
+Right4-SmallCut	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">beetje snijden</emphasis>
+Right4-Tighten3-Late	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">laat</emphasis>
+Right4-Tighten3-Late-DontCut	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">laat</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right4-Tightens	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Right4-Tightens-DontCut	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right4-Tightens-OverCrest	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit</emphasis> <emphasis level="strong">over kam</emphasis>
+Right4-VeryLong-OverCrest	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">over kam</emphasis>
+Right4-VeryLong-TightensLate	<emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right5-Brake	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+Right5-DontCut	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right5-KeepIn	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right5-KeepOut	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">houd buiten</emphasis>
+Right5-Long	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Right5-Long-Opens	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis>
+Right5-Long-Opens-OverCrest	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">opent</emphasis> <emphasis level="strong">over kam</emphasis>
+Right5-Long-OverCrest-KeepIn	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">lang</emphasis> <emphasis level="strong">over kam</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right5-Short	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Right5-SlowDown	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">langzaam</emphasis>
+Right5-VeryLong	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">extra lang</emphasis>
+Right5-VeryLong-TightensLate	<emphasis level="strong">5 rechts</emphasis> <emphasis level="strong">extra lang</emphasis> <emphasis level="strong">sluit laat</emphasis>
+Right6-Brake	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">rem</emphasis>
+Right6-DontCut	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right6-KeepIn	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Right6-Long	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">lang</emphasis>
+Right6-OverCrest	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+Right6-Short	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">kort</emphasis>
+Right6-Short-DontCut	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">kort</emphasis> <emphasis level="strong">niet snijden</emphasis>
+Right6-ThroughTunnel	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">door tunnel</emphasis>
+Right6-Tightens	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+Right6-TightensLate	<emphasis level="strong">6 rechts</emphasis> <emphasis level="strong">sluit laat</emphasis>
+RightFlat-OverBridge	<emphasis level="strong">vol rechts</emphasis> <emphasis level="strong">over brug</emphasis>
+RightFlat-OverCrest	<emphasis level="strong">vol rechts</emphasis> <emphasis level="strong">over kam</emphasis>
+RightHP-Opens	<emphasis level="strong">haarspeld rechts</emphasis> <emphasis level="strong">opent</emphasis>
+RightKink-Into	<emphasis level="strong">kronkel rechts</emphasis> naar
+SlowDown-And-StopAtMarshals	<emphasis level="strong">langzaam</emphasis> en <emphasis level="strong">stop bij de marshals</emphasis>
+SlowDown-Right4-Tightens	<emphasis level="strong">langzaam</emphasis> <emphasis level="strong">4 rechts</emphasis> <emphasis level="strong">sluit</emphasis>
+SlowDown-StopAtMarshals	<emphasis level="strong">langzaam</emphasis> <emphasis level="strong">stop bij de marshals</emphasis>
+SmallCut-KeepIn	<emphasis level="strong">beetje snijden</emphasis> <emphasis level="strong">houd binnen</emphasis>
+Sudden-Right4	<emphasis level="strong">directe</emphasis> <emphasis level="strong">4 rechts</emphasis>
+Tighten2-Late	<emphasis level="strong">sluit 2</emphasis> <emphasis level="strong">laat</emphasis>
+Tighten3-Late	<emphasis level="strong">sluit 3</emphasis> <emphasis level="strong">laat</emphasis>
+Tighten4-Late-KeepIn	<emphasis level="strong">sluit 4</emphasis> <emphasis level="strong">laat</emphasis> <emphasis level="strong">houd binnen</emphasis>

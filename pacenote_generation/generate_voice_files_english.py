@@ -38,11 +38,11 @@ for key, value in data.items():
         print("skip")
         continue
 
-    synthesis_input = texttospeech.SynthesisInput(text=value)
+    synthesis_input = texttospeech.SynthesisInput(ssml=value)
 
     # Select the type of audio file you want returned
     audio_config = texttospeech.AudioConfig(
-        audio_encoding=texttospeech.AudioEncoding.LINEAR16, speaking_rate=1.1, pitch=-4
+        audio_encoding=texttospeech.AudioEncoding.LINEAR16, speaking_rate=1.2, pitch=-4
     )
 
     # Perform the text-to-speech request on the text input with the selected
