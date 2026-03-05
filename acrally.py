@@ -1,8 +1,10 @@
+import io
 import os.path
 import random
 import re
 import threading
 import time
+import wave
 from threading import Thread
 
 import keyboard
@@ -95,6 +97,8 @@ class ACRally:
     def speak_thread(self):
         token_sounds = self.build_token_sounds()
 
+        self.add_note_durations(self.notes_list, token_sounds)
+
         while not self.exit_all and not self.started:
             time.sleep(0.1)
 
@@ -108,7 +112,9 @@ class ACRally:
                 previous_distances.pop(0)
 
             if (len(previous_distances) < self.max_calls_ahead and self.notes_list[0]["distance"]
-                    < self.distance + (self.call_earliness * ((self.speed_kmh * (5/18))**self.call_speed_multiplier))):
+                    < self.distance +
+                        (self.notes_list[0]["duration"] * (self.speed_kmh * (5/18))) +
+                        (self.call_earliness * ((self.speed_kmh * (5/18))**self.call_speed_multiplier))):
                 note = self.notes_list.pop(0)
                 previous_distances.append(note["distance"])
                 tokens = self.combine_tokens(note["notes"], token_sounds)
@@ -121,7 +127,7 @@ class ACRally:
 
                 self.play_tokens(stream, tokens, token_sounds)
             else:
-                time.sleep(0.1)
+                time.sleep(0.05)
 
         stream.close()
         p.terminate()
@@ -137,7 +143,8 @@ class ACRally:
                 if not token in token_sounds:
                     token_sounds[token] = []
                 with open(f"voices\\{self.voice}\\{entry}", "rb") as f:
-                    token_sounds[token].append(f.read())
+                    sound_bytes = f.read()
+                    token_sounds[token].append(sound_bytes)
         return token_sounds
 
     def combine_tokens(self, tokens, token_sounds):
@@ -167,6 +174,30 @@ class ACRally:
                 util.play_audio(stream, sound)
             elif pause_time := self.match_pause(token):
                 time.sleep(pause_time)
+
+    def add_note_durations(self, notes_list, token_sounds):
+        notes_list = notes_list.copy()
+        while len(notes_list) > 0:
+            note = notes_list.pop(0)
+            note["duration"] = 0
+            tokens = self.combine_tokens(note["notes"], token_sounds)
+            link_to_next = note["link_to_next"]
+            while link_to_next:
+                next_note = notes_list.pop(0)
+                next_note["duration"] = 0
+                next_tokens = self.combine_tokens(next_note["notes"], token_sounds)
+                tokens.extend(next_tokens)
+                link_to_next = next_note["link_to_next"]
+
+            for token in tokens:
+                if token in token_sounds:
+                    with wave.open(io.BytesIO(token_sounds[token][0]), "rb") as f:
+                        frames = f.getnframes()
+                        rate = f.getframerate()
+                        duration = frames / float(rate)
+                        note["duration"] += duration
+                elif pause_time := self.match_pause(token):
+                    note["duration"] += pause_time
 
     def get_distance(self):
         return self.distance

@@ -28,7 +28,7 @@ class Main:
         self.acrally = ACRally(
             str(self.stages.get()),
             self.config.get("voice", "English"),
-            float(self.config.get("call_distance", 1.0)),
+            float(self.config.get("call_distance", 3.0)),
             int(self.config.get("calls_ahead", 4)),
             float(self.config.get("call_speed_multiplier", 1.0)),
             self.config.get("start_button", "space"),
@@ -96,7 +96,7 @@ class Main:
         voice_combo.grid(column=1, row=0, padx=5, pady=5)
 
         ttk.Label(settings_frame, text="Call distance").grid(column=0, row=1, padx=5, pady=5)
-        call_distance_var = tk.DoubleVar(value=self.config.get("call_distance", 4.0))
+        call_distance_var = tk.DoubleVar(value=self.config.get("call_distance", 3.0))
         call_distance_spinbox = ttk.Spinbox(settings_frame, textvariable=call_distance_var, from_=0.1, to=15.0, increment=0.1)
         call_distance_spinbox.grid(column=1, row=1, padx=5, pady=5)
 
