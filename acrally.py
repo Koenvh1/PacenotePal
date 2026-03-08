@@ -119,7 +119,7 @@ class ACRally:
                 previous_distances.append(note["distance"])
                 tokens = self.combine_tokens(note["notes"], token_sounds)
                 link_to_next = note["link_to_next"]
-                while link_to_next:
+                while link_to_next and len(self.notes_list) > 0:
                     next_note = self.notes_list.pop(0)
                     next_tokens = self.combine_tokens(next_note["notes"], token_sounds)
                     tokens.extend(next_tokens)
@@ -182,7 +182,7 @@ class ACRally:
             note["duration"] = 0
             tokens = self.combine_tokens(note["notes"], token_sounds)
             link_to_next = note["link_to_next"]
-            while link_to_next:
+            while link_to_next and len(notes_list) > 0:
                 next_note = notes_list.pop(0)
                 next_note["duration"] = 0
                 next_tokens = self.combine_tokens(next_note["notes"], token_sounds)
