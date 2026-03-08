@@ -115,7 +115,7 @@ class Main:
 
         ttk.Label(settings_frame, text="Speed multiplier").grid(column=0, row=5, padx=5, pady=5)
         call_speed_multiplier_var = tk.DoubleVar(value=self.config.get("call_speed_multiplier", 1.0))
-        call_speed_multiplier_spinbox = ttk.Spinbox(settings_frame, textvariable=call_speed_multiplier_var, from_=0.0, to=2.0, increment=0.1)
+        call_speed_multiplier_spinbox = ttk.Spinbox(settings_frame, textvariable=call_speed_multiplier_var, from_=0.0, to=2.0, increment=0.01)
         call_speed_multiplier_spinbox.grid(column=1, row=5, padx=5, pady=5)
 
         ttk.Label(settings_frame, text="The multiplier for how much earlier the call\n"
