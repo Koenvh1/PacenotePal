@@ -133,6 +133,21 @@ Custom notes should ideally consist of letters and numbers. Please use the Upper
 avoid names with only numbers and special characters. The wave files should be PCM signed 16-bit little-endian, with
 one channel and a sampling rate of 44100 Hz.
 
+Custom voices
+-------------
+These are custom voices others made that work with Pacenote Pal. If you made one as well, and you want it
+added to the list, send me a message :-)
+
+| **Name**                   | **URL**                                                                                         |
+|----------------------------|-------------------------------------------------------------------------------------------------|
+| Maciek Handwerker (Polish) | https://www.patreon.com/posts/assetto-corsa-144820495                                           |
+| Polish                     | https://www.youtube.com/watch?v=87DIPBfmpts                                                     |
+| Russian                    | https://kupvadim.github.io/game-notes/Games/Assetto%20Corsa%20Rally/PacenotePal_VadimInGame_RU/ |
+| Paul Coleman (English)     | https://www.patreon.com/posts/144292538?collection=1852289                                      |
+| Lucato (Italian)           | https://www.youtube.com/watch?v=4i1QHbwA8FI                                                     |
+| Zuzana and Jakub (Czech)   | ?                                                                                               |
+| Korean                     | https://www.patreon.com/posts/aseto-koreusa-ac-144278418                                        |
+
 Thanks to
 ---------
 - @aaattihun for the Hungarian voice
