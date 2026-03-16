@@ -145,7 +145,7 @@ added to the list, send me a message :-)
 | Russian                    | https://kupvadim.github.io/game-notes/Games/Assetto%20Corsa%20Rally/PacenotePal_VadimInGame_RU/ |
 | Paul Coleman (English)     | https://www.patreon.com/posts/144292538?collection=1852289                                      |
 | Lucato (Italian)           | https://www.youtube.com/watch?v=4i1QHbwA8FI                                                     |
-| Zuzana and Jakub (Czech)   | ?                                                                                               |
+| Czech                      | https://www.overtake.gg/downloads/czech-co-driver.82985/                                        |
 | Korean                     | https://www.patreon.com/posts/aseto-koreusa-ac-144278418                                        |
 
 Thanks to
