@@ -40,6 +40,9 @@ To set this up, execute HandbrakeHelper.exe and follow the steps to generate a c
 Once this is set up, engaging the handbrake for at least 70% for two seconds will also trigger the start 
 of the stage.
 
+For some people this may cause some intermittent force feedback issues. I am not sure what is causing that
+exactly, but hopefully this workaround won't be necessary in future versions of Assetto Corsa Rally.
+
 Creating your own pacenotes by hand
 -----------------------------------
 A pacenote consists of three things:
