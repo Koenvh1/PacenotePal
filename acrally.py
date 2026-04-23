@@ -39,7 +39,7 @@ class ACRally:
         self.speed_kmh = 0
         self.distance = 0
 
-        self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml"))
+        self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
         if self.notes_list is None:
             self.notes_list = []
 

@@ -59,13 +59,16 @@ class Editor:
         self.pacenote_vars = []
 
         self.token_sounds = None
+        self.dictionary = None
+        self.reverse_dictionary = None
         self.pacenotes = None
         self.pacenote_options = []
 
     def load(self):
+        voice = self.voices_combo.get()
         self.acrally = ACRally(
             self.pacenotes_combo.get(),
-            self.voices_combo.get(),
+            voice,
             1,
             5,
             1,
@@ -74,8 +77,19 @@ class Editor:
         )
         self.token_sounds = self.acrally.build_token_sounds()
 
-        self.pacenote_options = [x for x in self.token_sounds.keys() if "-" not in x]
-        self.pacenote_options.extend(["Pause0.1s", "Pause0.25s", "Pause0.5s", "Pause1.0s", "Pause1.5s"])
+        self.dictionary = {}
+        if os.path.exists(f"voices\\{voice}\\dictionary.yml"):
+            self.dictionary = yaml.safe_load(open(f"voices\\{voice}\\dictionary.yml", "r", encoding="utf-8"))
+        self.reverse_dictionary = {}
+        for key, value in self.dictionary.items():
+            self.reverse_dictionary[value] = key
+
+        items = []
+        items.extend(self.token_sounds.keys())
+        items.extend(["Pause0.1s", "Pause0.25s", "Pause0.5s", "Pause1.0s", "Pause1.5s"])
+
+        self.pacenote_options = [self.reverse_dictionary.get(x, x) for x in items if "-" not in x]
+        self.pacenote_options.sort()
         self.save_button["state"] = "normal"
         self.draw_pacenotes_frame()
 
@@ -94,7 +108,7 @@ class Editor:
                                                 "All unsaved changed will be lost!", parent=self.root)
             if not res:
                 return
-        self.pacenotes = yaml.safe_load(open(f"pacenotes/{self.pacenotes_combo.get()}.yml"))
+        self.pacenotes = yaml.safe_load(open(f"pacenotes/{self.pacenotes_combo.get()}.yml", encoding="utf-8"))
         self.load()
 
     def save_pacenotes(self):
@@ -105,7 +119,7 @@ class Editor:
         if res:
             yaml.dump(
                 self.pacenotes,
-                open(f"pacenotes/{self.pacenotes_combo.get()}.yml", "w"),
+                open(f"pacenotes/{self.pacenotes_combo.get()}.yml", "w", encoding="utf-8"),
                 default_flow_style=None,
                 sort_keys=False
             )
@@ -168,7 +182,7 @@ class Editor:
                 pacenotes_frame.grid(row=i, column=3, padx=5, pady=5, sticky="w")
 
                 def create_entry(note_idx, t):
-                    note_var = tk.StringVar(value=t)
+                    note_var = tk.StringVar(value=self.reverse_dictionary.get(t, t))
                     note_combo = ttk.Combobox(
                         pacenotes_frame,
                         values=self.pacenote_options,
@@ -178,7 +192,7 @@ class Editor:
                     note_combo.unbind_class("TCombobox", "<MouseWheel>")
 
                     def note_change(e, note_idx=note_idx):
-                        new_note = note_var.get()
+                        new_note = self.dictionary.get(note_var.get(), note_var.get())
                         old_note = self.pacenotes[i]["notes"][note_idx]
                         if old_note != new_note:
                             scroll = self.scroll_frame.get_scroll()

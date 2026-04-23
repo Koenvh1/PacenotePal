@@ -209,14 +209,14 @@ class Main:
             self.config["call_distance"] = call_distance_var.get()
             self.config["calls_ahead"] = calls_ahead_var.get()
             self.config["call_speed_multiplier"] = call_speed_multiplier_var.get()
-            yaml.dump(self.config, open("config.yml", "w"))
+            yaml.dump(self.config, open("config.yml", "w", encoding="utf-8"))
             settings_window.withdraw()
 
         save_btn = ttk.Button(settings_frame, text="Save", command=save)
         save_btn.grid(column=0, columnspan=2, row=10, padx=5, pady=5)
 
     def __init__(self):
-        self.config = yaml.safe_load(open("config.yml"))
+        self.config = yaml.safe_load(open("config.yml", encoding="utf-8"))
 
         root = tk.Tk()
         root.title("AC Rally Pacenote Pal")
