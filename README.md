@@ -136,6 +136,10 @@ Custom notes should ideally consist of letters and numbers. Please use the Upper
 avoid names with only numbers and special characters. The wave files should be PCM signed 16-bit little-endian, with
 one channel and a sampling rate of 44100 Hz.
 
+You can add translations to the notes for the notes in the Pacenote Editor by creating a `dictionary.yml` file
+and adding a list of `Translation: FileName` pairs, e.g. `Links 6: Left6`. Translations must be unique, and every
+file can have only one translation.
+
 Custom voices
 -------------
 These are custom voices others made that work with Pacenote Pal. If you made one as well, and you want it

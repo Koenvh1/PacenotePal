@@ -5,3 +5,4 @@ pygame
 setuptools<78.0.1
 pyaudio
 pycaw
+natsort

@@ -6,6 +6,7 @@ import tkinter.messagebox as mb
 from tkinter import ttk
 
 import yaml
+import natsort
 
 import util
 from acrally import ACRally
@@ -89,7 +90,7 @@ class Editor:
         items.extend(["Pause0.1s", "Pause0.25s", "Pause0.5s", "Pause1.0s", "Pause1.5s"])
 
         self.pacenote_options = [self.reverse_dictionary.get(x, x) for x in items if "-" not in x]
-        self.pacenote_options.sort()
+        self.pacenote_options = natsort.natsorted(self.pacenote_options)
         self.save_button["state"] = "normal"
         self.draw_pacenotes_frame()
 
