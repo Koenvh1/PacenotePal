@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteSisteronCut2Reverse",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteSisteronCut2Reverse",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -216,7 +217,8 @@
           "Tokens": [
             "Into",
             "Right4",
-            "Long"
+            "Long",
+            "Tightens"
           ]
         },
         "LinkToNext": true,
@@ -671,7 +673,7 @@
         "TokenList": {
           "Tokens": [
             "Left3",
-            "Opens",
+            "Tightens",
             "DontCut",
             "Late"
           ]
@@ -771,7 +773,8 @@
           "Tokens": [
             "Left3",
             "Tightens",
-            "DontCut"
+            "DontCut",
+            "KeepIn"
           ]
         },
         "LinkToNext": true,
@@ -804,6 +807,7 @@
         "TokenList": {
           "Tokens": [
             "Right4",
+            "Tightens",
             "OverCrest"
           ]
         },
@@ -1036,7 +1040,8 @@
         "TokenList": {
           "Tokens": [
             "And",
-            "Right2"
+            "Right2",
+            "Narrows"
           ]
         },
         "LinkToNext": false,

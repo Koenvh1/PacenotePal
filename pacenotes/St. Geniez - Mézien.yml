@@ -36,7 +36,7 @@
   notes: [And, Left5, Long]
 - distance: 1454
   link_to_next: true
-  notes: [Into, Right4, Long]
+  notes: [Into, Right4, Long, Tightens]
 - distance: 1592
   link_to_next: false
   notes: [And, Left5, VeryLong, Tighten4, Late]
@@ -117,7 +117,7 @@
   notes: [Dist70]
 - distance: 3480
   link_to_next: true
-  notes: [Left3, Opens, DontCut, Late]
+  notes: [Left3, Tightens, DontCut, Late]
 - distance: 3571
   link_to_next: false
   notes: [Dist130]
@@ -135,13 +135,13 @@
   notes: [Dist130]
 - distance: 4014
   link_to_next: true
-  notes: [Left3, Tightens, DontCut]
+  notes: [Left3, Tightens, DontCut, KeepIn]
 - distance: 4083
   link_to_next: false
   notes: [Dist80]
 - distance: 4169
   link_to_next: false
-  notes: [Right4, OverCrest]
+  notes: [Right4, Tightens, OverCrest]
 - distance: 4217
   link_to_next: true
   notes: [Into, Left3, Tightens]
@@ -183,7 +183,7 @@
   notes: [Into, Left2]
 - distance: 4923
   link_to_next: false
-  notes: [And, Right2]
+  notes: [And, Right2, Narrows]
 - distance: 4987
   link_to_next: true
   notes: [And, Left3, Cut]

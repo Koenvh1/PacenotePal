@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteSisteronFullForward",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteSisteronFullForward",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -469,7 +470,8 @@
         "TokenList": {
           "Tokens": [
             "Into",
-            "Right2"
+            "Right2",
+            "Tightens"
           ]
         },
         "LinkToNext": true,
@@ -1001,7 +1003,8 @@
         "TokenList": {
           "Tokens": [
             "Into",
-            "Right2"
+            "Right2",
+            "Opens"
           ]
         },
         "LinkToNext": false,
@@ -1769,7 +1772,8 @@
         "LengthM": 161.30186,
         "TokenList": {
           "Tokens": [
-            "Dist150"
+            "Dist150",
+            "OverBumps"
           ]
         },
         "LinkToNext": false,
@@ -2170,7 +2174,7 @@
           "Tokens": [
             "Into",
             "Left2",
-            "Tightens"
+            "Tighten1"
           ]
         },
         "LinkToNext": true,
@@ -2717,7 +2721,8 @@
         "TokenList": {
           "Tokens": [
             "Right3",
-            "Opens"
+            "Opens",
+            "OverBumps"
           ]
         },
         "LinkToNext": false,
@@ -2986,7 +2991,8 @@
         "LengthM": 52.7725,
         "TokenList": {
           "Tokens": [
-            "Right4"
+            "Right4",
+            "Tightens"
           ]
         },
         "LinkToNext": true,

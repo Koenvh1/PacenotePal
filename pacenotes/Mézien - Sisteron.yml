@@ -45,7 +45,7 @@
   notes: [Right4, Long]
 - distance: 7307
   link_to_next: false
-  notes: [Dist150]
+  notes: [Dist150, OverBumps]
 - distance: 7468
   link_to_next: false
   notes: [Right3]
@@ -108,7 +108,7 @@
   notes: [KinksStartingLeft, OverCrest]
 - distance: 8795
   link_to_next: true
-  notes: [Into, Left2]
+  notes: [Into, Left3]
 - distance: 8839
   link_to_next: false
   notes: [Dist60]

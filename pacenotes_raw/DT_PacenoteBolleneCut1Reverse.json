@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteBolleneCut1Reverse",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteBolleneCut1Reverse",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",

@@ -78,7 +78,7 @@
   notes: [And, Left3, Opens, VeryLong]
 - distance: 2030
   link_to_next: true
-  notes: [Into, Right2]
+  notes: [Into, Right2, Tightens]
 - distance: 2067
   link_to_next: true
   notes: [And, Left3, Short]
@@ -171,7 +171,7 @@
   notes: [And, Left4, Short]
 - distance: 3848
   link_to_next: false
-  notes: [Into, Right2]
+  notes: [Into, Right2, Opens]
 - distance: 3905
   link_to_next: true
   notes: [And, Right3]
@@ -306,7 +306,7 @@
   notes: [Into, Left3]
 - distance: 6449
   link_to_next: false
-  notes: [Dist150]
+  notes: [Dist150, OverBumps]
 - distance: 6613
   link_to_next: false
   notes: [Left4, Long, Opens]

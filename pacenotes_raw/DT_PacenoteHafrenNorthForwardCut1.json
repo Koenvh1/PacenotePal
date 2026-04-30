@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteHafrenNorthForwardCut1",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteHafrenNorthForwardCut1",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -735,8 +736,8 @@
             "Pause0.1s_Reset",
             "Into",
             "Right3",
-            "Caution",
             "Short",
+            "Caution",
             "DontCut"
           ]
         },

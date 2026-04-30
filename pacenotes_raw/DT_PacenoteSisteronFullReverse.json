@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteSisteronFullReverse",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteSisteronFullReverse",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -216,7 +217,8 @@
           "Tokens": [
             "Into",
             "Right4",
-            "Long"
+            "Long",
+            "Tightens"
           ]
         },
         "LinkToNext": false,
@@ -671,7 +673,7 @@
         "TokenList": {
           "Tokens": [
             "Left3",
-            "Opens",
+            "Tightens",
             "DontCut",
             "Late"
           ]
@@ -771,7 +773,8 @@
           "Tokens": [
             "Left3",
             "Tightens",
-            "DontCut"
+            "DontCut",
+            "KeepIn"
           ]
         },
         "LinkToNext": true,
@@ -804,6 +807,7 @@
         "TokenList": {
           "Tokens": [
             "Right4",
+            "Tightens",
             "OverCrest"
           ]
         },
@@ -1036,7 +1040,8 @@
         "TokenList": {
           "Tokens": [
             "And",
-            "Right2"
+            "Right2",
+            "Narrows"
           ]
         },
         "LinkToNext": false,
@@ -1368,7 +1373,7 @@
         "TokenList": {
           "Tokens": [
             "Into",
-            "Right3",
+            "Right2",
             "Long"
           ]
         },
@@ -1761,7 +1766,8 @@
         "LengthM": 159.48688,
         "TokenList": {
           "Tokens": [
-            "Dist150"
+            "Dist150",
+            "OverBumps"
           ]
         },
         "LinkToNext": false,
@@ -2118,7 +2124,7 @@
         "TokenList": {
           "Tokens": [
             "Into",
-            "Left2"
+            "Left3"
           ]
         },
         "LinkToNext": true,

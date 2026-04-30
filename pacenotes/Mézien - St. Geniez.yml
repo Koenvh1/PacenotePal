@@ -84,7 +84,7 @@
   notes: [Dist40]
 - distance: 9627
   link_to_next: false
-  notes: [Right3, Opens]
+  notes: [Right3, Opens, OverBumps]
 - distance: 9709
   link_to_next: true
   notes: [And, Left4, Tightens]
@@ -132,7 +132,7 @@
   notes: [Dist70]
 - distance: 10862
   link_to_next: true
-  notes: [Right4]
+  notes: [Right4, Tightens]
 - distance: 10917
   link_to_next: false
   notes: [Dist40]

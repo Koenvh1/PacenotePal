@@ -126,7 +126,7 @@
   notes: [And, Left4, VeryLong]
 - distance: 2974
   link_to_next: true
-  notes: [Pause0.1s_Reset, Into, Right3, Caution, Short, DontCut]
+  notes: [Pause0.1s_Reset, Into, Right3, Short, Caution, DontCut]
 - distance: 3001
   link_to_next: false
   notes: [Dist60]

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteSisteronCut2Forward",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteSisteronCut2Forward",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -497,7 +498,8 @@
         "TokenList": {
           "Tokens": [
             "Right3",
-            "Opens"
+            "Opens",
+            "OverBumps"
           ]
         },
         "LinkToNext": false,
@@ -766,7 +768,8 @@
         "LengthM": 52.7725,
         "TokenList": {
           "Tokens": [
-            "Right4"
+            "Right4",
+            "Tightens"
           ]
         },
         "LinkToNext": true,

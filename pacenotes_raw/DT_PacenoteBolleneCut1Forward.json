@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteBolleneCut1Forward",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteBolleneCut1Forward",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -902,7 +903,7 @@
       },
       "R0052": {
         "SplineDistanceM": 2809.75,
-        "LengthM": 34.85,
+        "LengthM": 33.96,
         "TokenList": {
           "Tokens": [
             "And",
@@ -919,8 +920,8 @@
         }
       },
       "R0053": {
-        "SplineDistanceM": 2845.19,
-        "LengthM": 35.31,
+        "SplineDistanceM": 2845.98,
+        "LengthM": 33.14,
         "TokenList": {
           "Tokens": [
             "Dist40"
@@ -935,8 +936,8 @@
         }
       },
       "R0054": {
-        "SplineDistanceM": 2879.7036,
-        "LengthM": 44.655937,
+        "SplineDistanceM": 2882.1,
+        "LengthM": 44.45,
         "TokenList": {
           "Tokens": [
             "Left3",
@@ -3233,7 +3234,8 @@
         "TokenList": {
           "Tokens": [
             "And",
-            "Left2"
+            "Left2",
+            "Long"
           ]
         },
         "LinkToNext": false,
@@ -3470,7 +3472,23 @@
           "Tokens": [
             "Into",
             "Left2",
-            "Long"
+            "Tighten1"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0204": {
+        "SplineDistanceM": 11542.0,
+        "LengthM": 37.14375,
+        "TokenList": {
+          "Tokens": [
+            "Dist40"
           ]
         },
         "LinkToNext": false,
@@ -3481,7 +3499,7 @@
           "Z": 0.0
         }
       },
-      "R0204": {
+      "R0205": {
         "SplineDistanceM": 11580.252,
         "LengthM": 48.815,
         "TokenList": {
@@ -3497,7 +3515,7 @@
           "Z": 0.0
         }
       },
-      "R0205": {
+      "R0206": {
         "SplineDistanceM": 11646.542,
         "LengthM": 51.446247,
         "TokenList": {
@@ -3515,7 +3533,7 @@
           "Z": 0.0
         }
       },
-      "R0206": {
+      "R0207": {
         "SplineDistanceM": 11706.931,
         "LengthM": 35.87125,
         "TokenList": {
@@ -3532,7 +3550,7 @@
           "Z": 0.0
         }
       },
-      "R0207": {
+      "R0208": {
         "SplineDistanceM": 11744.268,
         "LengthM": 27.27125,
         "TokenList": {
@@ -3549,7 +3567,7 @@
           "Z": 0.0
         }
       },
-      "R0208": {
+      "R0209": {
         "SplineDistanceM": 11786.0,
         "LengthM": 39.087498,
         "TokenList": {
@@ -3566,7 +3584,7 @@
           "Z": 0.0
         }
       },
-      "R0209": {
+      "R0210": {
         "SplineDistanceM": 11829.7705,
         "LengthM": 50.70125,
         "TokenList": {
@@ -3583,7 +3601,7 @@
           "Z": 0.0
         }
       },
-      "R0210": {
+      "R0211": {
         "SplineDistanceM": 11882.594,
         "LengthM": 76.7875,
         "TokenList": {
@@ -3599,7 +3617,7 @@
           "Z": 0.0
         }
       },
-      "R0211": {
+      "R0212": {
         "SplineDistanceM": 11960.885,
         "LengthM": 27.40375,
         "TokenList": {
@@ -3617,7 +3635,7 @@
           "Z": 0.0
         }
       },
-      "R0212": {
+      "R0213": {
         "SplineDistanceM": 11990.016,
         "LengthM": 34.184998,
         "TokenList": {
@@ -3633,7 +3651,7 @@
           "Z": 0.0
         }
       },
-      "R0213": {
+      "R0214": {
         "SplineDistanceM": 12028.413,
         "LengthM": 74.79375,
         "TokenList": {
@@ -3652,7 +3670,7 @@
           "Z": 0.0
         }
       },
-      "R0214": {
+      "R0215": {
         "SplineDistanceM": 12225.504,
         "LengthM": 46.50249,
         "TokenList": {

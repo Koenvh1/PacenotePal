@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PacenoteBolleneCut3Forward",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Pacenote/Tables/DT_PacenoteBolleneCut3Forward",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'PacenoteSplineEntry'",
@@ -514,7 +515,8 @@
         "TokenList": {
           "Tokens": [
             "And",
-            "Left2"
+            "Left2",
+            "Long"
           ]
         },
         "LinkToNext": false,
@@ -751,7 +753,23 @@
           "Tokens": [
             "Into",
             "Left2",
-            "Long"
+            "Tighten1"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0044": {
+        "SplineDistanceM": 11542.001,
+        "LengthM": 36.829998,
+        "TokenList": {
+          "Tokens": [
+            "Dist40"
           ]
         },
         "LinkToNext": false,
@@ -762,7 +780,7 @@
           "Z": 0.0
         }
       },
-      "R0044": {
+      "R0045": {
         "SplineDistanceM": 11580.252,
         "LengthM": 48.815,
         "TokenList": {
@@ -778,7 +796,7 @@
           "Z": 0.0
         }
       },
-      "R0045": {
+      "R0046": {
         "SplineDistanceM": 11646.542,
         "LengthM": 51.446247,
         "TokenList": {
@@ -796,7 +814,7 @@
           "Z": 0.0
         }
       },
-      "R0046": {
+      "R0047": {
         "SplineDistanceM": 11706.931,
         "LengthM": 35.87125,
         "TokenList": {
@@ -813,7 +831,7 @@
           "Z": 0.0
         }
       },
-      "R0047": {
+      "R0048": {
         "SplineDistanceM": 11744.268,
         "LengthM": 27.27125,
         "TokenList": {
@@ -830,7 +848,7 @@
           "Z": 0.0
         }
       },
-      "R0048": {
+      "R0049": {
         "SplineDistanceM": 11786.0,
         "LengthM": 39.087498,
         "TokenList": {
@@ -847,7 +865,7 @@
           "Z": 0.0
         }
       },
-      "R0049": {
+      "R0050": {
         "SplineDistanceM": 11829.7705,
         "LengthM": 50.70125,
         "TokenList": {
@@ -864,7 +882,7 @@
           "Z": 0.0
         }
       },
-      "R0050": {
+      "R0051": {
         "SplineDistanceM": 11882.594,
         "LengthM": 76.7875,
         "TokenList": {
@@ -880,7 +898,7 @@
           "Z": 0.0
         }
       },
-      "R0051": {
+      "R0052": {
         "SplineDistanceM": 11960.885,
         "LengthM": 27.40375,
         "TokenList": {
@@ -898,7 +916,7 @@
           "Z": 0.0
         }
       },
-      "R0052": {
+      "R0053": {
         "SplineDistanceM": 12023.98,
         "LengthM": 86.35,
         "TokenList": {
@@ -918,7 +936,7 @@
           "Z": 0.0
         }
       },
-      "R0053": {
+      "R0054": {
         "SplineDistanceM": 12112.094,
         "LengthM": 62.00625,
         "TokenList": {
@@ -934,7 +952,7 @@
           "Z": 0.0
         }
       },
-      "R0054": {
+      "R0055": {
         "SplineDistanceM": 12176.837,
         "LengthM": 70.36875,
         "TokenList": {
@@ -952,7 +970,7 @@
           "Z": 0.0
         }
       },
-      "R0055": {
+      "R0056": {
         "SplineDistanceM": 12250.745,
         "LengthM": 40.9025,
         "TokenList": {
@@ -968,7 +986,7 @@
           "Z": 0.0
         }
       },
-      "R0056": {
+      "R0057": {
         "SplineDistanceM": 12296.283,
         "LengthM": 59.626247,
         "TokenList": {
@@ -985,7 +1003,7 @@
           "Z": 0.0
         }
       },
-      "R0057": {
+      "R0058": {
         "SplineDistanceM": 12361.223,
         "LengthM": 84.44375,
         "TokenList": {
@@ -1001,7 +1019,7 @@
           "Z": 0.0
         }
       },
-      "R0058": {
+      "R0059": {
         "SplineDistanceM": 12449.871,
         "LengthM": 68.2575,
         "TokenList": {
@@ -1017,7 +1035,7 @@
           "Z": 0.0
         }
       },
-      "R0059": {
+      "R0060": {
         "SplineDistanceM": 12523.186,
         "LengthM": 42.431248,
         "TokenList": {
@@ -1034,7 +1052,7 @@
           "Z": 0.0
         }
       },
-      "R0060": {
+      "R0061": {
         "SplineDistanceM": 12569.301,
         "LengthM": 35.8875,
         "TokenList": {
@@ -1051,7 +1069,7 @@
           "Z": 0.0
         }
       },
-      "R0061": {
+      "R0062": {
         "SplineDistanceM": 12608.166,
         "LengthM": 36.33125,
         "TokenList": {
@@ -1069,7 +1087,7 @@
           "Z": 0.0
         }
       },
-      "R0062": {
+      "R0063": {
         "SplineDistanceM": 12649.246,
         "LengthM": 48.29625,
         "TokenList": {
@@ -1086,7 +1104,7 @@
           "Z": 0.0
         }
       },
-      "R0063": {
+      "R0064": {
         "SplineDistanceM": 12699.77,
         "LengthM": 101.9525,
         "TokenList": {
@@ -1102,7 +1120,7 @@
           "Z": 0.0
         }
       },
-      "R0064": {
+      "R0065": {
         "SplineDistanceM": 12804.325,
         "LengthM": 78.91375,
         "TokenList": {
@@ -1119,7 +1137,7 @@
           "Z": 0.0
         }
       },
-      "R0065": {
+      "R0066": {
         "SplineDistanceM": 12885.306,
         "LengthM": 39.6275,
         "TokenList": {
@@ -1135,7 +1153,7 @@
           "Z": 0.0
         }
       },
-      "R0066": {
+      "R0067": {
         "SplineDistanceM": 12928.461,
         "LengthM": 113.6375,
         "TokenList": {
@@ -1153,7 +1171,7 @@
           "Z": 0.0
         }
       },
-      "R0067": {
+      "R0068": {
         "SplineDistanceM": 13068.813,
         "LengthM": 44.535,
         "TokenList": {
@@ -1169,7 +1187,7 @@
           "Z": 0.0
         }
       },
-      "R0068": {
+      "R0069": {
         "SplineDistanceM": 13117.054,
         "LengthM": 35.986248,
         "TokenList": {
@@ -1187,7 +1205,7 @@
           "Z": 0.0
         }
       },
-      "R0069": {
+      "R0070": {
         "SplineDistanceM": 13156.272,
         "LengthM": 51.62875,
         "TokenList": {
@@ -1204,7 +1222,7 @@
           "Z": 0.0
         }
       },
-      "R0070": {
+      "R0071": {
         "SplineDistanceM": 13210.46,
         "LengthM": 54.03875,
         "TokenList": {
@@ -1220,7 +1238,7 @@
           "Z": 0.0
         }
       },
-      "R0071": {
+      "R0072": {
         "SplineDistanceM": 13266.431,
         "LengthM": 46.61375,
         "TokenList": {
@@ -1236,7 +1254,7 @@
           "Z": 0.0
         }
       },
-      "R0072": {
+      "R0073": {
         "SplineDistanceM": 13321.684,
         "LengthM": 54.329998,
         "TokenList": {
@@ -1253,7 +1271,7 @@
           "Z": 0.0
         }
       },
-      "R0073": {
+      "R0074": {
         "SplineDistanceM": 13378.529,
         "LengthM": 44.966248,
         "TokenList": {
@@ -1270,7 +1288,7 @@
           "Z": 0.0
         }
       },
-      "R0074": {
+      "R0075": {
         "SplineDistanceM": 13426.698,
         "LengthM": 58.962498,
         "TokenList": {
@@ -1286,7 +1304,7 @@
           "Z": 0.0
         }
       },
-      "R0075": {
+      "R0076": {
         "SplineDistanceM": 13487.497,
         "LengthM": 31.051249,
         "TokenList": {
@@ -1302,7 +1320,7 @@
           "Z": 0.0
         }
       },
-      "R0076": {
+      "R0077": {
         "SplineDistanceM": 13520.467,
         "LengthM": 26.984999,
         "TokenList": {
@@ -1319,7 +1337,7 @@
           "Z": 0.0
         }
       },
-      "R0077": {
+      "R0078": {
         "SplineDistanceM": 13548.862,
         "LengthM": 41.567497,
         "TokenList": {
@@ -1335,7 +1353,7 @@
           "Z": 0.0
         }
       },
-      "R0078": {
+      "R0079": {
         "SplineDistanceM": 13591.982,
         "LengthM": 38.87125,
         "TokenList": {
@@ -1352,7 +1370,7 @@
           "Z": 0.0
         }
       },
-      "R0079": {
+      "R0080": {
         "SplineDistanceM": 13634.219,
         "LengthM": 50.79125,
         "TokenList": {
@@ -1369,7 +1387,7 @@
           "Z": 0.0
         }
       },
-      "R0080": {
+      "R0081": {
         "SplineDistanceM": 13687.0625,
         "LengthM": 37.11375,
         "TokenList": {
@@ -1385,7 +1403,7 @@
           "Z": 0.0
         }
       },
-      "R0081": {
+      "R0082": {
         "SplineDistanceM": 13726.808,
         "LengthM": 49.94125,
         "TokenList": {
@@ -1402,7 +1420,7 @@
           "Z": 0.0
         }
       },
-      "R0082": {
+      "R0083": {
         "SplineDistanceM": 13799.337,
         "LengthM": 47.785,
         "TokenList": {
@@ -1420,7 +1438,7 @@
           "Z": 0.0
         }
       },
-      "R0083": {
+      "R0084": {
         "SplineDistanceM": 13849.29,
         "LengthM": 33.51,
         "TokenList": {
@@ -1436,7 +1454,7 @@
           "Z": 0.0
         }
       },
-      "R0084": {
+      "R0085": {
         "SplineDistanceM": 13933.403,
         "LengthM": 55.754997,
         "TokenList": {
@@ -1454,7 +1472,7 @@
           "Z": 0.0
         }
       },
-      "R0085": {
+      "R0086": {
         "SplineDistanceM": 14015.471,
         "LengthM": 83.908745,
         "TokenList": {
