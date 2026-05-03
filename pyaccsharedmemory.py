@@ -242,43 +242,70 @@ class CarDamage:
 
 @dataclass
 class PhysicsMap:
-
     packed_id: int
+
     gas: float
     brake: float
     fuel: float
     gear: int
     rpm: int
     steer_angle: float
+
     speed_kmh: float
     velocity: Vector3f
-    g_force: Vector3f
+    acc_g: Vector3f
 
     wheel_slip: Wheels
+    wheel_load: Wheels
     wheel_pressure: Wheels
-    wheel_angular_s: Wheels
+    wheel_angular_speed: Wheels
+    tyre_wear: Wheels
+    tyre_dirty_level: Wheels
     tyre_core_temp: Wheels
-
+    camber_rad: Wheels
     suspension_travel: Wheels
 
+    drs: int
     tc: float
     heading: float
     pitch: float
     roll: float
+    cg_height: float
     car_damage: CarDamage
+    number_of_tyres_out: int
     pit_limiter_on: bool
     abs: float
 
-    autoshifter_on: bool
-    turbo_boost: float
+    kers_charge: float
+    kers_input: float
 
+    autoshifter_on: bool
+    ride_height: List[float]
+    turbo_boost: float
+    ballast: float
+    air_density: float
     air_temp: float
     road_temp: float
     local_angular_vel: Vector3f
     final_ff: float
+    performance_meter: float
+
+    engine_brake: int
+    ers_recovery_level: int
+    ers_power_level: int
+    ers_heat_charging: int
+    ers_is_charging: int
+    kers_current_kj: float
+
+    drs_available: int
+    drs_enabled: int
 
     brake_temp: Wheels
     clutch: float
+
+    tyre_temp_i: Wheels
+    tyre_temp_m: Wheels
+    tyre_temp_o: Wheels
 
     is_ai_controlled: bool
 
@@ -290,10 +317,22 @@ class PhysicsMap:
 
     local_velocity: Vector3f
 
+    p2p_activation: int
+    p2p_status: int
+
+    current_max_rpm: int
+
+    mz: Wheels
+    fz: Wheels
+    my: Wheels
+
     slip_ratio: Wheels
     slip_angle: Wheels
 
+    tc_in_action: int
+    abs_in_action: int
     suspension_damage: Wheels
+    tyre_temp: Wheels
     water_temp: float
 
     brake_pressure: Wheels
@@ -595,7 +634,7 @@ def read_physic_map(physic_map: accSM) -> PhysicsMap:
         # Field is not used by ACC
         "P2PActivation": physic_map.unpack_value("i"),
         # Field is not used by ACC
-        "P2PStatus ": physic_map.unpack_value("i"),
+        "P2PStatus": physic_map.unpack_value("i"),
 
         # Field is not used by ACC
         "currentMaxRpm": physic_map.unpack_value("i"),
@@ -637,53 +676,108 @@ def read_physic_map(physic_map: accSM) -> PhysicsMap:
 
     return PhysicsMap(
         temp["packetID"],
+
         temp["gas"],
         temp["brake"],
         temp["fuel"],
         temp["gear"],
         temp["rpm"],
         temp["steerAngle"],
+
         temp["speedKmh"],
         Vector3f(*temp["velocity"]),
         Vector3f(*temp["accG"]),
+
         Wheels(*temp["wheelSlip"]),
+        Wheels(*temp["wheelLoad"]),
         Wheels(*temp["wheelsPressure"]),
         Wheels(*temp["wheelAngularSpeed"]),
+        Wheels(*temp["tyreWear"]),
+        Wheels(*temp["tyreDirtyLevel"]),
         Wheels(*temp["tyreCoreTemperature"]),
+        Wheels(*temp["camberRAD"]),
         Wheels(*temp["suspensionTravel"]),
+
+        temp["drs"],
         temp["tc"],
         temp["headeing"],
         temp["pitch"],
         temp["roll"],
+        temp["cgHeight"],
         CarDamage(*temp["carDamage"]),
+        temp["numberOfTyresOut"],
         bool(temp["pitLimiterOn"]),
         temp["abs"],
+
+        temp["kersCharge"],
+        temp["kersInput"],
+
         bool(temp["autoshifterOn"]),
+        temp["rideHeight"],
         temp["turboBoost"],
+        temp["ballast"],
+        temp["airDensity"],
         temp["airTemp"],
         temp["roadTemp"],
         Vector3f(*temp["localAngularVel"]),
         temp["FinalFF"],
+        temp["performanceMeter"],
+
+        temp["engineBrake"],
+        temp["ersRecoveryLevel"],
+        temp["ersPowerLevel"],
+        temp["ersHeatCharging"],
+        temp["ersIsCharging"],
+        temp["kersCurrentKJ"],
+
+        temp["drsAvailable"],
+        temp["drsEnabled"],
+
         Wheels(*temp["brakeTemp"]),
         temp["clutch"],
+
+        Wheels(*temp["tyreTempI"]),
+        Wheels(*temp["tyreTempM"]),
+        Wheels(*temp["tyreTempO"]),
+
         bool(temp["isAIControlled"]),
+
         ContactPoint.from_list(temp["tyreContactPoint"]),
         ContactPoint.from_list(temp["tyreContactNormal"]),
         ContactPoint.from_list(temp["tyreContactHeading"]),
+
         temp["brakeBias"],
+
         Vector3f(*temp["localVelocity"]),
+
+        temp["P2PActivation"],
+        temp["P2PStatus"],
+
+        temp["currentMaxRpm"],
+
+        Wheels(*temp["mz"]),
+        Wheels(*temp["fz"]),
+        Wheels(*temp["my"]),
+
         Wheels(*temp["slipRatio"]),
         Wheels(*temp["slipAngle"]),
+
+        temp["tcinAction"],
+        temp["absinAction"],
         Wheels(*temp["suspensionDamage"]),
+        Wheels(*temp["tyreTemp"]),
         temp["waterTemp"],
+
         Wheels(*temp["brakePressure"]),
         temp["frontBrakeCompound"],
         temp["rearBrakeCompound"],
         Wheels(*temp["padLife"]),
         Wheels(*temp["discLife"]),
+
         bool(temp["ignitionOn"]),
         bool(temp["starterEngineOn"]),
         bool(temp["isEngineRunning"]),
+
         temp["kerbVibration"],
         temp["slipVibrations"],
         temp["gVibrations"],
@@ -986,8 +1080,7 @@ def penalty_workarround(graphic_map: accSM) -> ACC_PENALTY_TYPE:
 
 class accSharedMemory():
 
-    def __init__(self) -> None:
-
+    def open(self):
         self.physicSM = accSM(-1, 800, tagname="Local\\acpmf_physics",
                               access=mmap.ACCESS_READ)
         self.graphicSM = accSM(-1, 1588, tagname="Local\\acpmf_graphics",
@@ -995,10 +1088,22 @@ class accSharedMemory():
         self.staticSM = accSM(-1, 784, tagname="Local\\acpmf_static",
                               access=mmap.ACCESS_READ)
 
+        physics = read_physic_map(self.physicSM)
+        if physics.packed_id == 0:
+            self.close()
+
         self.physics_old = None
         self.last_physicsID = 0
 
+    def __init__(self) -> None:
+        self.open()
+
     def read_shared_memory(self) -> Optional[ACC_map]:
+        if self.physicSM.closed:
+            self.open()
+
+        if self.physicSM.closed:
+            return None
 
         physics = read_physic_map(self.physicSM)
         graphics = read_graphics_map(self.graphicSM)
@@ -1026,7 +1131,6 @@ class accSharedMemory():
             raise SharedMemoryTimeout("No data available to read")
 
     def close(self) -> None:
-        # print("[ASM_Reader]: Closing memory maps.")
         self.physicSM.close()
         self.graphicSM.close()
         self.staticSM.close()
