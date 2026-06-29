@@ -1,5 +1,4 @@
 call_distance: 4.0
 call_speed_multiplier: 1.0
 calls_ahead: 4
-start_button: space
 voice: English

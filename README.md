@@ -16,7 +16,6 @@ How it works
 2. Start the program
 3. Select your stage
 4. Press start 
-5. Drive to the start of the stage. As the countdown starts, press the space bar. You will hear a beep
 
 Adding a voice can be done by adding a folder in the folder `voices`. Changing the pacenotes can be done by 
 editing the YAML files in the `pacenotes` folder, or adding a new file.
@@ -32,16 +31,6 @@ Settings can be changed by clicking the "Settings" button in the UI.
 
 All settings can be found in the `config.yml` file. You can change them by right-clicking on the file and
 selecting "Edit in Notepad". Changes only come into effect after restarting the application.
-
-### Using your handbrake as start button
-
-By default, the space bar is used at the start of the stage. This can also be replaced with your handbrake.
-To set this up, execute HandbrakeHelper.exe and follow the steps to generate a config for your config.yml.
-Once this is set up, engaging the handbrake for at least 70% for two seconds will also trigger the start 
-of the stage.
-
-For some people this may cause some intermittent force feedback issues. I am not sure what is causing that
-exactly, but hopefully this workaround won't be necessary in future versions of Assetto Corsa Rally.
 
 Creating your own pacenotes by hand
 -----------------------------------

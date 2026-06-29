@@ -2,16 +2,13 @@ import io
 import os.path
 import random
 import re
-import threading
 import time
 import wave
 from threading import Thread
 
-import keyboard
 import yaml
 
 import util
-from handbrake import Handbrake
 from pyaccsharedmemory import accSharedMemory
 
 
@@ -23,23 +20,25 @@ class ACRally:
             call_earliness,
             max_calls_ahead,
             call_speed_multiplier,
-            start_button,
             handbrake
     ):
+        self.stage = stage
         self.voice = voice
         self.call_earliness = call_earliness
         self.max_calls_ahead = max_calls_ahead
         self.call_speed_multiplier = call_speed_multiplier
-        self.start_button = start_button
         self.handbrake = handbrake
         self.notes_list = []
         self.exit_all = False
         self.started = False
+        self.restarted = False
         self.last_retrieve = time.time()
         self.speed_kmh = 0
         self.distance = 0
+        self.time = 0
 
-        self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
+    def load_notes_list(self):
+        self.notes_list = yaml.safe_load(open(f"pacenotes/{self.stage}.yml", encoding="utf-8"))
         if self.notes_list is None:
             self.notes_list = []
 
@@ -53,25 +52,7 @@ class ACRally:
         asm = accSharedMemory()
         last_shared_memory = None
 
-        handbrake_pressed = False
-        if self.handbrake:
-            def check_pressed_2s():
-                nonlocal handbrake_pressed
-
-                handbrake = Handbrake(self.handbrake)
-                while not self.started and not self.exit_all:
-                    if handbrake.get_pressed():
-                        time.sleep(2)
-                        if handbrake.get_pressed():
-                            handbrake_pressed = True
-                    time.sleep(0.1)
-                handbrake.close()
-            threading.Thread(target=check_pressed_2s, daemon=True).start()
-
-        while (not keyboard.is_pressed(self.start_button) and not handbrake_pressed) and not self.exit_all:
-            time.sleep(0.05)
-
-        util.play_beep()
+        previous_time = 0
 
         while not self.exit_all:
             sm = asm.read_shared_memory()
@@ -81,10 +62,16 @@ class ACRally:
             if sm is not None:
                 self.speed_kmh = sm.Physics.speed_kmh
                 self.distance = sm.Graphics.distance_traveled
+                previous_time = self.get_time() if self.get_time() != 0 else previous_time
+                self.set_time(sm.Graphics.current_time_str)
 
-                if self.speed_kmh > 10:
-                    # Detect whether player has set off from start line
-                    self.started = True
+                if self.time > 0 and previous_time > 0:
+                    if self.time > previous_time:
+                        # Detect whether player has set off from start line
+                        self.started = True
+                    elif previous_time > self.time:
+                        # Detect whether a player has restarted
+                        self.restarted = True
 
                 last_shared_memory = sm
             else:
@@ -92,22 +79,25 @@ class ACRally:
             time.sleep(0.05)
 
         asm.close()
-        print("Retrieve thread closed")
 
     def speak_thread(self):
         token_sounds = self.build_token_sounds()
-
+        self.load_notes_list()
         self.add_note_durations(self.notes_list, token_sounds)
+
+        self.restarted = False
 
         while not self.exit_all and not self.started:
             time.sleep(0.1)
+
+        util.play_beep()
 
         # Do not play too many notes ahead of time
         previous_distances = []
 
         stream = util.open_stream(next(iter(token_sounds.values()))[0])
 
-        while len(self.notes_list) > 0 and not self.exit_all:
+        while len(self.notes_list) > 0 and not self.exit_all and not self.restarted:
             while len(previous_distances) > 0 and previous_distances[0] < self.distance:
                 previous_distances.pop(0)
 
@@ -130,7 +120,9 @@ class ACRally:
                 time.sleep(0.05)
 
         stream.close()
-        print("Speak thread closed")
+
+        if self.restarted:
+            self.speak_thread()
 
     def build_token_sounds(self):
         token_sounds = {}
@@ -200,6 +192,18 @@ class ACRally:
 
     def get_distance(self):
         return self.distance
+
+    def set_time(self, value):
+        try:
+            value = str(value)
+            # Format: 00:00.441\x00\x00\x00\x00\x00\x00
+            value = int(value[0:2]) * 60 * 1000 + int(value[3:5]) * 1000 + int(value[6:9])
+        except ValueError:
+            value = 0
+        self.time = value
+
+    def get_time(self):
+        return self.time
 
     def exit(self):
         self.exit_all = True

@@ -31,7 +31,6 @@ class Main:
             float(self.config.get("call_distance", 3.0)),
             int(self.config.get("calls_ahead", 4)),
             float(self.config.get("call_speed_multiplier", 1.0)),
-            self.config.get("start_button", "space"),
             self.config.get("handbrake", None)
         )
         self.acrally.start()
@@ -85,7 +84,7 @@ class Main:
         settings_window = tk.Toplevel(self.root)
         settings_window.title("Settings")
         settings_window.iconbitmap(util.resource_path("icon.ico"))
-        settings_window.geometry("280x450")
+        settings_window.geometry("280x380")
 
         settings_frame = ttk.Frame(settings_window)
         settings_frame.pack(fill="x", padx=10, pady=10)
@@ -110,7 +109,7 @@ class Main:
         calls_ahead_spinbox.grid(column=1, row=3, padx=5, pady=5)
 
         ttk.Label(settings_frame, text="The maximum number of notes you want to\n"
-                                       "hear coming up that you have not passed yet."
+                                       "hear coming up that you have not passed yet"
                   ).grid(column=0, columnspan=2, row=4, sticky="W")
 
         ttk.Label(settings_frame, text="Speed multiplier").grid(column=0, row=5, padx=5, pady=5)
@@ -119,59 +118,11 @@ class Main:
         call_speed_multiplier_spinbox.grid(column=1, row=5, padx=5, pady=5)
 
         ttk.Label(settings_frame, text="The multiplier for how much earlier the call\n"
-                                       "is made with higher speeds.\n\n"
+                                       "is made with higher speeds.\n"
                                        "1.0 is linear, 2.0 is quadratic, 0.5 is radical,\n"
                                        "0.0 disables the speed influence entirely\n"
                                        "making \"Call distance\" the distance in metres"
                   ).grid(column=0, columnspan=2, row=6, sticky="W")
-
-        ttk.Label(settings_frame, text="Start button").grid(column=0, row=7, padx=5, pady=5)
-        start_var = tk.StringVar(value=self.config.get("start_button", "space"))
-        start_entry = ttk.Entry(settings_frame, textvariable=start_var)
-        start_entry.grid(column=1, row=7, padx=5, pady=5)
-        def start_entry_key(e):
-            TK_TO_KEYBOARD = {
-                "Return": "enter",
-                "BackSpace": "backspace",
-                "Tab": "tab",
-                "Escape": "esc",
-                "Shift_L": "shift",
-                "Shift_R": "shift",
-                "Control_L": "ctrl",
-                "Control_R": "ctrl",
-                "Alt_L": "alt",
-                "Alt_R": "alt",
-                "space": "space",
-                "Left": "left",
-                "Right": "right",
-                "Up": "up",
-                "Down": "down",
-                "Delete": "delete",
-                "Insert": "insert",
-                "Home": "home",
-                "End": "end",
-                "Prior": "page up",
-                "Next": "page down",
-            }
-
-            def tk_to_keyboard(event):
-                if event.keysym in TK_TO_KEYBOARD:
-                    return TK_TO_KEYBOARD[event.keysym]
-
-                if event.char and event.char.isprintable():
-                    return event.char.lower()
-
-                if event.keysym.startswith("F") and event.keysym[1:].isdigit():
-                    return event.keysym.lower()
-
-                return event.keysym.lower()
-
-            start_var.set(tk_to_keyboard(e))
-        start_entry.bind("<KeyRelease>", start_entry_key)
-
-        ttk.Label(settings_frame, text="Button to press at the start of the stage.\n"
-                                       "See the README to use your handbrake instead."
-                  ).grid(column=0, columnspan=2, row=8, sticky="W")
 
         def get_volume():
             current_pid = os.getpid()
@@ -197,15 +148,14 @@ class Main:
                     return True
             return False
 
-        ttk.Label(settings_frame, text="Volume").grid(column=0, row=9, padx=5, pady=5)
+        ttk.Label(settings_frame, text="Volume").grid(column=0, row=7, padx=5, pady=5)
         volume_var = tk.DoubleVar(value=get_volume() * 100)
         volume_scale = ttk.Scale(settings_frame, variable=volume_var, from_=0, to=100, command=set_volume)
         volume_scale.bind("<ButtonRelease>", lambda e: util.play_beep())
-        volume_scale.grid(column=1, row=9, padx=5, pady=5)
+        volume_scale.grid(column=1, row=7, padx=5, pady=5)
 
         def save():
             self.config["voice"] = voice_var.get()
-            self.config["start_button"] = start_var.get()
             self.config["call_distance"] = call_distance_var.get()
             self.config["calls_ahead"] = calls_ahead_var.get()
             self.config["call_speed_multiplier"] = call_speed_multiplier_var.get()
@@ -213,7 +163,7 @@ class Main:
             settings_window.withdraw()
 
         save_btn = ttk.Button(settings_frame, text="Save", command=save)
-        save_btn.grid(column=0, columnspan=2, row=10, padx=5, pady=5)
+        save_btn.grid(column=0, columnspan=2, row=8, padx=5, pady=5)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml", encoding="utf-8"))
@@ -221,7 +171,7 @@ class Main:
         root = tk.Tk()
         root.title("AC Rally Pacenote Pal")
         root.iconbitmap(util.resource_path("icon.ico"))
-        root.geometry("340x230")
+        root.geometry("340x190")
         self.root = root
 
         stages = os.listdir("pacenotes")
@@ -242,8 +192,6 @@ class Main:
 
         btn_distance = ttk.Button(btn_frame, text="Odometer", command=self.on_button_distance)
         btn_distance.pack(side=tk.LEFT, padx=10)
-
-        ttk.Label(root, text=f"Click start and press {self.config.get("start_button", "space")} when the countdown starts!").pack(pady=(20, 5))
 
         btn_frame2 = tk.Frame(root)
         btn_frame2.pack(pady=10)
