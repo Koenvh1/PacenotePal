@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_TracksVariants",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Data/Database/Main/TrackSelection/DT_TracksVariants",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'DBTrackVariant'",
@@ -43,14 +44,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 10.3,
         "Elevation": {
           "X": 475.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 1039.5513,
+        "ElevationAtStart": 1039.5758,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17272749,
@@ -59,6 +60,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Munster_ValleDescente"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ValleMunster_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -187,14 +192,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 10.3,
         "Elevation": {
           "X": 475.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 466.1002,
+        "ElevationAtStart": 466.14432,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17290984,
@@ -203,6 +208,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Munster_Valle"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ValleMunsterDescente_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -331,14 +340,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 6.8,
         "Elevation": {
           "X": 475.0,
           "Y": 1090.0
         },
-        "ElevationAtStart": 1026.5839,
+        "ElevationAtStart": 1026.6088,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17276721,
@@ -347,6 +356,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Munster_Foret"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Foret_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -453,14 +466,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 7.0,
         "Elevation": {
           "X": 475.0,
           "Y": 1090.0
         },
-        "ElevationAtStart": 466.1002,
+        "ElevationAtStart": 466.14432,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17290984,
@@ -469,6 +482,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Munster_Luttenbach"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Luttenbach_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -575,14 +592,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 5.6,
         "Elevation": {
           "X": 883.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 1039.5513,
+        "ElevationAtStart": 1039.5758,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17272749,
@@ -591,6 +608,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Munster_ColDuPetitBallon"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ColDuPetitBallon_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -697,14 +718,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 5.3,
         "Elevation": {
           "X": 883.0,
           "Y": 1160.0
         },
-        "ElevationAtStart": 881.8407,
+        "ElevationAtStart": 881.86566,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17282451,
@@ -713,6 +734,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Munster_Sommet"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sommet_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -819,14 +844,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 9.1,
         "Elevation": {
           "X": 355.0,
           "Y": 456.0
         },
-        "ElevationAtStart": 366.8268,
+        "ElevationAtStart": 367.0136,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17521480,
@@ -835,6 +860,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Saverne_Foret"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Saverne_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -941,14 +970,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 8.9,
         "Elevation": {
           "X": 355.0,
           "Y": 456.0
         },
-        "ElevationAtStart": 443.6279,
+        "ElevationAtStart": 443.9059,
         "AverageRoadWidness": 4.3,
         "StartLocation": {
           "Latitude": 17506300,
@@ -957,6 +986,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Saverne_Steigenbach"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Steigenbach_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1063,14 +1096,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 4.6,
         "Elevation": {
           "X": 377.0,
           "Y": 456.0
         },
-        "ElevationAtStart": 413.06598,
+        "ElevationAtStart": 413.2937,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 17512711,
@@ -1079,6 +1112,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Saverne_Obersteigen"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Obersteigen_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1174,14 +1211,14 @@
         },
         "TireCompounds": {
           "Table": "TireCompoundsSets",
-          "Row": "TarmacOnly"
+          "Row": "TarmacSnow"
         },
         "Length": 4.6,
         "Elevation": {
           "X": 377.0,
           "Y": 456.0
         },
-        "ElevationAtStart": 443.6279,
+        "ElevationAtStart": 443.9059,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 17506300,
@@ -1190,6 +1227,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Saverne_LaTraverseDeLaMossig"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LaTraverseDeLaMossig_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1292,7 +1333,7 @@
           "X": 345.0,
           "Y": 410.0
         },
-        "ElevationAtStart": 478.19257,
+        "ElevationAtStart": 478.28683,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18883245,
@@ -1301,6 +1342,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Wales_Severn"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Afon_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1414,7 +1459,7 @@
           "X": 345.0,
           "Y": 410.0
         },
-        "ElevationAtStart": 392.00262,
+        "ElevationAtStart": 392.3166,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18888240,
@@ -1423,6 +1468,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "Wales_Afon"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Severne_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1536,7 +1585,7 @@
           "X": 365.0,
           "Y": 514.0
         },
-        "ElevationAtStart": 511.86945,
+        "ElevationAtStart": 512.03467,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18895500,
@@ -1545,6 +1594,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "HafrenNorthFullForward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "WelesS3HafrenNorthFullForward_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1669,7 +1722,7 @@
           "X": 365.0,
           "Y": 514.0
         },
-        "ElevationAtStart": 421.48315,
+        "ElevationAtStart": 421.84653,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18896866,
@@ -1678,6 +1731,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "HafrenNorthFullReverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "WelesS3HafrenNorthFullReverse_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1802,7 +1859,7 @@
           "X": 365.0,
           "Y": 514.0
         },
-        "ElevationAtStart": 511.86945,
+        "ElevationAtStart": 512.03467,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18895500,
@@ -1811,6 +1868,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "HafrenNorthCut1Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "WelesS3HafrenNorthCut1Forward_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -1924,7 +1985,7 @@
           "X": 365.0,
           "Y": 514.0
         },
-        "ElevationAtStart": 437.38885,
+        "ElevationAtStart": 437.88834,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18893692,
@@ -1933,6 +1994,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "HafrenNorthCut1Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "WelesS3HafrenNorthCut1Reverse_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -2046,7 +2111,7 @@
           "X": 398.0,
           "Y": 491.0
         },
-        "ElevationAtStart": 443.494,
+        "ElevationAtStart": 443.92654,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18893410,
@@ -2055,6 +2120,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "HafrenNorthCut2Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "WelesS3HafrenNorthCut2Forward_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -2168,7 +2237,7 @@
           "X": 398.0,
           "Y": 491.0
         },
-        "ElevationAtStart": 421.48315,
+        "ElevationAtStart": 421.84653,
         "AverageRoadWidness": 4.5,
         "StartLocation": {
           "Latitude": 18896866,
@@ -2177,6 +2246,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "HafrenNorthCut2Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "WelesS3HafrenNorthCut2Reverse_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -2300,6 +2373,10 @@
           "Table": "TracksTextures",
           "Row": "LivignoTestTrack01FullForward_VariantImage"
         },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LivignoFF_Lobby"
+        },
         "MapSmall": {
           "Table": "TracksTextures",
           "Row": "LivignoTestTrack01FullForward_MapSmall"
@@ -2422,6 +2499,10 @@
           "Table": "TracksTextures",
           "Row": "LivignoTestTrack01FullReverse_VariantImage"
         },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LivignoFR_Lobby"
+        },
         "MapSmall": {
           "Table": "TracksTextures",
           "Row": "LivignoTestTrack01FullReverse_MapSmall"
@@ -2534,7 +2615,7 @@
           "X": 689.0,
           "Y": 1638.0
         },
-        "ElevationAtStart": 698.1525,
+        "ElevationAtStart": 698.3773,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15836826,
@@ -2543,6 +2624,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_Bollene"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Bollene_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -2689,7 +2774,7 @@
           "X": 689.0,
           "Y": 1638.0
         },
-        "ElevationAtStart": 1466.7982,
+        "ElevationAtStart": 1467.1246,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15818205,
@@ -2698,6 +2783,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_PeiraCava"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "PeiraCava_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -2844,7 +2933,7 @@
           "X": 689.0,
           "Y": 1610.0
         },
-        "ElevationAtStart": 698.1525,
+        "ElevationAtStart": 698.3773,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15836826,
@@ -2853,6 +2942,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_TuriniMonte"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "TuriniMonte_lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -2977,7 +3070,7 @@
           "X": 689.0,
           "Y": 1610.0
         },
-        "ElevationAtStart": 1606.3037,
+        "ElevationAtStart": 1606.7173,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15831812,
@@ -2986,6 +3079,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_TuriniDescente"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "TuriniDescente_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3110,7 +3207,7 @@
           "X": 1468.0,
           "Y": 1638.0
         },
-        "ElevationAtStart": 1606.2753,
+        "ElevationAtStart": 1606.6375,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15819089,
@@ -3119,6 +3216,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_PeiraTurini"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "TuriniPeiraCava_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3221,7 +3322,7 @@
           "X": 1468.0,
           "Y": 1638.0
         },
-        "ElevationAtStart": 1466.7982,
+        "ElevationAtStart": 1467.1246,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15818205,
@@ -3230,6 +3331,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_TuriniPeira"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "PeiraCavaTurini_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3332,7 +3437,7 @@
           "X": 1336.0,
           "Y": 1638.0
         },
-        "ElevationAtStart": 1338.4786,
+        "ElevationAtStart": 1338.8262,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15831654,
@@ -3341,6 +3446,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_PraDalart"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "PraDalart_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3454,7 +3563,7 @@
           "X": 1336.0,
           "Y": 1638.0
         },
-        "ElevationAtStart": 1595.9976,
+        "ElevationAtStart": 1596.3004,
         "AverageRoadWidness": 7.1,
         "StartLocation": {
           "Latitude": 15829483,
@@ -3463,6 +3572,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "MonteCarlo_SommetDeTurini"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "SommeTurini_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3576,7 +3689,7 @@
           "X": 520.0,
           "Y": 1111.0
         },
-        "ElevationAtStart": 514.9448,
+        "ElevationAtStart": 514.9116,
         "AverageRoadWidness": 5.5,
         "StartLocation": {
           "Latitude": 15914799,
@@ -3585,6 +3698,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "SisteronFullForward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sisteron_FF_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3709,7 +3826,7 @@
           "X": 520.0,
           "Y": 1111.0
         },
-        "ElevationAtStart": 1088.5375,
+        "ElevationAtStart": 1088.479,
         "AverageRoadWidness": 5.5,
         "StartLocation": {
           "Latitude": 15927363,
@@ -3718,6 +3835,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "SisteronFullReverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sisteron_FR_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3771,7 +3892,7 @@
             }
           },
           {
-            "Length": 3.2,
+            "Length": 3.1,
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
@@ -3782,7 +3903,7 @@
             }
           },
           {
-            "Length": 3.1,
+            "Length": 3.2,
             "SurfaceType": {
               "Table": "SurfaceTypes",
               "Row": "Tarmac"
@@ -3842,7 +3963,7 @@
           "X": 520.0,
           "Y": 860.0
         },
-        "ElevationAtStart": 514.9448,
+        "ElevationAtStart": 514.9116,
         "AverageRoadWidness": 5.5,
         "StartLocation": {
           "Latitude": 15914799,
@@ -3851,6 +3972,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "SisteronCut1Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sisteron_C1F_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -3964,7 +4089,7 @@
           "X": 520.0,
           "Y": 860.0
         },
-        "ElevationAtStart": 877.65564,
+        "ElevationAtStart": 877.6221,
         "AverageRoadWidness": 5.5,
         "StartLocation": {
           "Latitude": 15919731,
@@ -3973,6 +4098,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "SisteronCut1Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sisteron_C1R_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -4086,7 +4215,7 @@
           "X": 920.0,
           "Y": 1111.0
         },
-        "ElevationAtStart": 906.4607,
+        "ElevationAtStart": 906.4117,
         "AverageRoadWidness": 5.5,
         "StartLocation": {
           "Latitude": 15921147,
@@ -4095,6 +4224,10 @@
         "VariantImage": {
           "Table": "TracksTextures",
           "Row": "SisteronCut2Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sisteron_C2F_Lobby"
         },
         "MapSmall": {
           "Table": "TracksTextures",
@@ -4208,7 +4341,7 @@
           "X": 920.0,
           "Y": 1111.0
         },
-        "ElevationAtStart": 1088.5375,
+        "ElevationAtStart": 1088.479,
         "AverageRoadWidness": 5.5,
         "StartLocation": {
           "Latitude": 15927363,
@@ -4218,6 +4351,10 @@
           "Table": "TracksTextures",
           "Row": "SisteronCut2Reverse_VariantImage"
         },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Sisteron_C2R_Lobby"
+        },
         "MapSmall": {
           "Table": "TracksTextures",
           "Row": "SisteronCut2Reverse_VariantMap"
@@ -4226,7 +4363,7 @@
           "Table": "TracksTextures",
           "Row": "SisteronCut2Reverse_Elevation"
         },
-        "DifficultyLevel": 1,
+        "DifficultyLevel": 8,
         "DegradationLevel": {
           "Table": "TireDegradationLevels",
           "Row": "Medium"
@@ -4288,6 +4425,1480 @@
         "WeatherConfig": {
           "Table": "WeatherTrackConfigs",
           "Row": "MonteCarlo"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS4LoutrakiFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_FULL_FORWARD_SHORT",
+          "SourceString": "Loutraki - Aghii Theodori",
+          "LocalizedString": "Loutraki - Aghii Theodori"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_FULL_FORWARD",
+          "SourceString": "Loutraki - Aghii Theodori",
+          "LocalizedString": "Loutraki - Aghii Theodori"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS4Loutraki"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 10.2,
+        "Elevation": {
+          "X": 291.0,
+          "Y": 750.0
+        },
+        "ElevationAtStart": 290.90588,
+        "AverageRoadWidness": 8.0,
+        "StartLocation": {
+          "Latitude": 13671076,
+          "Longitude": 8292717
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiFullForward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiVariant1_FF_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_FullForward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_FullAltimetry"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiFullForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiFullForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS4LoutrakiFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS4LoutrakiFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_FULL_REVERSE",
+          "SourceString": "Aghii Theodori - Loutraki",
+          "LocalizedString": "Aghii Theodori - Loutraki"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_FULL_REVERSE_SHORT",
+          "SourceString": "Aghii Theodori - Loutraki",
+          "LocalizedString": "Aghii Theodori - Loutraki"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS4Loutraki"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 10.2,
+        "Elevation": {
+          "X": 291.0,
+          "Y": 750.0
+        },
+        "ElevationAtStart": 707.7886,
+        "AverageRoadWidness": 8.0,
+        "StartLocation": {
+          "Latitude": 13686868,
+          "Longitude": 8311953
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiFullReverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiVariant2_FR_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_FullReverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_FullReverseAltimetry"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiFullReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiFullReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS4LoutrakiFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS4LoutrakiCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT1_FORWARD_SHORT",
+          "SourceString": "New Loutraki",
+          "LocalizedString": "New Loutraki"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT1_FORWARD",
+          "SourceString": "New Loutraki",
+          "LocalizedString": "New Loutraki"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS4Loutraki"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 4.9,
+        "Elevation": {
+          "X": 291.0,
+          "Y": 607.0
+        },
+        "ElevationAtStart": 290.90588,
+        "AverageRoadWidness": 8.0,
+        "StartLocation": {
+          "Latitude": 13671076,
+          "Longitude": 8292717
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiCut1Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiVariant3_C1F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut1Forward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut1ForwardAltimetry"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut1ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut1ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS4LoutrakiCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS4LoutrakiCut1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT1_REVERSE_SHORT",
+          "SourceString": "New Loutraki Reverse",
+          "LocalizedString": "New Loutraki Reverse"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT1_REVERSE",
+          "SourceString": "New Loutraki Reverse",
+          "LocalizedString": "New Loutraki Reverse"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS4Loutraki"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 4.9,
+        "Elevation": {
+          "X": 291.0,
+          "Y": 607.0
+        },
+        "ElevationAtStart": 627.01495,
+        "AverageRoadWidness": 8.0,
+        "StartLocation": {
+          "Latitude": 13676911,
+          "Longitude": 8304734
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiCut1Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiVariant4_C1R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut1Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut1ReverseAltimetry"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut1ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut1ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS4LoutrakiCut1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS4LoutrakiCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT2_FORWARD_SHORT",
+          "SourceString": "Aghii Theodori",
+          "LocalizedString": "Aghii Theodori"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT2_FORWARD",
+          "SourceString": "Aghii Theodori",
+          "LocalizedString": "Aghii Theodori"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS4Loutraki"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 5.8,
+        "Elevation": {
+          "X": 581.0,
+          "Y": 750.0
+        },
+        "ElevationAtStart": 590.16077,
+        "AverageRoadWidness": 8.0,
+        "StartLocation": {
+          "Latitude": 13675410,
+          "Longitude": 8304012
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiCut2Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiVariant5_C2F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut2Forward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut2ForwardAltimetry"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut2ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut2ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS4LoutrakiCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS4LoutrakiCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT2_REVERSE_SHORT",
+          "SourceString": "Aghii Theodori Reverse",
+          "LocalizedString": "Aghii Theodori Reverse"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_LOUTRAKI_CUT2_REVERSE",
+          "SourceString": "Aghii Theodori Reverse",
+          "LocalizedString": "Aghii Theodori Reverse"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS4Loutraki"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 5.7,
+        "Elevation": {
+          "X": 581.0,
+          "Y": 750.0
+        },
+        "ElevationAtStart": 707.7886,
+        "AverageRoadWidness": 8.0,
+        "StartLocation": {
+          "Latitude": 13686868,
+          "Longitude": 8311953
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiCut2Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "LoutrakiVariant6_C2R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut2Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Loutraki_Cut2ReverseAltimetry"
+        },
+        "DifficultyLevel": 3,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut2ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "LoutrakiCut2ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS4LoutrakiCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS3ElatiaFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_FULL_FORWARD_SHORT",
+          "SourceString": "Elatia - Zeli",
+          "LocalizedString": "Elatia - Zeli"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_FULL_FORWARD",
+          "SourceString": "Elatia - Zeli",
+          "LocalizedString": "Elatia - Zeli"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS3Elatia"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 85.0
+          },
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 15.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 11.6,
+        "Elevation": {
+          "X": 241.0,
+          "Y": 731.0
+        },
+        "ElevationAtStart": 232.73248,
+        "AverageRoadWidness": 6.0,
+        "StartLocation": {
+          "Latitude": 13906138,
+          "Longitude": 8205450
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaFullForward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Variant1_FF_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaFullForward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaFullForwardAltimetry"
+        },
+        "DifficultyLevel": 4,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaFullForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaFullForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS3ElatiaFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS3ElatiaFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_FULL_REVERSE_SHORT",
+          "SourceString": "Zeli - Elatia",
+          "LocalizedString": "Zeli - Elatia"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_FULL_REVERSE",
+          "SourceString": "Zeli - Elatia",
+          "LocalizedString": "Zeli - Elatia"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS3Elatia"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 85.0
+          },
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 15.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 11.7,
+        "Elevation": {
+          "X": 241.0,
+          "Y": 731.0
+        },
+        "ElevationAtStart": 565.54254,
+        "AverageRoadWidness": 6.0,
+        "StartLocation": {
+          "Latitude": 13919152,
+          "Longitude": 8233456
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaFullReverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Variant2_FR_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaFullReverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaFullReverseAltimetry"
+        },
+        "DifficultyLevel": 4,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaFullReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaFullReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS3ElatiaFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS3ElatiaCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT1_FORWARD_SHORT",
+          "SourceString": "Elatia",
+          "LocalizedString": "Elatia"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT1_FORWARD",
+          "SourceString": "Elatia",
+          "LocalizedString": "Elatia"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS3Elatia"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 4.9,
+        "Elevation": {
+          "X": 241.0,
+          "Y": 631.0
+        },
+        "ElevationAtStart": 232.73248,
+        "AverageRoadWidness": 6.0,
+        "StartLocation": {
+          "Latitude": 13906138,
+          "Longitude": 8205450
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaCut1Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Variant3_C1F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut1Forward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut1ForwardAltimetry"
+        },
+        "DifficultyLevel": 4,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut1ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut1ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS3ElatiaCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS3ElatiaCut1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT1_REVERSE_SHORT",
+          "SourceString": "Elatia Reverse",
+          "LocalizedString": "Elatia Reverse"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT1_REVERSE",
+          "SourceString": "Elatia Reverse",
+          "LocalizedString": "Elatia Reverse"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS3Elatia"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 6.2,
+        "Elevation": {
+          "X": 241.0,
+          "Y": 631.0
+        },
+        "ElevationAtStart": 613.34906,
+        "AverageRoadWidness": 6.0,
+        "StartLocation": {
+          "Latitude": 13911540,
+          "Longitude": 8218805
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaCut1Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Variant4_C1R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut1Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut1ReverseAltimetry"
+        },
+        "DifficultyLevel": 4,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut1ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut1ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS3ElatiaCut1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS3ElatiaCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT2_FORWARD_SHORT",
+          "SourceString": "Zeli",
+          "LocalizedString": "Zeli"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT2_FORWARD",
+          "SourceString": "Zeli",
+          "LocalizedString": "Zeli"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS3Elatia"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 65.0
+          },
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 35.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 5.5,
+        "Elevation": {
+          "X": 571.0,
+          "Y": 631.0
+        },
+        "ElevationAtStart": 600.9609,
+        "AverageRoadWidness": 6.0,
+        "StartLocation": {
+          "Latitude": 13911616,
+          "Longitude": 8218578
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaCut2Forward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Variant5_C2F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut2Forward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut2ForwardAltimetry"
+        },
+        "DifficultyLevel": 4,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut2ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut2ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS3ElatiaCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
+        },
+        "bIsCircuit": false
+      },
+      "GreeceS3ElatiaCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT2_REVERSE_SHORT",
+          "SourceString": "Zeli Reverse",
+          "LocalizedString": "Zeli Reverse"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_ELATIA_CUT2_REVERSE",
+          "SourceString": "Zeli Reverse",
+          "LocalizedString": "Zeli Reverse"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "GreeceS3Elatia"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "Value": 65.0
+          },
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Tarmac"
+            },
+            "Value": 35.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "GravelOnly"
+        },
+        "Length": 5.5,
+        "Elevation": {
+          "X": 571.0,
+          "Y": 631.0
+        },
+        "ElevationAtStart": 565.54254,
+        "AverageRoadWidness": 6.0,
+        "StartLocation": {
+          "Latitude": 13919152,
+          "Longitude": 8233456
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "ElatiaCut2Reverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_vVariant6_C2R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut2Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "Elatia_Cut2ReverseAltimetry"
+        },
+        "DifficultyLevel": 4,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut2ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "ElatiaCut2ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Gravel"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "GreeceS3ElatiaCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Greece"
         },
         "bIsCircuit": false
       }

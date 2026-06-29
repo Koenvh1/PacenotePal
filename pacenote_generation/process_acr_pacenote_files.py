@@ -43,65 +43,22 @@ conversion_table = {
     "DT_PacenoteSisteronCut2Reverse.json": "TRACK_SISTERON_CUT2_REVERSE",
     "DT_PacenoteSisteronFullForward.json": "TRACK_SISTERON_FULL_FORWARD",
     "DT_PacenoteSisteronFullReverse.json": "TRACK_SISTERON_FULL_REVERSE",
+
+    "DT_PacenoteElatiaCut1Forward.json": "TRACK_ELATIA_CUT1_FORWARD",
+    "DT_PacenoteElatiaCut1Reverse.json": "TRACK_ELATIA_CUT1_REVERSE",
+    "DT_PacenoteElatiaCut2Forward.json": "TRACK_ELATIA_CUT2_FORWARD",
+    "DT_PacenoteElatiaCut2Reverse.json": "TRACK_ELATIA_CUT2_REVERSE",
+    "DT_PacenoteElatiaFullForward.json": "TRACK_ELATIA_FULL_FORWARD",
+    "DT_PacenoteElatiaFullReverse.json": "TRACK_ELATIA_FULL_REVERSE",
+
+    "DT_PacenoteLoutrakiCut1Forward.json": "TRACK_LOUTRAKI_CUT1_FORWARD",
+    "DT_PacenoteLoutrakiCut1Reverse.json": "TRACK_LOUTRAKI_CUT1_REVERSE",
+    "DT_PacenoteLoutrakiCut2Forward.json": "TRACK_LOUTRAKI_CUT2_FORWARD",
+    "DT_PacenoteLoutrakiCut2Reverse.json": "TRACK_LOUTRAKI_CUT2_REVERSE",
+    "DT_PacenoteLoutrakiFullForward.json": "TRACK_LOUTRAKI_FULL_FORWARD",
+    "DT_PacenoteLoutrakiFullReverse.json": "TRACK_LOUTRAKI_FULL_REVERSE_SHORT",
 }
 
-conversion_pretty = {
-    "DT_PacenoteBolleneCut1Forward.json": "La Bollène-Vésubie - Turini",
-    "DT_PacenoteBolleneCut1Reverse.json": "Turini - La Bollène-Vésubie",
-    "DT_PacenoteBolleneCut2Forward.json": "Turini - Peïra Cava",
-    "DT_PacenoteBolleneCut2Reverse.json": "Peïra Cava - Turini",
-    "DT_PacenoteBolleneCut3Forward.json": "Pra d'Alart",
-    "DT_PacenoteBolleneCut3Reverse.json": "Sommet de Turini",
-    "DT_PacenoteBolleneFullForward.json": "La Bollène-Vésubie - Peïra Cava",
-    "DT_PacenoteBolleneFullReverse.json": "Peïra Cava - La Bollène-Vésubie",
-
-    "DT_PacenoteHafrenNorthForwardCut1.json": "Cwmbiga - Fedw Fain",
-    "DT_PacenoteHafrenNorthForwardCut2.json": "Banc Gwyn - Afon Biga",
-    "DT_PacenoteHafrenNorthFullForward.json": "Cwmbiga - Afon Biga",
-    "DT_PacenoteHafrenNorthFullReverse.json": "Afon Biga - Cwmbiga",
-    "DT_PacenoteHafrenNorthReverseCut1.json": "Fedw Fain - Cwmbiga",
-    "DT_PacenoteHafrenNorthReverseCut2.json": "Afon Biga - Banc Gwyn",
-    "DT_PacenoteHafrenSouthForward.json": "Afon Bidno - Severn",
-    "DT_PacenoteHafrenSouthReverse.json": "Severn - Afon Bidno",
-    "DT_PacenoteMunsterFullForward.json": "Vallée de Munster Montée",
-    "DT_PacenoteMunsterFullReverse.json": "Vallée de Munster Descente",
-    "DT_PacenoteMunsterShort1Forward.json": "Luttenbach près Munster",
-    "DT_PacenoteMunsterShort1Reverse.json": "Forêt de Munster",
-    "DT_PacenoteMunsterShort2Forward.json": "Sommet de Munster",
-    "DT_PacenoteMunsterShort2Reverse.json": "Col du petit Ballon",
-    "DT_PacenoteSaverneCut1Forward.json": "Obersteigen",
-    "DT_PacenoteSaverneCut1Reverse.json": "La traversée de La Mossig",
-    "DT_PacenoteSaverneFullForward.json": "Forêt de Saverne",
-    "DT_PacenoteSaverneFullReverse.json": "Steigenbach",
-
-    "DT_PacenoteSisteronCut1Forward.json": "Sisteron - Mézien",
-    "DT_PacenoteSisteronCut1Reverse.json": "Mézien - Sisteron",
-    "DT_PacenoteSisteronCut2Forward.json": "Mézien - St. Geniez",
-    "DT_PacenoteSisteronCut2Reverse.json": "St. Geniez - Mézien",
-    "DT_PacenoteSisteronFullForward.json": "Sisteron - St. Geniez",
-    "DT_PacenoteSisteronFullReverse.json": "St. Geniez - Sisteron",
-}
-
-table_offset = {
-    "DT_PacenoteHafrenNorthForwardCut1.json": 70,
-    "DT_PacenoteHafrenNorthForwardCut2.json": 20,
-    "DT_PacenoteHafrenNorthFullForward.json": 70,
-    "DT_PacenoteHafrenNorthFullReverse.json": 30,
-    "DT_PacenoteHafrenNorthReverseCut1.json": 50,
-    "DT_PacenoteHafrenNorthReverseCut2.json": 30,
-    "DT_PacenoteHafrenSouthForward.json": 70,
-    "DT_PacenoteHafrenSouthReverse.json": 40,
-    "DT_PacenoteMunsterFullForward.json": 20,
-    "DT_PacenoteMunsterFullReverse.json": 30,
-    "DT_PacenoteMunsterShort1Forward.json": 20,
-    "DT_PacenoteMunsterShort1Reverse.json": 50,
-    "DT_PacenoteMunsterShort2Forward.json": 30,
-    "DT_PacenoteMunsterShort2Reverse.json": 20,
-    "DT_PacenoteSaverneCut1Forward.json": 40,
-    "DT_PacenoteSaverneCut1Reverse.json": 60,
-    "DT_PacenoteSaverneFullForward.json": 20,
-    "DT_PacenoteSaverneFullReverse.json": 60,
-}
 
 def get_pretty_name(key):
     global variants
@@ -116,13 +73,6 @@ for key, value in conversion_table.items():
     data = json.load(open("../pacenotes_raw/" + key))
     rows = data[0]["Rows"]
 
-    # offset = rows["R0000"]["SplineDistanceM"] #- table_offset.get(key, 50)
-
-    # pacenotes = [{
-    #     "distance": int(offset),
-    #     "link_to_next": False,
-    #     "notes": ["Start"],
-    # }]
     pacenotes = []
     for _, row in rows.items():
         distance = int(row["SplineDistanceM"]) # + offset
