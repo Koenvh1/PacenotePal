@@ -37,6 +37,7 @@ class ACRally:
         self.speed_kmh = 0
         self.distance = 0
         self.time = 0
+        self.track = ""
 
     def load_notes_list(self):
         self.notes_list = yaml.safe_load(open(f"pacenotes/{self.stage}.yml", encoding="utf-8"))
@@ -77,6 +78,7 @@ class ACRally:
                 self.distance = sm.Graphics.distance_traveled
                 previous_time = self.get_time() if self.get_time() != 0 else previous_time
                 self.set_time(sm.Graphics.current_time_str)
+                self.track = str(sm.Static.track).strip("\0").strip()
 
                 if self.time > 0 and previous_time > 0:
                     if self.time > previous_time:
@@ -217,6 +219,9 @@ class ACRally:
 
     def get_time(self):
         return self.time
+
+    def get_track(self):
+        return self.track
 
     def exit(self):
         self.exit_all = True

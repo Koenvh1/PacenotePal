@@ -170,7 +170,7 @@ class Main:
         root = tk.Tk()
         root.title("AC Rally Pacenote Pal")
         root.iconbitmap(util.resource_path("icon.ico"))
-        root.geometry("340x190")
+        root.geometry("340x230")
         self.root = root
 
         stages = os.listdir("pacenotes")
@@ -191,6 +191,22 @@ class Main:
 
         btn_distance = ttk.Button(btn_frame, text="Odometer", command=self.on_button_distance)
         btn_distance.pack(side=tk.LEFT, padx=10)
+
+        track_var = tk.StringVar()
+        def retrieve_track():
+            while True:
+                if self.acrally:
+                    if track := self.acrally.get_track():
+                        track_var.set("Current stage in ACR: " + track)
+                    else:
+                        track_var.set("No stage currently active in ACR")
+                else:
+                    track_var.set("Select a stage and press the start button")
+                time.sleep(0.05)
+        worker = threading.Thread(target=retrieve_track, daemon=True)
+        worker.start()
+
+        ttk.Label(root, textvariable=track_var).pack(pady=(20, 5))
 
         btn_frame2 = tk.Frame(root)
         btn_frame2.pack(pady=10)
