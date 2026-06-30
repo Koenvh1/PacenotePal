@@ -24,7 +24,6 @@ class Main:
 
 
     def on_button_start(self):
-        print(self.stages.get())
         self.acrally = ACRally(
             str(self.stages.get()),
             self.config.get("voice", "English"),

@@ -6,10 +6,11 @@ import time
 import wave
 from threading import Thread
 
+import psutil
 import yaml
 
 import util
-from pyaccsharedmemory import accSharedMemory
+from sharedmemory import SharedMemory
 
 
 class ACRally:
@@ -49,7 +50,19 @@ class ACRally:
         speak.start()
 
     def retrieve_thread(self):
-        asm = accSharedMemory()
+        first_iteration = True
+        while not self.exit_all:
+            if "acr.exe" in (p.name() for p in psutil.process_iter(attrs=["name"])):
+                if not first_iteration:
+                    # This likely means the game has just started, give it some time to start up,
+                    # or else it might cause a "MapViewOfFile failed" error
+                    time.sleep(15)
+                break
+            else:
+                first_iteration = False
+                time.sleep(1)
+
+        asm = SharedMemory()
         last_shared_memory = None
 
         previous_time = 0

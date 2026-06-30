@@ -7,3 +7,4 @@ pycaw
 sounddevice
 numpy
 natsort
+psutil

@@ -242,7 +242,7 @@ class CarDamage:
 
 @dataclass
 class PhysicsMap:
-    packed_id: int
+    packet_id: int
 
     gas: float
     brake: float
@@ -372,7 +372,7 @@ class PhysicsMap:
 @dataclass
 class GraphicsMap:
 
-    packed_id: int
+    packet_id: int
     status: ACC_STATUS
     session_type: ACC_SESSION_TYPE
     current_time_str: str
@@ -817,7 +817,7 @@ def read_graphics_map(graphic_map: accSM) -> GraphicsMap:
         "playerCarID": graphic_map.unpack_value("i"),
         "penaltyTime": graphic_map.unpack_value("f"),
         "flag": ACC_FLAG_TYPE(graphic_map.unpack_value("i")),
-        "penalty": penalty_workarround(graphic_map),
+        "penalty": penalty_workaround(graphic_map),
         "idealLineOn": graphic_map.unpack_value("i"),
         "isInPitLane": graphic_map.unpack_value("i"),
         # Return always 0
@@ -885,7 +885,7 @@ def read_graphics_map(graphic_map: accSM) -> GraphicsMap:
     }
 
     return GraphicsMap(
-        packed_id=temp["packetID"],
+        packet_id=temp["packetID"],
         status=temp["acc_status"],
         session_type=temp["acc_session_type"],
         current_time_str=temp["currentTime"],
@@ -1069,7 +1069,7 @@ def read_static_map(static_map: accSM) -> StaticsMap:
     )
 
 
-def penalty_workarround(graphic_map: accSM) -> ACC_PENALTY_TYPE:
+def penalty_workaround(graphic_map: accSM) -> ACC_PENALTY_TYPE:
 
     try:
         return ACC_PENALTY_TYPE(graphic_map.unpack_value("i"))
@@ -1077,8 +1077,7 @@ def penalty_workarround(graphic_map: accSM) -> ACC_PENALTY_TYPE:
     except(ValueError):
         return ACC_PENALTY_TYPE.UnknownValue
 
-
-class accSharedMemory():
+class SharedMemory():
 
     def open(self):
         self.physicSM = accSM(-1, 800, tagname="Local\\acpmf_physics",
@@ -1089,7 +1088,7 @@ class accSharedMemory():
                               access=mmap.ACCESS_READ)
 
         physics = read_physic_map(self.physicSM)
-        if physics.packed_id == 0:
+        if physics.packet_id == 0:
             self.close()
 
         self.physics_old = None
@@ -1109,7 +1108,7 @@ class accSharedMemory():
         graphics = read_graphics_map(self.graphicSM)
         statics = read_static_map(self.staticSM)
 
-        if (physics.packed_id == self.last_physicsID
+        if (physics.packet_id == self.last_physicsID
                 or (self.physics_old is not None
                     and PhysicsMap.is_equal(self.physics_old, physics))):
             return None
@@ -1138,7 +1137,7 @@ class accSharedMemory():
 
 def simple_test() -> None:
 
-    asm = accSharedMemory()
+    asm = SharedMemory()
 
     for i in range(1000):
         sm = asm.read_shared_memory()
