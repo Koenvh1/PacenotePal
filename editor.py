@@ -73,7 +73,6 @@ class Editor:
             1,
             5,
             1,
-            None,
             None
         )
         self.token_sounds = self.acrally.build_token_sounds()
