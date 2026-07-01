@@ -30,7 +30,6 @@ class Main:
             float(self.config.get("call_distance", 3.0)),
             int(self.config.get("calls_ahead", 4)),
             float(self.config.get("call_speed_multiplier", 1.0)),
-            self.config.get("handbrake", None)
         )
         self.acrally.start()
         self.btn_start["state"] = "disabled"

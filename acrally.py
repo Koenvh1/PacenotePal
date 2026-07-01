@@ -21,14 +21,12 @@ class ACRally:
             call_earliness,
             max_calls_ahead,
             call_speed_multiplier,
-            handbrake
     ):
         self.stage = stage
         self.voice = voice
         self.call_earliness = call_earliness
         self.max_calls_ahead = max_calls_ahead
         self.call_speed_multiplier = call_speed_multiplier
-        self.handbrake = handbrake
         self.notes_list = []
         self.exit_all = False
         self.started = False
