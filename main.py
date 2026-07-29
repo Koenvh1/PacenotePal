@@ -215,9 +215,6 @@ class Main:
         btn_editor = ttk.Button(btn_frame2, text="Pacenote Editor", command=self.on_button_pacenotes)
         btn_editor.pack(side=tk.LEFT, padx=10)
 
-        btn_settings = ttk.Button(btn_frame2, text="Stage Mapping", command=self.on_button_settings)
-        btn_settings.pack(side=tk.LEFT, padx=10)
-
         btn_settings = ttk.Button(btn_frame2, text="Settings", command=self.on_button_settings)
         btn_settings.pack(side=tk.LEFT, padx=10)
 
