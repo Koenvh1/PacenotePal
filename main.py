@@ -161,7 +161,7 @@ class Main:
             settings_window.withdraw()
 
         save_btn = ttk.Button(settings_frame, text="Save", command=save)
-        save_btn.grid(column=0, columnspan=2, row=8, padx=5, pady=5)
+        save_btn.grid(column=0, columnspan=2, row=9, padx=5, pady=5)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml", encoding="utf-8"))
@@ -174,9 +174,11 @@ class Main:
 
         stages = os.listdir("pacenotes")
         stages = [file.replace(".yml", "") for file in stages]
+        stages.insert(0, "-- Automatically detect stage --")
 
         ttk.Label(root, text="Select a stage:").pack(pady=(20, 5))
         self.stages = ttk.Combobox(root, values=stages, width=50)
+        self.stages.current(0)
         self.stages.pack(pady=5, padx=15, fill="x")
 
         btn_frame = tk.Frame(root)
@@ -212,6 +214,9 @@ class Main:
 
         btn_editor = ttk.Button(btn_frame2, text="Pacenote Editor", command=self.on_button_pacenotes)
         btn_editor.pack(side=tk.LEFT, padx=10)
+
+        btn_settings = ttk.Button(btn_frame2, text="Stage Mapping", command=self.on_button_settings)
+        btn_settings.pack(side=tk.LEFT, padx=10)
 
         btn_settings = ttk.Button(btn_frame2, text="Settings", command=self.on_button_settings)
         btn_settings.pack(side=tk.LEFT, padx=10)

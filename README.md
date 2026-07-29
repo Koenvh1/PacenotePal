@@ -14,7 +14,7 @@ How it works
 
 1. Set the audio for the in-game spotter to 0%
 2. Start the program
-3. Select your stage
+3. Select your stage or select "-- Automatically select stage --" to let Pacenote Pal load the correct pacenotes file
 4. Press start 
 
 Adding a voice can be done by adding a folder in the folder `voices`. Changing the pacenotes can be done by 
@@ -52,11 +52,11 @@ The easiest way is to use the pacenote editor. You can also do it manually.
 Load an existing file from the box on the top left, and select the voice to use. The voice influences the example
 that plays, and highlights which notes are missing from the audio. You can also type freely into this textbox.
 
-The first column is for removing the note, the second column for the distance in metres (see the odometer), it
-automatically reorders them based on the distance. The third column is whether this note should be linked to the 
-next. The fourth column are the notes that it should play, and their ordering. The fifth column shows which
-audio files the pacenote is translated to, and allows you to play a demo of what it will sound like in the stage.
-Missing files will be highlighted in red.
+The first column is for removing the note, the second column for the distance in metres (see the odometer for your 
+current distance in the stage), it automatically reorders them based on the distance. The third column is whether this 
+note should be linked to the next. The fourth column are the notes that it should play, and their ordering. The fifth 
+column shows which audio files the pacenote is translated to, and allows you to play a demo of what it will sound like 
+in the stage. Missing files will be highlighted in red.
 
 ![Pacenote Editor](docs/pacenote-editor.png)
 

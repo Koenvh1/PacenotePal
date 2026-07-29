@@ -38,7 +38,12 @@ class ACRally:
         self.track = ""
 
     def load_notes_list(self):
-        self.notes_list = yaml.safe_load(open(f"pacenotes/{self.stage}.yml", encoding="utf-8"))
+        stage = self.stage
+        if stage.startswith("-- "):
+            # We might need better detection of "automatic" option in the future
+            stages = yaml.safe_load(open(f"stages.yml", encoding="utf-8"))
+            stage = stages.get(self.track)
+        self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
         if self.notes_list is None:
             self.notes_list = []
 
@@ -76,7 +81,7 @@ class ACRally:
                 self.distance = sm.Graphics.distance_traveled
                 previous_time = self.get_time() if self.get_time() != 0 else previous_time
                 self.set_time(sm.Graphics.current_time_str)
-                self.track = str(sm.Static.track).strip("\0").strip()
+                new_track = str(sm.Static.track).strip("\0").strip()
 
                 if self.time > 0 and previous_time > 0:
                     if self.time > previous_time:
@@ -85,6 +90,11 @@ class ACRally:
                     elif previous_time > self.time:
                         # Detect whether a player has restarted
                         self.restarted = True
+                if self.track != new_track:
+                    # We have changed stages, reset to the starting position
+                    self.started = False
+                    self.restarted = True
+                self.track = new_track
 
                 last_shared_memory = sm
             else:
