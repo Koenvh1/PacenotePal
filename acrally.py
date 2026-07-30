@@ -42,7 +42,10 @@ class ACRally:
         if stage.startswith("-- "):
             # We might need better detection of "automatic" option in the future
             stages = yaml.safe_load(open(f"stages.yml", encoding="utf-8"))
-            stage = stages.get(self.track)
+            # First get what this stage maps to from the localised version
+            stage = stages["conversion"].get(self.track)
+            # Then get the file it maps to
+            stage = stages["stages"].get(stage)
         self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
         if self.notes_list is None:
             self.notes_list = []

@@ -7,6 +7,7 @@ import process_acr_pacenote_files
 
 
 stage_map = {}
+stages = {}
 
 base_data = json.load(open("stages/en/Game.json", encoding="utf-8"))[""]
 for language in os.listdir("stages"):
@@ -24,5 +25,11 @@ for language in os.listdir("stages"):
         stage_map[mmap_name] = file_name
         if len(mmap_name) > 32:
             stage_map[mmap_name[:32]] = file_name
+        if len(mmap_name.encode("utf-8")) > 32:
+            stage_map[mmap_name.encode("utf-8")[:32].decode("utf-8", errors="ignore")] = file_name
+        stages[file_name] = file_name
 
-yaml.dump(stage_map, open("../stages.yml", "w", encoding="utf-8"), width=1024, allow_unicode=True)
+yaml.dump({
+    "stages": stages,
+    "conversion": stage_map
+}, open("../stages.yml", "w", encoding="utf-8"), width=1024, allow_unicode=True)
