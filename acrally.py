@@ -46,8 +46,12 @@ class ACRally:
             stage = stages["conversion"].get(self.track)
             # Then get the file it maps to
             stage = stages["stages"].get(stage)
-        self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
-        if self.notes_list is None:
+        try:
+            self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
+            if self.notes_list is None:
+                self.notes_list = []
+        except FileNotFoundError:
+            print(f"Stage {stage} not found")
             self.notes_list = []
 
     def start(self):
