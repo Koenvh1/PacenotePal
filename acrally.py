@@ -147,8 +147,10 @@ class ACRally:
 
         stream.close()
 
-        if self.restarted:
-            self.speak_thread()
+        while not self.exit_all:
+            if self.restarted:
+                self.speak_thread()
+            time.sleep(0.5)
 
     def build_token_sounds(self):
         token_sounds = {}
