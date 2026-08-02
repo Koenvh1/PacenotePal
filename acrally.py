@@ -23,6 +23,7 @@ class ACRally:
             call_speed_multiplier,
     ):
         self.stage = stage
+        self.notes_loaded = "None"
         self.voice = voice
         self.call_earliness = call_earliness
         self.max_calls_ahead = max_calls_ahead
@@ -48,10 +49,12 @@ class ACRally:
             stage = stages["stages"].get(stage)
         try:
             self.notes_list = yaml.safe_load(open(f"pacenotes/{stage}.yml", encoding="utf-8"))
+            self.notes_loaded = stage
             if self.notes_list is None:
                 self.notes_list = []
         except FileNotFoundError:
             print(f"Stage {stage} not found")
+            self.notes_loaded = "None"
             self.notes_list = []
 
     def start(self):
@@ -239,6 +242,9 @@ class ACRally:
 
     def get_track(self):
         return self.track
+
+    def get_notes_loaded(self):
+        return self.notes_loaded
 
     def exit(self):
         self.exit_all = True

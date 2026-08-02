@@ -169,7 +169,7 @@ class Main:
         root = tk.Tk()
         root.title("AC Rally Pacenote Pal")
         root.iconbitmap(util.resource_path("icon.ico"))
-        root.geometry("340x230")
+        root.geometry("440x230")
         self.root = root
 
         stages = os.listdir("pacenotes")
@@ -197,10 +197,17 @@ class Main:
         def retrieve_track():
             while True:
                 if self.acrally:
+                    notes_loaded = self.acrally.get_notes_loaded()
                     if track := self.acrally.get_track():
-                        track_var.set("Current stage in ACR: " + track)
+                        track_var.set(
+                            "Current stage in ACR: " + track + "\n"
+                            "Pacenotes loaded: " + notes_loaded
+                        )
                     else:
-                        track_var.set("No stage currently active in ACR")
+                        track_var.set(
+                            "No stage currently active in ACR\n" +
+                            "Pacenotes loaded: " + notes_loaded
+                        )
                 else:
                     track_var.set("Select a stage and press the start button")
                 time.sleep(0.05)

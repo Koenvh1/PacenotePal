@@ -7,6 +7,7 @@ from tkinter import ttk
 
 import yaml
 import natsort
+from ttkwidgets.autocomplete import AutocompleteCombobox
 
 import util
 from acrally import ACRally
@@ -182,9 +183,9 @@ class Editor:
 
                 def create_entry(note_idx, t):
                     note_var = tk.StringVar(value=self.reverse_dictionary.get(t, t))
-                    note_combo = ttk.Combobox(
+                    note_combo = AutocompleteCombobox(
                         pacenotes_frame,
-                        values=self.pacenote_options,
+                        completevalues=self.pacenote_options,
                         textvariable=note_var
                     )
                     note_combo.grid(row=note_idx, column=0)
@@ -331,7 +332,7 @@ class Editor:
         self.root = tk.Toplevel()
         self.root.title("AC Rally Pacenote Pal editor")
         self.root.iconbitmap(util.resource_path("icon.ico"))
-        self.root.geometry("650x600")
+        self.root.geometry("720x600")
         self.root.attributes("-topmost", True)
 
         top_frame = ttk.Frame(self.root, padding=10)
@@ -340,7 +341,7 @@ class Editor:
         self.pacenotes_combo = ttk.Combobox(
             top_frame,
             values=[x.replace(".yml", "") for x in os.listdir("pacenotes")],
-            width=25
+            width=40
         )
         self.voices_combo = ttk.Combobox(top_frame, values=[x for x in os.listdir("voices")])
         self.pacenotes_combo.current(0)
