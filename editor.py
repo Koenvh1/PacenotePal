@@ -7,7 +7,6 @@ from tkinter import ttk
 
 import yaml
 import natsort
-from ttkwidgets.autocomplete import AutocompleteCombobox
 
 import util
 from acrally import ACRally
@@ -183,9 +182,9 @@ class Editor:
 
                 def create_entry(note_idx, t):
                     note_var = tk.StringVar(value=self.reverse_dictionary.get(t, t))
-                    note_combo = AutocompleteCombobox(
+                    note_combo = ttk.Combobox(
                         pacenotes_frame,
-                        completevalues=self.pacenote_options,
+                        values=self.pacenote_options,
                         textvariable=note_var
                     )
                     note_combo.grid(row=note_idx, column=0)
