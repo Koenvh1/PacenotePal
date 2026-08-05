@@ -12,27 +12,55 @@ import util
 from acrally import ACRally
 
 
+class InlineAutocompleteCombobox(ttk.Combobox):
+    def __init__(self, master=None, values=(), **kwargs):
+        super().__init__(master, values=values, **kwargs)
+
+        self._values = list(values)
+        self.bind("<KeyRelease>", self._autocomplete)
+
+    def _autocomplete(self, event):
+        if event.keysym in (
+            "BackSpace", "Left", "Right", "Up", "Down",
+            "Return", "Escape", "Delete", "Shift_L", "Shift_R",
+        ):
+            return
+
+        text = self.get()
+        if not text:
+            return
+
+        for value in self._values:
+            if value.lower().startswith(text.lower()):
+                self.delete(0, tk.END)
+                self.insert(0, value)
+                self.selection_range(len(text), tk.END)
+                break
+
 class ScrollableFrame(ttk.Frame):
     def __init__(self, container, *args, **kwargs):
         super().__init__(container, *args, **kwargs)
 
         self.canvas = tk.Canvas(self, highlightthickness=0)
         scrollbar = ttk.Scrollbar(self, orient="vertical", command=self.canvas.yview)
-        self.scrollable_frame = ttk.Frame(self.canvas)
+        self.content_frame = ttk.Frame(self.canvas)
 
-        self.scrollable_frame.bind(
+        self.content_frame.bind(
             "<Configure>",
             lambda e: self.canvas.configure(
                 scrollregion=self.canvas.bbox("all")
             )
         )
 
-        canvas_frame = self.canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+        canvas_frame = self.canvas.create_window((0, 0), window=self.content_frame, anchor="nw")
 
         self.canvas.configure(yscrollcommand=scrollbar.set)
 
         self.canvas.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
+
+    def get_content(self):
+        return self.content_frame
 
     def get_scroll(self):
         return self.canvas.yview()[1]
@@ -182,7 +210,7 @@ class Editor:
 
                 def create_entry(note_idx, t):
                     note_var = tk.StringVar(value=self.reverse_dictionary.get(t, t))
-                    note_combo = ttk.Combobox(
+                    note_combo = InlineAutocompleteCombobox(
                         pacenotes_frame,
                         values=self.pacenote_options,
                         textvariable=note_var
@@ -293,9 +321,9 @@ class Editor:
 
             draw_pacenotes()
 
-        last_frame = self.scroll_frame.scrollable_frame
+        last_frame = self.scroll_frame.get_content()
         if len(self.pacenotes) > 350:
-            tab_frame = ttk.Notebook(self.scroll_frame.scrollable_frame)
+            tab_frame = ttk.Notebook(self.scroll_frame.get_content())
             tab_frame.pack(anchor="nw", side="left", fill="both", expand=True)
             page_no = 0
             for i, pacenote in enumerate(self.pacenotes):
