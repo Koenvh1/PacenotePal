@@ -13,8 +13,8 @@ from acrally import ACRally
 
 
 class InlineAutocompleteCombobox(ttk.Combobox):
-    def __init__(self, master=None, values=(), **kwargs):
-        super().__init__(master, values=values, **kwargs)
+    def __init__(self, container, values=(), **kwargs):
+        super().__init__(container, values=values, **kwargs)
 
         self._values = list(values)
         self.bind("<KeyRelease>", self._autocomplete)
