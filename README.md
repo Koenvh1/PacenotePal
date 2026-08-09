@@ -138,10 +138,12 @@ added to the list, send me a message :-)
 |----------------------------|-------------------------------------------------------------------------------------------------|
 | Maciek Handwerker (Polish) | https://www.patreon.com/posts/assetto-corsa-144820495                                           |
 | Polish                     | https://www.youtube.com/watch?v=87DIPBfmpts                                                     |
+| Polish Stilo               | https://www.overtake.gg/downloads/polish-stilo-intercom-co-driver-voice-pack.85489/             |
 | Russian                    | https://kupvadim.github.io/game-notes/Games/Assetto%20Corsa%20Rally/PacenotePal_VadimInGame_RU/ |
 | Paul Coleman (English)     | https://www.patreon.com/posts/144292538?collection=1852289                                      |
 | Lucato (Italian)           | https://www.youtube.com/watch?v=4i1QHbwA8FI                                                     |
-| Czech                      | https://www.overtake.gg/downloads/czech-co-driver.82985/                                        |
+| Czech Bbuchy               | https://www.overtake.gg/downloads/czech-co-driver.82985/                                        |
+| Czech czbf                 | https://www.overtake.gg/downloads/czech-voice-nav-by-czbf.85375/                                |
 | Korean                     | https://www.patreon.com/posts/aseto-koreusa-ac-144278418                                        |
 
 Thanks to
