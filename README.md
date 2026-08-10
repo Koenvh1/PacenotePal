@@ -36,8 +36,9 @@ Creating your own pacenotes by hand
 -----------------------------------
 A pacenote consists of three things:
 1. `distance` - This is the distance into the stage for this pacenote in metres. Press the "Odometer" button to
-show the current distance. The codriver will call out this pacenote some time before the pacenote, so you do not 
-have to keep that into account.
+show the current distance, this window will stay on top of the game if set to windowed or borderless. 
+The codriver will call out this pacenote some time before the pacenote (depending on your settings), so this should 
+be where the corner/obstacle/thing actually is.
 2. `link_to_next` - Whether when the notes from the current pacenote are called out, the next one will be called 
 out immediately after it as well. 
 3. `notes` - A list of the audio files to call out at this pacenote. The notes are the audio files from the voices
@@ -59,6 +60,16 @@ column shows which audio files the pacenote is translated to, and allows you to 
 in the stage. Missing files will be highlighted in red.
 
 ![Pacenote Editor](docs/pacenote-editor.png)
+
+#### Tips for recording pacenotes
+
+Everyone likes to make their pacenotes in their own way. Here are some ways that you can use to record your pacenotes:
+
+* Using a program like OBS Studio or the XBOX Game Bar, you can record your run in ACR, calling out which pacenotes you
+think should happen where. Keep Pacenote Pal's odometer on screen and inside the recording area, so that later you can
+put the recording side-by-side with the Pacenote Pal editor.
+* You can also use the pacenote editor directly while on the stage. Like the odometer it stays on top if the game is in
+windowed or borderless mode. Using the odometer you can create your pacenotes as you go along.
 
 ### Manually  
 
