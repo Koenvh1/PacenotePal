@@ -7,7 +7,7 @@ This way you can use custom voices, edit the pacenotes per stage, and change the
 A demo can be found here: 
 [![https://www.youtube.com/watch?v=VI0bbsEnCY0](https://i3.ytimg.com/vi/VI0bbsEnCY0/maxresdefault.jpg)](https://www.youtube.com/watch?v=VI0bbsEnCY0)  
 Seeing it in action:
-[![https://www.youtube.com/watch?v=n4uWh0Z00i8](https://i3.ytimg.com/vi/n4uWh0Z00i8/maxresdefault.jpg)](https://www.youtube.com/watch?v=n4uWh0Z00i8)
+[![https://www.youtube.com/watch?v=UU2IvWsnYCE](https://i3.ytimg.com/vi/UU2IvWsnYCE/maxresdefault.jpg)](https://www.youtube.com/watch?v=UU2IvWsnYCE)
 
 How it works
 ------------
@@ -152,6 +152,7 @@ added to the list, send me a message :-)
 | Polish Stilo               | https://www.overtake.gg/downloads/polish-stilo-intercom-co-driver-voice-pack.85489/             |
 | Russian                    | https://kupvadim.github.io/game-notes/Games/Assetto%20Corsa%20Rally/PacenotePal_VadimInGame_RU/ |
 | Paul Coleman (English)     | https://www.patreon.com/posts/144292538?collection=1852289                                      |
+| Robert Reid (English)      | https://www.patreon.com/LezaKim/posts/robert-reid-co-169406029                                  |
 | Lucato (Italian)           | https://www.youtube.com/watch?v=4i1QHbwA8FI                                                     |
 | Czech Bbuchy               | https://www.overtake.gg/downloads/czech-co-driver.82985/                                        |
 | Czech czbf                 | https://www.overtake.gg/downloads/czech-voice-nav-by-czbf.85375/                                |
