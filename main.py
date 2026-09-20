@@ -172,7 +172,13 @@ class Main:
         stages_window.iconbitmap(util.resource_path("icon.ico"))
         stages_window.geometry("600x600")
 
-        stages_scroll = util.ScrollableFrame(stages_window)
+        stages_frame = ttk.Frame(stages_window)
+        stages_frame.pack(fill="both", expand=True)
+
+        header = ttk.Label(stages_frame, text="These are the pacenote files that will be loaded in automatic mode per stage.")
+        header.pack(fill="x", padx=15, pady=15)
+
+        stages_scroll = util.ScrollableFrame(stages_frame)
         stages_scroll.pack(fill="both", expand=True)
 
         stages = yaml.safe_load(open(f"stages.yml", encoding="utf-8"))
@@ -181,8 +187,6 @@ class Main:
 
         stages_content = stages_scroll.get_content()
 
-        header = ttk.Label(stages_content, text="These are the pacenote files that will be loaded in automatic mode per stage.")
-        header.grid(column=0, row=0, columnspan=2, padx=15, pady=15)
         i = 1
         for key, value in stages["stages"].items():
             ttk.Label(stages_content, text=key, justify="left", anchor="w").grid(sticky="w", column=0, row=i, padx=5, pady=5)
@@ -199,7 +203,7 @@ class Main:
                 try:
                     stages_combo.current(stage_files.index(value))
                 except ValueError:
-                    pass
+                    stages_combo.set(value)
                 stages_combo.grid(column=1, row=i, padx=5, pady=5)
 
             create_entry()
@@ -209,8 +213,8 @@ class Main:
             yaml.dump(stages, open("stages.yml", "w", encoding="utf-8"), allow_unicode=True)
             stages_window.withdraw()
 
-        save_btn = ttk.Button(stages_content, text="Save and close", command=save)
-        save_btn.grid(column=0, columnspan=2, row=i, padx=5, pady=5)
+        save_btn = ttk.Button(stages_frame, text="Save and close", command=save)
+        save_btn.pack(fill="x", padx=15, pady=15)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml", encoding="utf-8"))
