@@ -82,7 +82,7 @@ class Main:
         settings_window = tk.Toplevel(self.root)
         settings_window.title("Settings")
         settings_window.iconbitmap(util.resource_path("icon.ico"))
-        settings_window.geometry("280x380")
+        settings_window.geometry("280x400")
 
         settings_frame = ttk.Frame(settings_window)
         settings_frame.pack(fill="x", padx=10, pady=10)
@@ -152,6 +152,9 @@ class Main:
         volume_scale.bind("<ButtonRelease>", lambda e: util.play_beep())
         volume_scale.grid(column=1, row=7, padx=5, pady=5)
 
+        ttk.Label(settings_frame, text="Default stages").grid(column=0, row=8, padx=5, pady=5)
+        ttk.Button(settings_frame, text="Edit default stages", command=self.on_button_default_stages).grid(column=1, row=8, padx=5, pady=5)
+
         def save():
             self.config["voice"] = voice_var.get()
             self.config["call_distance"] = call_distance_var.get()
@@ -162,6 +165,52 @@ class Main:
 
         save_btn = ttk.Button(settings_frame, text="Save", command=save)
         save_btn.grid(column=0, columnspan=2, row=9, padx=5, pady=5)
+
+    def on_button_default_stages(self):
+        stages_window = tk.Toplevel(self.root)
+        stages_window.title("Default stages")
+        stages_window.iconbitmap(util.resource_path("icon.ico"))
+        stages_window.geometry("600x600")
+
+        stages_scroll = util.ScrollableFrame(stages_window)
+        stages_scroll.pack(fill="both", expand=True)
+
+        stages = yaml.safe_load(open(f"stages.yml", encoding="utf-8"))
+        stage_files = os.listdir("pacenotes")
+        stage_files = [file.replace(".yml", "") for file in stage_files]
+
+        stages_content = stages_scroll.get_content()
+
+        header = ttk.Label(stages_content, text="These are the pacenote files that will be loaded in automatic mode per stage.")
+        header.grid(column=0, row=0, columnspan=2, padx=15, pady=15)
+        i = 1
+        for key, value in stages["stages"].items():
+            ttk.Label(stages_content, text=key, justify="left", anchor="w").grid(sticky="w", column=0, row=i, padx=5, pady=5)
+
+            def create_entry(i=i):
+                stages_combo = ttk.Combobox(stages_content, values=stage_files, width=50)
+
+                def edit(e, key=key):
+                    stages["stages"][key] = stages_combo.get()
+
+                stages_combo.bind("<FocusOut>", edit)
+                stages_combo.bind("<<ComboboxSelected>>", edit)
+                stages_combo.bind("<Return>", edit)
+                try:
+                    stages_combo.current(stage_files.index(value))
+                except ValueError:
+                    pass
+                stages_combo.grid(column=1, row=i, padx=5, pady=5)
+
+            create_entry()
+            i += 1
+
+        def save():
+            yaml.dump(stages, open("stages.yml", "w", encoding="utf-8"), allow_unicode=True)
+            stages_window.withdraw()
+
+        save_btn = ttk.Button(stages_content, text="Save and close", command=save)
+        save_btn.grid(column=0, columnspan=2, row=i, padx=5, pady=5)
 
     def __init__(self):
         self.config = yaml.safe_load(open("config.yml", encoding="utf-8"))

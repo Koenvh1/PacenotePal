@@ -37,42 +37,6 @@ class InlineAutocompleteCombobox(ttk.Combobox):
                 self.selection_range(len(text), tk.END)
                 break
 
-class ScrollableFrame(ttk.Frame):
-    def __init__(self, container, *args, **kwargs):
-        super().__init__(container, *args, **kwargs)
-
-        self.canvas = tk.Canvas(self, highlightthickness=0)
-        scrollbar = ttk.Scrollbar(self, orient="vertical", command=self.canvas.yview)
-        self.content_frame = ttk.Frame(self.canvas)
-
-        self.content_frame.bind(
-            "<Configure>",
-            lambda e: self.canvas.configure(
-                scrollregion=self.canvas.bbox("all")
-            )
-        )
-
-        canvas_frame = self.canvas.create_window((0, 0), window=self.content_frame, anchor="nw")
-
-        self.canvas.configure(yscrollcommand=scrollbar.set)
-
-        self.canvas.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
-
-    def get_content(self):
-        return self.content_frame
-
-    def get_scroll(self):
-        return self.canvas.yview()[1]
-
-    def set_scroll(self, previous_bottom):
-        self.update_idletasks()
-        new_top, new_bottom = self.canvas.yview()
-        new_visible = new_bottom - new_top
-        new_target_top = previous_bottom - new_visible
-        new_target_top = max(0.0, min(1.0 - new_visible, new_target_top))
-        self.canvas.yview_moveto(new_target_top)
-
 class Editor:
     def __init__(self):
         self.root = None
@@ -388,7 +352,7 @@ class Editor:
         self.new_button.grid(row=0, column=4, padx=5, pady=5)
 
         # Scrollable frame
-        self.scroll_frame = ScrollableFrame(self.root)
+        self.scroll_frame = util.ScrollableFrame(self.root)
         self.scroll_frame.pack(fill="both", expand=True)
 
         self.root.mainloop()
