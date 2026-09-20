@@ -145,18 +145,19 @@ Custom voices
 These are custom voices others made that work with Pacenote Pal. If you made one as well, and you want it
 added to the list, send me a message :-)
 
-| **Name**                   | **URL**                                                                                         |
-|----------------------------|-------------------------------------------------------------------------------------------------|
-| Maciek Handwerker (Polish) | https://www.patreon.com/posts/assetto-corsa-144820495                                           |
-| Polish                     | https://www.youtube.com/watch?v=87DIPBfmpts                                                     |
-| Polish Stilo               | https://www.overtake.gg/downloads/polish-stilo-intercom-co-driver-voice-pack.85489/             |
-| Russian                    | https://kupvadim.github.io/game-notes/Games/Assetto%20Corsa%20Rally/PacenotePal_VadimInGame_RU/ |
-| Paul Coleman (English)     | https://www.patreon.com/posts/144292538?collection=1852289                                      |
-| Robert Reid (English)      | https://www.patreon.com/LezaKim/posts/robert-reid-co-169406029                                  |
-| Lucato (Italian)           | https://www.youtube.com/watch?v=4i1QHbwA8FI                                                     |
-| Czech Bbuchy               | https://www.overtake.gg/downloads/czech-co-driver.82985/                                        |
-| Czech czbf                 | https://www.overtake.gg/downloads/czech-voice-nav-by-czbf.85375/                                |
-| Korean                     | https://www.patreon.com/posts/aseto-koreusa-ac-144278418                                        |
+| **Name**                   | **URL**                                                                                                   |
+|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| Maciek Handwerker (Polish) | https://www.patreon.com/posts/assetto-corsa-144820495                                                     |
+| Polish                     | https://www.youtube.com/watch?v=87DIPBfmpts                                                               |
+| Polish Stilo               | https://www.overtake.gg/downloads/polish-stilo-intercom-co-driver-voice-pack.85489/                       |
+| Russian                    | https://kupvadim.github.io/game-notes/Games/Assetto%20Corsa%20Rally/PacenotePal_VadimInGame_RU/           |
+| Paul Coleman (English)     | https://www.patreon.com/posts/144292538?collection=1852289                                                |
+| Robert Reid (English)      | https://www.patreon.com/LezaKim/posts/robert-reid-co-169406029                                            |
+| Lucato (Italian)           | https://www.youtube.com/watch?v=4i1QHbwA8FI                                                               |
+| Czech Bbuchy               | https://www.overtake.gg/downloads/czech-co-driver.82985/                                                  |
+| Czech czbf                 | https://www.overtake.gg/downloads/czech-voice-nav-by-czbf.85375/                                          |
+| Korean                     | https://www.patreon.com/posts/aseto-koreusa-ac-144278418                                                  |
+| Griso Lucato (Italian)     | https://www.overtake.gg/downloads/new-pacenotes-ita-eng-spa-fra-and-new-co-driver-griso-lucato-ita.83666/ |
 
 Thanks to
 ---------
