@@ -4,10 +4,10 @@ AC Rally Pacenote Pal
 Pacenote Pal is an application for Assetto Corsa Rally that replaces the in-game codriver with an external one.
 This way you can use custom voices, edit the pacenotes per stage, and change the timing.
 
+Seeing it in action:
+[![https://www.youtube.com/watch?v=gFxnKio2Lfo](https://i3.ytimg.com/vi/gFxnKio2Lfo/maxresdefault.jpg)](https://www.youtube.com/watch?v=gFxnKio2Lfo)
 A demo can be found here: 
 [![https://www.youtube.com/watch?v=VI0bbsEnCY0](https://i3.ytimg.com/vi/VI0bbsEnCY0/maxresdefault.jpg)](https://www.youtube.com/watch?v=VI0bbsEnCY0)  
-Seeing it in action:
-[![https://www.youtube.com/watch?v=UU2IvWsnYCE](https://i3.ytimg.com/vi/UU2IvWsnYCE/maxresdefault.jpg)](https://www.youtube.com/watch?v=UU2IvWsnYCE)
 
 How it works
 ------------
