@@ -6,6 +6,7 @@ This way you can use custom voices, edit the pacenotes per stage, and change the
 
 Seeing it in action:
 [![https://www.youtube.com/watch?v=gFxnKio2Lfo](https://i3.ytimg.com/vi/gFxnKio2Lfo/maxresdefault.jpg)](https://www.youtube.com/watch?v=gFxnKio2Lfo)
+
 A demo can be found here: 
 [![https://www.youtube.com/watch?v=VI0bbsEnCY0](https://i3.ytimg.com/vi/VI0bbsEnCY0/maxresdefault.jpg)](https://www.youtube.com/watch?v=VI0bbsEnCY0)  
 
@@ -158,6 +159,7 @@ added to the list, send me a message :-)
 | Czech czbf                 | https://www.overtake.gg/downloads/czech-voice-nav-by-czbf.85375/                                          |
 | Korean                     | https://www.patreon.com/posts/aseto-koreusa-ac-144278418                                                  |
 | Griso Lucato (Italian)     | https://www.overtake.gg/downloads/new-pacenotes-ita-eng-spa-fra-and-new-co-driver-griso-lucato-ita.83666/ |
+| Derek Ringer (English)     | https://www.overtake.gg/downloads/derek-ringer-co-driver-voice-pack.88164/                                |
 
 Thanks to
 ---------
