@@ -160,6 +160,76 @@ conversion:
   Pays de Galles Hafren Forest: Cwmbiga - Fedw Fain
   Pays de Galles Ospreys: Afon Biga - Banc Gwyn
   Pays de Galles Severn: Severn - Afon Bidno
+  Schweden Gravendal: Gravendal
+  Schweden Gravendal Ost: Gravendal East
+  Schweden Gravendal West: Gravendal West
+  Schweden Ransbysätter: Ransbysätter
+  Schweden Ransbysätter Ost: Ransbysätter East
+  Schweden Ransbysätter Süd: Ransbysätter South
+  Schweden Ransbysätter West: Ransbysätter West
+  Schweden Vargåsvägen: Vargåsvägen
+  Schweden Vargåsvägen Ost: Vargåsvägen East
+  Schweden Vargåsvägen Süd: Vargåsvägen South
+  Schweden Vargåsvägen West: Vargåsvägen West
+  Schweden Yxtjärnshöjden: Yxtjärnshöjden
+  Schweden Yxtjärnshöjden Ost: Yxtjärnshöjden East
+  Schweden Yxtjärnshöjden West: Yxtjärnshöjden West
+  Suecia Gravendal: Gravendal
+  Suecia Gravendal este: Gravendal East
+  Suecia Gravendal oeste: Gravendal West
+  Suecia Ransbysätter: Ransbysätter
+  Suecia Ransbysätter este: Ransbysätter East
+  Suecia Ransbysätter oeste: Ransbysätter West
+  Suecia Ransbysätter sur: Ransbysätter South
+  Suecia Vargåsvägen: Vargåsvägen
+  Suecia Vargåsvägen este: Vargåsvägen East
+  Suecia Vargåsvägen oeste: Vargåsvägen West
+  Suecia Vargåsvägen sur: Vargåsvägen South
+  Suecia Yxtjärnshöjden: Yxtjärnshöjden
+  Suecia Yxtjärnshöjden este: Yxtjärnshöjden East
+  Suecia Yxtjärnshöjden oeste: Yxtjärnshöjden West
+  Suède Gravendal: Gravendal
+  Suède Gravendal Est: Gravendal East
+  Suède Gravendal Ouest: Gravendal West
+  Suède Ransbysätter: Ransbysätter
+  Suède Ransbysätter Est: Ransbysätter East
+  Suède Ransbysätter Ouest: Ransbysätter West
+  Suède Ransbysätter Sud: Ransbysätter South
+  Suède Vargåsvägen: Vargåsvägen
+  Suède Vargåsvägen Est: Vargåsvägen East
+  Suède Vargåsvägen Ouest: Vargåsvägen West
+  Suède Vargåsvägen Sud: Vargåsvägen South
+  Suède Yxtjärnshöjden: Yxtjärnshöjden
+  Suède Yxtjärnshöjden Est: Yxtjärnshöjden East
+  Suède Yxtjärnshöjden Ouest: Yxtjärnshöjden West
+  Svezia Gravendal: Gravendal
+  Svezia Gravendal Est: Gravendal East
+  Svezia Gravendal Ovest: Gravendal West
+  Svezia Ransbysätter: Ransbysätter
+  Svezia Ransbysätter Est: Ransbysätter East
+  Svezia Ransbysätter Ovest: Ransbysätter West
+  Svezia Ransbysätter Sud: Ransbysätter South
+  Svezia Vargåsvägen: Vargåsvägen
+  Svezia Vargåsvägen Est: Vargåsvägen East
+  Svezia Vargåsvägen Ovest: Vargåsvägen West
+  Svezia Vargåsvägen Sud: Vargåsvägen South
+  Svezia Yxtjärnshöjden: Yxtjärnshöjden
+  Svezia Yxtjärnshöjden Est: Yxtjärnshöjden East
+  Svezia Yxtjärnshöjden Ovest: Yxtjärnshöjden West
+  Sweden Gravendal: Gravendal
+  Sweden Gravendal East: Gravendal East
+  Sweden Gravendal West: Gravendal West
+  Sweden Ransbysätter: Ransbysätter
+  Sweden Ransbysätter East: Ransbysätter East
+  Sweden Ransbysätter South: Ransbysätter South
+  Sweden Ransbysätter West: Ransbysätter West
+  Sweden Vargåsvägen: Vargåsvägen
+  Sweden Vargåsvägen East: Vargåsvägen East
+  Sweden Vargåsvägen South: Vargåsvägen South
+  Sweden Vargåsvägen West: Vargåsvägen West
+  Sweden Yxtjärnshöjden: Yxtjärnshöjden
+  Sweden Yxtjärnshöjden East: Yxtjärnshöjden East
+  Sweden Yxtjärnshöjden West: Yxtjärnshöjden West
   Wales Afon Bidno: Afon Bidno - Severn
   Wales Afon Biga: Afon Biga - Cwmbiga
   Wales Banc Gwyn: Banc Gwyn - Afon Biga
@@ -191,6 +261,20 @@ conversion:
   希腊 阿吉伊西奥多里 - 卢特拉基: Aghii Theodori - Loutraki
   希腊 阿吉伊西奥多里反: Aghii Theodori Reverse
   希腊 阿吉伊西奥多里反向: Aghii Theodori Reverse
+  瑞典 Gravendal: Gravendal
+  瑞典 Gravendal 东段: Gravendal East
+  瑞典 Gravendal 西段: Gravendal West
+  瑞典 Ransbysätter: Ransbysätter
+  瑞典 Ransbysätter 东段: Ransbysätter East
+  瑞典 Ransbysätter 南段: Ransbysätter South
+  瑞典 Ransbysätter 西段: Ransbysätter West
+  瑞典 Vargåsvägen: Vargåsvägen
+  瑞典 Vargåsvägen 东段: Vargåsvägen East
+  瑞典 Vargåsvägen 南段: Vargåsvägen South
+  瑞典 Vargåsvägen 西段: Vargåsvägen West
+  瑞典 Yxtjärnshöjden: Yxtjärnshöjden
+  瑞典 Yxtjärnshöjden 东段: Yxtjärnshöjden East
+  瑞典 Yxtjärnshöjden 西段: Yxtjärnshöjden West
   蒙特卡洛 佩拉卡瓦: Peïra Cava - La Bollène-Vésubie
   蒙特卡洛 佩拉卡瓦 - 图: Peïra Cava - Turini
   蒙特卡洛 佩拉卡瓦 - 图里尼: Peïra Cava - Turini
@@ -239,6 +323,9 @@ stages:
   Fedw Fain - Cwmbiga: Fedw Fain - Cwmbiga
   Forêt de Munster: Forêt de Munster
   Forêt de Saverne: Forêt de Saverne
+  Gravendal: Gravendal
+  Gravendal East: Gravendal East
+  Gravendal West: Gravendal West
   La Bollène-Vésubie - Peïra Cava: La Bollène-Vésubie - Peïra Cava
   La Bollène-Vésubie - Turini: La Bollène-Vésubie - Turini
   La traversée de La Mossig: La traversée de La Mossig
@@ -252,6 +339,10 @@ stages:
   Peïra Cava - La Bollène-Vésubie: Peïra Cava - La Bollène-Vésubie
   Peïra Cava - Turini: Peïra Cava - Turini
   Pra d'Alart: Pra d'Alart
+  Ransbysätter: Ransbysätter
+  Ransbysätter East: Ransbysätter East
+  Ransbysätter South: Ransbysätter South
+  Ransbysätter West: Ransbysätter West
   Severn - Afon Bidno: Severn - Afon Bidno
   Sisteron - Mézien: Sisteron - Mézien
   Sisteron - St. Geniez: Sisteron - St. Geniez
@@ -264,6 +355,13 @@ stages:
   Turini - Peïra Cava: Turini - Peïra Cava
   Vallée de Munster Descente: Vallée de Munster Descente
   Vallée de Munster Montée: Vallée de Munster Montée
+  Vargåsvägen: Vargåsvägen
+  Vargåsvägen East: Vargåsvägen East
+  Vargåsvägen South: Vargåsvägen South
+  Vargåsvägen West: Vargåsvägen West
+  Yxtjärnshöjden: Yxtjärnshöjden
+  Yxtjärnshöjden East: Yxtjärnshöjden East
+  Yxtjärnshöjden West: Yxtjärnshöjden West
   Zeli: Zeli
   Zeli - Elatia: Zeli - Elatia
   Zeli Reverse: Zeli Reverse

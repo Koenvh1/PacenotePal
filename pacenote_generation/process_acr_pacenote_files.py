@@ -58,6 +58,22 @@ conversion_table = {
     "DT_PacenoteLoutrakiCut2Reverse.json": ("TRACK_LOUTRAKI_CUT2_REVERSE", "TRACK_LOCATION_GRECE"),
     "DT_PacenoteLoutrakiFullForward.json": ("TRACK_LOUTRAKI_FULL_FORWARD", "TRACK_LOCATION_GRECE"),
     "DT_PacenoteLoutrakiFullReverse.json": ("TRACK_LOUTRAKI_FULL_REVERSE_SHORT", "TRACK_LOCATION_GRECE"),
+
+    "DT_PacenoteFredriksbergCut1Forward.json": ("TRACK_FREDRIKSBERG_CUT1_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteFredriksbergCut1Reverse.json": ("TRACK_FREDRIKSBERG_CUT1_REVERSE", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteFredriksbergCut2Forward.json": ("TRACK_FREDRIKSBERG_CUT2_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteFredriksbergCut2Reverse.json": ("TRACK_FREDRIKSBERG_CUT2_REVERSE", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteFredriksbergFullForward.json": ("TRACK_FREDRIKSBERG_FULL_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteFredriksbergFullReverse.json": ("TRACK_FREDRIKSBERG_FULL_REVERSE", "TRACK_LOCATION_SWEDEN"),
+
+    "DT_PacenoteVargasenCut1Forward.json": ("TRACK_VARGASEN_CUT1_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenCut1Reverse.json": ("TRACK_VARGASEN_CUT1_REVERSE", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenCut2Forward.json": ("TRACK_VARGASEN_CUT2_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenCut2Reverse.json": ("TRACK_VARGASEN_CUT2_REVERSE", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenCut3Forward.json": ("TRACK_VARGASEN_CUT3_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenCut3Reverse.json": ("TRACK_VARGASEN_CUT3_REVERSE", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenFullForward.json": ("TRACK_VARGASEN_FULL_FORWARD", "TRACK_LOCATION_SWEDEN"),
+    "DT_PacenoteVargasenFullReverse.json": ("TRACK_VARGASEN_FULL_REVERSE", "TRACK_LOCATION_SWEDEN"),
 }
 
 

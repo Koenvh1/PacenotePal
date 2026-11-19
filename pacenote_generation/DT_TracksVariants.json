@@ -5901,6 +5901,1858 @@
           "Row": "Greece"
         },
         "bIsCircuit": false
+      },
+      "SwedenS1VargasenFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_FULL_FORWARD_SHORT",
+          "SourceString": "Vargåsvägen",
+          "LocalizedString": "Vargåsvägen"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_FULL_FORWARD",
+          "SourceString": "Vargåsvägen",
+          "LocalizedString": "Vargåsvägen"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 18.8,
+        "Elevation": {
+          "X": 154.0,
+          "Y": 365.0
+        },
+        "ElevationAtStart": 366.82816,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21620732,
+          "Longitude": 4834820
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenFullForward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_FullForward_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenFullForward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenFullForwardAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenFullForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenFullForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_FULL_REVERSE_SHORT",
+          "SourceString": "Ransbysätter",
+          "LocalizedString": "Ransbysätter"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_FULL_REVERSE",
+          "SourceString": "Ransbysätter",
+          "LocalizedString": "Ransbysätter"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 18.8,
+        "Elevation": {
+          "X": 154.0,
+          "Y": 365.0
+        },
+        "ElevationAtStart": 173.78462,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21625398,
+          "Longitude": 4791634
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenFullReverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_FullReverse_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenFullReverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenFullReverseAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenFullReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenFullReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT1_FORWARD_SHORT",
+          "SourceString": "Vargåsvägen East",
+          "LocalizedString": "Vargåsvägen East"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT1_FORWARD",
+          "SourceString": "Vargåsvägen East",
+          "LocalizedString": "Vargåsvägen East"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 12.2,
+        "Elevation": {
+          "X": 198.0,
+          "Y": 365.0
+        },
+        "ElevationAtStart": 366.82816,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21620732,
+          "Longitude": 4834820
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenC1F_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_C1F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenEastCut1"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenEastCut1Altimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut1ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut1ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 5.4,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenCut1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT1_REVERSE_SHORT",
+          "SourceString": "Ransbysätter East",
+          "LocalizedString": "Ransbysätter East"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT1_REVERSE",
+          "SourceString": "Ransbysätter East",
+          "LocalizedString": "Ransbysätter East"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 12.1,
+        "Elevation": {
+          "X": 198.0,
+          "Y": 365.0
+        },
+        "ElevationAtStart": 203.34084,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21603639,
+          "Longitude": 4781537
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenC1R_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_C1R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenEastCut1Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenEastCut1ReverseAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut1ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut1ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 5.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenCut1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT2_FORWARD_SHORT",
+          "SourceString": "Vargåsvägen West",
+          "LocalizedString": "Vargåsvägen West"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT2_FORWARD",
+          "SourceString": "Vargåsvägen West",
+          "LocalizedString": "Vargåsvägen West"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 11.9,
+        "Elevation": {
+          "X": 154.0,
+          "Y": 281.0
+        },
+        "ElevationAtStart": 199.22629,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21614614,
+          "Longitude": 4794233
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenC2F_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_C2F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenWestCut2"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenWestCut2Altimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut2ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut2ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 5.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT2_REVERSE_SHORT",
+          "SourceString": "Ransbysätter West",
+          "LocalizedString": "Ransbysätter West"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT2_REVERSE",
+          "SourceString": "Ransbysätter West",
+          "LocalizedString": "Ransbysätter West"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 12.1,
+        "Elevation": {
+          "X": 154.0,
+          "Y": 281.0
+        },
+        "ElevationAtStart": 173.78462,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21625398,
+          "Longitude": 4791634
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenC2R_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_C2R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenWestCut2Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenWestCut2ReverseAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut2ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut2ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.2,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 4.9,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenCut3Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT3_FORWARD_SHORT",
+          "SourceString": "Vargåsvägen South",
+          "LocalizedString": "Vargåsvägen South"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT3_FORWARD",
+          "SourceString": "Vargåsvägen South",
+          "LocalizedString": "Vargåsvägen South"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 10.6,
+        "Elevation": {
+          "X": 199.0,
+          "Y": 281.0
+        },
+        "ElevationAtStart": 254.6462,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21616266,
+          "Longitude": 4800093
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenC3F_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_C3F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenSouthCut3"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenSouthCut3Altimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut3ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut3ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenCut3Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS1VargasenCut3Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT3_REVERSE_SHORT",
+          "SourceString": "Ransbysätter South",
+          "LocalizedString": "Ransbysätter South"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_VARGASEN_CUT3_REVERSE",
+          "SourceString": "Ransbysätter South",
+          "LocalizedString": "Ransbysätter South"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS1Vargasen"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 10.6,
+        "Elevation": {
+          "X": 199.0,
+          "Y": 281.0
+        },
+        "ElevationAtStart": 185.07724,
+        "AverageRoadWidness": 6.5,
+        "StartLocation": {
+          "Latitude": 21612071,
+          "Longitude": 4776354
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "VargasenC3R_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Vargasen_C3R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "VargasenSouthCut3Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "VargasenSouthCut3Altimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut3ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "VargasenCut3ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 3.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 3.8,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS1VargasenCut3Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS3FredriksbergFullForward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_FULL_FORWARD_SHORT",
+          "SourceString": "Yxtjärnshöjden",
+          "LocalizedString": "Yxtjärnshöjden"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_FULL_FORWARD",
+          "SourceString": "Yxtjärnshöjden",
+          "LocalizedString": "Yxtjärnshöjden"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS3Fredriksberg"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 12.2,
+        "Elevation": {
+          "X": 238.0,
+          "Y": 338.0
+        },
+        "ElevationAtStart": 236.95386,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 21613719,
+          "Longitude": 5155145
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergFullForward_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Fredriksberg_FullForward_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergFullForward"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergFullForwardAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergFullForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergFullForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS3FredriksbergFullForward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS3FredriksbergFullReverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_FULL_REVERSE_SHORT",
+          "SourceString": "Gravendal",
+          "LocalizedString": "Gravendal"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_FULL_REVERSE",
+          "SourceString": "Gravendal",
+          "LocalizedString": "Gravendal"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS3Fredriksberg"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 12.2,
+        "Elevation": {
+          "X": 238.0,
+          "Y": 338.0
+        },
+        "ElevationAtStart": 308.68738,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 21615825,
+          "Longitude": 5221471
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergFullReverse_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Fredriksberg_FullReverse_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergFullReverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergFullReverseAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergFullReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergFullReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.0,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS3FredriksbergFullReverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS3FredriksbergCut1Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT1_FORWARD_SHORT",
+          "SourceString": "Yxtjärnshöjden West",
+          "LocalizedString": "Yxtjärnshöjden West"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT1_FORWARD",
+          "SourceString": "Yxtjärnshöjden West",
+          "LocalizedString": "Yxtjärnshöjden West"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS3Fredriksberg"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 7.2,
+        "Elevation": {
+          "X": 314.0,
+          "Y": 338.0
+        },
+        "ElevationAtStart": 236.95386,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 21613719,
+          "Longitude": 5155145
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergC1F_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Fredriksberg_C1F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergWestCut1"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergWestCut1Altimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut1ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut1ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS3FredriksbergCut1Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS3FredriksbergCu1Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT1_REVERSE_SHORT",
+          "SourceString": "Gravendal West",
+          "LocalizedString": "Gravendal West"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT1_REVERSE",
+          "SourceString": "Gravendal West",
+          "LocalizedString": "Gravendal West"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS3Fredriksberg"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 7.2,
+        "Elevation": {
+          "X": 314.0,
+          "Y": 338.0
+        },
+        "ElevationAtStart": 319.79398,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 21615731,
+          "Longitude": 5197858
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergC1R_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Fredriksberg_C1R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergWestCut1Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergWestCut1ReverseAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut1ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut1ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.1,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS3FredriksbergCu1Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS3FredriksbergCut2Forward": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT2_FORWARD_SHORT",
+          "SourceString": "Yxtjärnshöjden East",
+          "LocalizedString": "Yxtjärnshöjden East"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT2_FORWARD",
+          "SourceString": "Yxtjärnshöjden East",
+          "LocalizedString": "Yxtjärnshöjden East"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS3Fredriksberg"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 6.7,
+        "Elevation": {
+          "X": 238.0,
+          "Y": 338.0
+        },
+        "ElevationAtStart": 324.4453,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 21615443,
+          "Longitude": 5188204
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergC2F_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Fredriksberg_C2F_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergEastCut2"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergEastCut2Altimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut2ForwardGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut2ForwardRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 1.7,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS3FredriksbergCut2Forward"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
+      },
+      "SwedenS3FredriksbergCut2Reverse": {
+        "Name": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT2_REVERSE_SHORT",
+          "SourceString": "Gravendal East",
+          "LocalizedString": "Gravendal East"
+        },
+        "StageName": {
+          "TableId": "/Game/Data/Localization/ContentTexts/ST_Track.ST_Track",
+          "Key": "TRACK_FREDRIKSBERG_CUT2_REVERSE",
+          "SourceString": "Gravendal East",
+          "LocalizedString": "Gravendal East"
+        },
+        "Track": {
+          "Table": "Tracks",
+          "Row": "SwedenS3Fredriksberg"
+        },
+        "SurfaceTypes": [
+          {
+            "Key": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "Value": 100.0
+          }
+        ],
+        "CarSetupDefaultSurfaceType": {
+          "Table": "SurfaceTypes",
+          "Row": "Gravel"
+        },
+        "TireCompounds": {
+          "Table": "TireCompoundsSets",
+          "Row": "FullSnow"
+        },
+        "Length": 6.6,
+        "Elevation": {
+          "X": 238.0,
+          "Y": 338.0
+        },
+        "ElevationAtStart": 308.68738,
+        "AverageRoadWidness": 5.5,
+        "StartLocation": {
+          "Latitude": 21615825,
+          "Longitude": 5221471
+        },
+        "VariantImage": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergC2R_VariantImage"
+        },
+        "LobbyVariantImage": {
+          "Table": "TracksTextures",
+          "Row": "Fredriksberg_C2R_Lobby"
+        },
+        "MapSmall": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergEastCut2Reverse"
+        },
+        "ElevationMap": {
+          "Table": "TracksTextures",
+          "Row": "FredriksbergEastCut2ReverseAltimetry"
+        },
+        "DifficultyLevel": 9,
+        "DegradationLevel": {
+          "Table": "TireDegradationLevels",
+          "Row": "Medium"
+        },
+        "DataLayers": {
+          "Common": {
+            "Value": [
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut2ReverseGameplayActors"
+              },
+              {
+                "Table": "DataLayers",
+                "Row": "FredriksbergCut2ReverseRallyProps"
+              }
+            ]
+          },
+          "RaceEventTypes": []
+        },
+        "Sectors": [
+          {
+            "Length": 2.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 2.6,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          },
+          {
+            "Length": 1.5,
+            "SurfaceType": {
+              "Table": "SurfaceTypes",
+              "Row": "Snow"
+            },
+            "DegradationLevel": {
+              "Table": "TireDegradationLevels",
+              "Row": "Medium"
+            }
+          }
+        ],
+        "CarsData": {
+          "Table": "AITrackVariantsCarsData",
+          "Row": "SwedenS3FredriksbergCut2Reverse"
+        },
+        "WeatherConfig": {
+          "Table": "WeatherTrackConfigs",
+          "Row": "Sweden"
+        },
+        "bIsCircuit": false
       }
     }
   }
